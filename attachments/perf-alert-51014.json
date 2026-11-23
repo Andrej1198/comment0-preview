@@ -1,0 +1,340 @@
+{
+  "alert_summary": 51014,
+  "alert_summary_url": "https://treeherder.mozilla.org/perfherder/alerts?id=51014",
+  "framework": "awsy",
+  "framework_id": 4,
+  "repository": "autoland",
+  "push_time": "2026-06-17T07:49:52.000Z",
+  "revisions": {
+    "before": "1b959d0caf0c824f30aeae1e1611a515b117e21c",
+    "after": "a98da40f8e32b831a0d25b3c46a22c23be177cad"
+  },
+  "pushlog_url": "https://hg.mozilla.org/integration/autoland/pushloghtml?changeset=a98da40f8e32b831a0d25b3c46a22c23be177cad",
+  "perfcompare_url": "https://perf.compare/compare-results?baseRev=1b959d0caf0c824f30aeae1e1611a515b117e21c&baseRepo=autoland&newRev=a98da40f8e32b831a0d25b3c46a22c23be177cad&newRepo=autoland&framework=4&sort=delta|desc",
+  "commands": {
+    "try": "./mach try perf --alert 51014",
+    "local": "./mach perftest 51014"
+  },
+  "commits": [
+    {
+      "revision": "a98da40f8e32b831a0d25b3c46a22c23be177cad",
+      "author": "Jens Stutte <jstutte@mozilla.com>",
+      "title": "Bug 2016900 - Part 7: Observe media.getusermedia.audio.processing.agc2.forced explicitly r=gstoll",
+      "bug": 2016900,
+      "phabricator_url": "https://phabricator.services.mozilla.com/D305880",
+      "diff_url": "https://hg.mozilla.org/integration/autoland/rev/a98da40f8e32b831a0d25b3c46a22c23be177cad",
+      "raw_diff_url": "https://hg.mozilla.org/integration/autoland/raw-rev/a98da40f8e32b831a0d25b3c46a22c23be177cad"
+    },
+    {
+      "revision": "db82d4a266413ceef073f0debf54a604b139f6cc",
+      "author": "Jens Stutte <jstutte@mozilla.com>",
+      "title": "Bug 2016900 - Part 6: Add an opt-in audit for prefix-observer/trie divergence. r=gstoll",
+      "bug": 2016900,
+      "phabricator_url": "https://phabricator.services.mozilla.com/D305094",
+      "diff_url": "https://hg.mozilla.org/integration/autoland/rev/db82d4a266413ceef073f0debf54a604b139f6cc",
+      "raw_diff_url": "https://hg.mozilla.org/integration/autoland/raw-rev/db82d4a266413ceef073f0debf54a604b139f6cc"
+    },
+    {
+      "revision": "e67dec060ff11a8ec97431b5e221784ae2baf1d7",
+      "author": "Jens Stutte <jstutte@mozilla.com>",
+      "title": "Bug 2016900 - Part 5: Replace hand-rolled callback list with CallbackTrie. r=gstoll",
+      "bug": 2016900,
+      "phabricator_url": "https://phabricator.services.mozilla.com/D305093",
+      "diff_url": "https://hg.mozilla.org/integration/autoland/rev/e67dec060ff11a8ec97431b5e221784ae2baf1d7",
+      "raw_diff_url": "https://hg.mozilla.org/integration/autoland/raw-rev/e67dec060ff11a8ec97431b5e221784ae2baf1d7"
+    },
+    {
+      "revision": "0ed0c7aa7b47d1d2529e672ea521c3190e8c0f66",
+      "author": "Jens Stutte <jstutte@mozilla.com>",
+      "title": "Bug 2016900 - Part 4: Move gAllowOMTPrefWrite into PreferencesImpl. r=gstoll",
+      "bug": 2016900,
+      "phabricator_url": "https://phabricator.services.mozilla.com/D283457",
+      "diff_url": "https://hg.mozilla.org/integration/autoland/rev/0ed0c7aa7b47d1d2529e672ea521c3190e8c0f66",
+      "raw_diff_url": "https://hg.mozilla.org/integration/autoland/raw-rev/0ed0c7aa7b47d1d2529e672ea521c3190e8c0f66"
+    },
+    {
+      "revision": "fe4d80187abd2002ff91e6d122a05b010b049142",
+      "author": "Jens Stutte <jstutte@mozilla.com>",
+      "title": "Bug 2016900 - Part 3: Introduce PreferencesImpl to hide implementation details from the header. r=gstoll",
+      "bug": 2016900,
+      "phabricator_url": "https://phabricator.services.mozilla.com/D283456",
+      "diff_url": "https://hg.mozilla.org/integration/autoland/rev/fe4d80187abd2002ff91e6d122a05b010b049142",
+      "raw_diff_url": "https://hg.mozilla.org/integration/autoland/raw-rev/fe4d80187abd2002ff91e6d122a05b010b049142"
+    },
+    {
+      "revision": "a54fe20c99a8c19c510e0fb3f70b8a521cb3b614",
+      "author": "Jens Stutte <jstutte@mozilla.com>",
+      "title": "Bug 2016900 - Part 2: Stop forwarding nsIPrefBranch methods from Preferences. r=gstoll",
+      "bug": 2016900,
+      "phabricator_url": "https://phabricator.services.mozilla.com/D283455",
+      "diff_url": "https://hg.mozilla.org/integration/autoland/rev/a54fe20c99a8c19c510e0fb3f70b8a521cb3b614",
+      "raw_diff_url": "https://hg.mozilla.org/integration/autoland/raw-rev/a54fe20c99a8c19c510e0fb3f70b8a521cb3b614"
+    },
+    {
+      "revision": "c20ba14fa18582c62c7b12fe6f9a2b9a5229eb87",
+      "author": "Jens Stutte <jstutte@mozilla.com>",
+      "title": "Bug 2016900 - Part 1: Move MatchKind enum out of the Preferences header. r=gstoll",
+      "bug": 2016900,
+      "phabricator_url": "https://phabricator.services.mozilla.com/D283454",
+      "diff_url": "https://hg.mozilla.org/integration/autoland/rev/c20ba14fa18582c62c7b12fe6f9a2b9a5229eb87",
+      "raw_diff_url": "https://hg.mozilla.org/integration/autoland/raw-rev/c20ba14fa18582c62c7b12fe6f9a2b9a5229eb87"
+    }
+  ],
+  "regression_count": 9,
+  "improvement_count": 0,
+  "alerts": [
+    {
+      "alert_id": 241514,
+      "signature_id": 5764235,
+      "test": "Base Content Heap Unclassified",
+      "subtest": null,
+      "platform": "windows11-64-25h2-shippable",
+      "options": [
+        "fission"
+      ],
+      "unit": "bytes",
+      "lower_is_better": true,
+      "is_regression": true,
+      "before": 2057246,
+      "after": 2544358.67,
+      "change_pct": 23.68,
+      "change_abs": 487112.67,
+      "tasks": {
+        "before": null,
+        "after": null
+      },
+      "profile_urls": {
+        "before": null,
+        "after": null
+      },
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/awsy.html#base-content-heap-unclassified",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=31536000&series=autoland,5764235,1,4&zoom=1781423392000,1781941792000,1083020.66,3518584.01",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5764235&framework=4&startday=2026-06-03T07%3A49%3A52&endday=2026-07-01T07%3A49%3A52&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 241734,
+      "signature_id": 5141314,
+      "test": "Base Content Heap Unclassified",
+      "subtest": null,
+      "platform": "macosx1470-64-shippable",
+      "options": [
+        "fission"
+      ],
+      "unit": "bytes",
+      "lower_is_better": true,
+      "is_regression": true,
+      "before": 2748349.33,
+      "after": 3220901.33,
+      "change_pct": 17.19,
+      "change_abs": 472552,
+      "tasks": {
+        "before": null,
+        "after": null
+      },
+      "profile_urls": {
+        "before": null,
+        "after": null
+      },
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/awsy.html#base-content-heap-unclassified",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=31536000&series=autoland,5141314,1,4&zoom=1781423392000,1781941792000,1803245.33,4166005.33",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5141314&framework=4&startday=2026-06-03T07%3A49%3A52&endday=2026-07-01T07%3A49%3A52&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 241506,
+      "signature_id": 5650353,
+      "test": "Base Content Heap Unclassified",
+      "subtest": null,
+      "platform": "linux2404-64-shippable",
+      "options": [
+        "fission"
+      ],
+      "unit": "bytes",
+      "lower_is_better": true,
+      "is_regression": true,
+      "before": 2890422,
+      "after": 3361865.33,
+      "change_pct": 16.31,
+      "change_abs": 471443.33,
+      "tasks": {
+        "before": null,
+        "after": null
+      },
+      "profile_urls": {
+        "before": null,
+        "after": null
+      },
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/awsy.html#base-content-heap-unclassified",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=31536000&series=autoland,5650353,1,4&zoom=1781423392000,1781941792000,1947535.34,4304751.99",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5650353&framework=4&startday=2026-06-03T07%3A49%3A52&endday=2026-07-01T07%3A49%3A52&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 241736,
+      "signature_id": 5141318,
+      "test": "Base Content Explicit",
+      "subtest": null,
+      "platform": "macosx1470-64-shippable",
+      "options": [
+        "fission"
+      ],
+      "unit": "bytes",
+      "lower_is_better": true,
+      "is_regression": true,
+      "before": 7493405.33,
+      "after": 8009103.33,
+      "change_pct": 6.88,
+      "change_abs": 515698,
+      "tasks": {
+        "before": null,
+        "after": null
+      },
+      "profile_urls": {
+        "before": null,
+        "after": null
+      },
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/awsy.html#base-content-explicit",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=31536000&series=autoland,5141318,1,4&zoom=1781423392000,1781941792000,6292039.83,9210468.83",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5141318&framework=4&startday=2026-06-03T07%3A49%3A52&endday=2026-07-01T07%3A49%3A52&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 241515,
+      "signature_id": 5764240,
+      "test": "Base Content Explicit",
+      "subtest": null,
+      "platform": "windows11-64-25h2-shippable",
+      "options": [
+        "fission"
+      ],
+      "unit": "bytes",
+      "lower_is_better": true,
+      "is_regression": true,
+      "before": 7782279.33,
+      "after": 8311371.33,
+      "change_pct": 6.8,
+      "change_abs": 529092,
+      "tasks": {
+        "before": null,
+        "after": null
+      },
+      "profile_urls": {
+        "before": null,
+        "after": null
+      },
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/awsy.html#base-content-explicit",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=31536000&series=autoland,5764240,1,4&zoom=1781423392000,1781941792000,6535573.63,9558077.03",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5764240&framework=4&startday=2026-06-03T07%3A49%3A52&endday=2026-07-01T07%3A49%3A52&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 241508,
+      "signature_id": 5650357,
+      "test": "Base Content Explicit",
+      "subtest": null,
+      "platform": "linux2404-64-shippable",
+      "options": [
+        "fission"
+      ],
+      "unit": "bytes",
+      "lower_is_better": true,
+      "is_regression": true,
+      "before": 7969708,
+      "after": 8486367.33,
+      "change_pct": 6.48,
+      "change_abs": 516659.33,
+      "tasks": {
+        "before": null,
+        "after": null
+      },
+      "profile_urls": {
+        "before": null,
+        "after": null
+      },
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/awsy.html#base-content-explicit",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=31536000&series=autoland,5650357,1,4&zoom=1781423392000,1781941792000,6696752.9,9759322.43",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5650357&framework=4&startday=2026-06-03T07%3A49%3A52&endday=2026-07-01T07%3A49%3A52&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 241507,
+      "signature_id": 5650350,
+      "test": "Base Content Resident Unique Memory",
+      "subtest": null,
+      "platform": "linux2404-64-shippable",
+      "options": [
+        "fission"
+      ],
+      "unit": "bytes",
+      "lower_is_better": true,
+      "is_regression": true,
+      "before": 8211456,
+      "after": 8720725.33,
+      "change_pct": 6.2,
+      "change_abs": 509269.33,
+      "tasks": {
+        "before": null,
+        "after": null
+      },
+      "profile_urls": {
+        "before": null,
+        "after": null
+      },
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/awsy.html#base-content-resident-unique-memory",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=31536000&series=autoland,5650350,1,4&zoom=1781423392000,1781941792000,6903347.2,10028834.13",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5650350&framework=4&startday=2026-06-03T07%3A49%3A52&endday=2026-07-01T07%3A49%3A52&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 241742,
+      "signature_id": 5141340,
+      "test": "Heap Unclassified",
+      "subtest": null,
+      "platform": "macosx1470-64-shippable",
+      "options": [
+        "fission",
+        "tp6"
+      ],
+      "unit": "bytes",
+      "lower_is_better": true,
+      "is_regression": true,
+      "before": 152178304.55,
+      "after": 161056097.85,
+      "change_pct": 5.83,
+      "change_abs": 8877793.3,
+      "tasks": {
+        "before": null,
+        "after": null
+      },
+      "profile_urls": {
+        "before": null,
+        "after": null
+      },
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/awsy.html#heap-unclassified",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=31536000&series=autoland,5141340,1,4&zoom=1781423392000,1781941792000,128019889.87,185214512.53",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5141340&framework=4&startday=2026-06-03T07%3A49%3A52&endday=2026-07-01T07%3A49%3A52&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 241735,
+      "signature_id": 5141312,
+      "test": "Base Content Resident Unique Memory",
+      "subtest": null,
+      "platform": "macosx1470-64-shippable",
+      "options": [
+        "fission"
+      ],
+      "unit": "bytes",
+      "lower_is_better": true,
+      "is_regression": true,
+      "before": 17371136,
+      "after": 17888597.33,
+      "change_pct": 2.98,
+      "change_abs": 517461.33,
+      "tasks": {
+        "before": null,
+        "after": null
+      },
+      "profile_urls": {
+        "before": null,
+        "after": null
+      },
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/awsy.html#base-content-resident-unique-memory",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=31536000&series=autoland,5141312,1,4&zoom=1781423392000,1781941792000,14687846.4,20571886.93",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5141312&framework=4&startday=2026-06-03T07%3A49%3A52&endday=2026-07-01T07%3A49%3A52&all_data=true&replicates=false"
+    }
+  ]
+}

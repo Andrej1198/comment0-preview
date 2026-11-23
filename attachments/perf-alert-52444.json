@@ -1,0 +1,377 @@
+{
+  "alert_summary": 52444,
+  "alert_summary_url": "https://treeherder.mozilla.org/perfherder/alerts?id=52444",
+  "framework": "talos",
+  "framework_id": 1,
+  "repository": "autoland",
+  "push_time": "2026-08-26T21:46:31.000Z",
+  "revisions": {
+    "before": "2f5cb7cba3cec1ebc8d9e3eb23ef6826e96bb31b",
+    "after": "dba49edca099917d2a2e8fd87478e4404d999f57"
+  },
+  "pushlog_url": "https://hg.mozilla.org/integration/autoland/pushloghtml?changeset=dba49edca099917d2a2e8fd87478e4404d999f57",
+  "perfcompare_url": "https://perf.compare/compare-results?baseRev=2f5cb7cba3cec1ebc8d9e3eb23ef6826e96bb31b&baseRepo=autoland&newRev=dba49edca099917d2a2e8fd87478e4404d999f57&newRepo=autoland&framework=1&sort=delta|desc",
+  "commands": {
+    "try": "./mach try perf --alert 52444",
+    "local": "./mach perftest 52444"
+  },
+  "commits": [
+    {
+      "revision": "dba49edca099917d2a2e8fd87478e4404d999f57",
+      "author": "Emilio Cobos Álvarez <emilio@crisal.io>",
+      "title": "Bug 2048847 - Track whether the selector always matches during bucketing, and skip matching if so. r=firefox-style-system-reviewers,dshin",
+      "bug": 2048847,
+      "phabricator_url": "https://phabricator.services.mozilla.com/D321320",
+      "diff_url": "https://hg.mozilla.org/integration/autoland/rev/dba49edca099917d2a2e8fd87478e4404d999f57",
+      "raw_diff_url": "https://hg.mozilla.org/integration/autoland/raw-rev/dba49edca099917d2a2e8fd87478e4404d999f57"
+    }
+  ],
+  "regression_count": 8,
+  "improvement_count": 0,
+  "alerts": [
+    {
+      "alert_id": 255242,
+      "signature_id": 5691346,
+      "test": "perf_reftest_singletons",
+      "subtest": "bloom-basic-2.html",
+      "platform": "linux2404-64-shippable",
+      "options": [
+        "e10s",
+        "fission",
+        "stylo",
+        "webrender"
+      ],
+      "unit": "ms",
+      "lower_is_better": true,
+      "is_regression": true,
+      "before": 37.72,
+      "after": 49.38,
+      "change_pct": 30.92,
+      "change_abs": 11.66,
+      "tasks": {
+        "before": {
+          "task_id": "Y9H1w28wTNy_eQRjXh55WQ",
+          "retry_id": 0,
+          "label": "test-linux2404-64-shippable/opt-talos-perf-reftest-singletons",
+          "revision": "2f5cb7cba3cec1ebc8d9e3eb23ef6826e96bb31b",
+          "is_alert_push": true
+        },
+        "after": {
+          "task_id": "LrLoNgWnRyScDKYB_CIgTg",
+          "retry_id": 0,
+          "label": "test-linux2404-64-shippable/opt-talos-perf-reftest-singletons",
+          "revision": "dba49edca099917d2a2e8fd87478e4404d999f57",
+          "is_alert_push": true
+        }
+      },
+      "profile_urls": {
+        "before": null,
+        "after": null
+      },
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/talos.html#perf_reftest_singletons",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5691346,1,1&zoom=1787521591000,1788039991000,14.4,72.7",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5691346&framework=1&startday=2026-08-12T21%3A46%3A31&endday=2026-09-09T21%3A46%3A31&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 255243,
+      "signature_id": 5691347,
+      "test": "perf_reftest_singletons",
+      "subtest": "bloom-basic.html",
+      "platform": "linux2404-64-shippable",
+      "options": [
+        "e10s",
+        "fission",
+        "stylo",
+        "webrender"
+      ],
+      "unit": "ms",
+      "lower_is_better": true,
+      "is_regression": true,
+      "before": 37.59,
+      "after": 49.08,
+      "change_pct": 30.55,
+      "change_abs": 11.49,
+      "tasks": {
+        "before": {
+          "task_id": "Y9H1w28wTNy_eQRjXh55WQ",
+          "retry_id": 0,
+          "label": "test-linux2404-64-shippable/opt-talos-perf-reftest-singletons",
+          "revision": "2f5cb7cba3cec1ebc8d9e3eb23ef6826e96bb31b",
+          "is_alert_push": true
+        },
+        "after": {
+          "task_id": "LrLoNgWnRyScDKYB_CIgTg",
+          "retry_id": 0,
+          "label": "test-linux2404-64-shippable/opt-talos-perf-reftest-singletons",
+          "revision": "dba49edca099917d2a2e8fd87478e4404d999f57",
+          "is_alert_push": true
+        }
+      },
+      "profile_urls": {
+        "before": null,
+        "after": null
+      },
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/talos.html#perf_reftest_singletons",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5691347,1,1&zoom=1787521591000,1788039991000,14.61,72.06",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5691347&framework=1&startday=2026-08-12T21%3A46%3A31&endday=2026-09-09T21%3A46%3A31&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 255244,
+      "signature_id": 5306011,
+      "test": "perf_reftest_singletons",
+      "subtest": "attr-selector-1.html",
+      "platform": "windows11-64-24h2-shippable",
+      "options": [
+        "e10s",
+        "fission",
+        "stylo",
+        "webrender"
+      ],
+      "unit": "ms",
+      "lower_is_better": true,
+      "is_regression": true,
+      "before": 47.25,
+      "after": 61.65,
+      "change_pct": 30.47,
+      "change_abs": 14.4,
+      "tasks": {
+        "before": {
+          "task_id": "YR3_1QnjS5G_rUX9Jb9jMg",
+          "retry_id": 0,
+          "label": "test-windows11-64-24h2-shippable/opt-talos-perf-reftest-singletons",
+          "revision": "2f5cb7cba3cec1ebc8d9e3eb23ef6826e96bb31b",
+          "is_alert_push": true
+        },
+        "after": {
+          "task_id": "Gq0SjkzZSm6UMeuT247EpQ",
+          "retry_id": 0,
+          "label": "test-windows11-64-24h2-shippable/opt-talos-perf-reftest-singletons",
+          "revision": "dba49edca099917d2a2e8fd87478e4404d999f57",
+          "is_alert_push": true
+        }
+      },
+      "profile_urls": {
+        "before": null,
+        "after": null
+      },
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/talos.html#perf_reftest_singletons",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5306011,1,1&zoom=1787521591000,1788039991000,18.45,90.45",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5306011&framework=1&startday=2026-08-12T21%3A46%3A31&endday=2026-09-09T21%3A46%3A31&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 255245,
+      "signature_id": 5306013,
+      "test": "perf_reftest_singletons",
+      "subtest": "bloom-basic-2.html",
+      "platform": "windows11-64-24h2-shippable",
+      "options": [
+        "e10s",
+        "fission",
+        "stylo",
+        "webrender"
+      ],
+      "unit": "ms",
+      "lower_is_better": true,
+      "is_regression": true,
+      "before": 19.56,
+      "after": 22.9,
+      "change_pct": 17.09,
+      "change_abs": 3.34,
+      "tasks": {
+        "before": {
+          "task_id": "YR3_1QnjS5G_rUX9Jb9jMg",
+          "retry_id": 0,
+          "label": "test-windows11-64-24h2-shippable/opt-talos-perf-reftest-singletons",
+          "revision": "2f5cb7cba3cec1ebc8d9e3eb23ef6826e96bb31b",
+          "is_alert_push": true
+        },
+        "after": {
+          "task_id": "Gq0SjkzZSm6UMeuT247EpQ",
+          "retry_id": 0,
+          "label": "test-windows11-64-24h2-shippable/opt-talos-perf-reftest-singletons",
+          "revision": "dba49edca099917d2a2e8fd87478e4404d999f57",
+          "is_alert_push": true
+        }
+      },
+      "profile_urls": {
+        "before": null,
+        "after": null
+      },
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/talos.html#perf_reftest_singletons",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5306013,1,1&zoom=1787521591000,1788039991000,12.88,29.58",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5306013&framework=1&startday=2026-08-12T21%3A46%3A31&endday=2026-09-09T21%3A46%3A31&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 255246,
+      "signature_id": 5306014,
+      "test": "perf_reftest_singletons",
+      "subtest": "bloom-basic.html",
+      "platform": "windows11-64-24h2-shippable",
+      "options": [
+        "e10s",
+        "fission",
+        "stylo",
+        "webrender"
+      ],
+      "unit": "ms",
+      "lower_is_better": true,
+      "is_regression": true,
+      "before": 19.67,
+      "after": 22.95,
+      "change_pct": 16.64,
+      "change_abs": 3.27,
+      "tasks": {
+        "before": {
+          "task_id": "YR3_1QnjS5G_rUX9Jb9jMg",
+          "retry_id": 0,
+          "label": "test-windows11-64-24h2-shippable/opt-talos-perf-reftest-singletons",
+          "revision": "2f5cb7cba3cec1ebc8d9e3eb23ef6826e96bb31b",
+          "is_alert_push": true
+        },
+        "after": {
+          "task_id": "Gq0SjkzZSm6UMeuT247EpQ",
+          "retry_id": 0,
+          "label": "test-windows11-64-24h2-shippable/opt-talos-perf-reftest-singletons",
+          "revision": "dba49edca099917d2a2e8fd87478e4404d999f57",
+          "is_alert_push": true
+        }
+      },
+      "profile_urls": {
+        "before": null,
+        "after": null
+      },
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/talos.html#perf_reftest_singletons",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5306014,1,1&zoom=1787521591000,1788039991000,13.11,29.51",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5306014&framework=1&startday=2026-08-12T21%3A46%3A31&endday=2026-09-09T21%3A46%3A31&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 255247,
+      "signature_id": 5306036,
+      "test": "perf_reftest_singletons",
+      "subtest": "parent-basic-singleton.html",
+      "platform": "windows11-64-24h2-shippable",
+      "options": [
+        "e10s",
+        "fission",
+        "stylo",
+        "webrender"
+      ],
+      "unit": "ms",
+      "lower_is_better": true,
+      "is_regression": true,
+      "before": 36.52,
+      "after": 41.78,
+      "change_pct": 14.4,
+      "change_abs": 5.26,
+      "tasks": {
+        "before": {
+          "task_id": "YR3_1QnjS5G_rUX9Jb9jMg",
+          "retry_id": 0,
+          "label": "test-windows11-64-24h2-shippable/opt-talos-perf-reftest-singletons",
+          "revision": "2f5cb7cba3cec1ebc8d9e3eb23ef6826e96bb31b",
+          "is_alert_push": true
+        },
+        "after": {
+          "task_id": "Gq0SjkzZSm6UMeuT247EpQ",
+          "retry_id": 0,
+          "label": "test-windows11-64-24h2-shippable/opt-talos-perf-reftest-singletons",
+          "revision": "dba49edca099917d2a2e8fd87478e4404d999f57",
+          "is_alert_push": true
+        }
+      },
+      "profile_urls": {
+        "before": null,
+        "after": null
+      },
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/talos.html#perf_reftest_singletons",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5306036,1,1&zoom=1787521591000,1788039991000,26,52.3",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5306036&framework=1&startday=2026-08-12T21%3A46%3A31&endday=2026-09-09T21%3A46%3A31&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 255851,
+      "signature_id": 300913,
+      "test": "perf_reftest_singletons",
+      "subtest": "bloom-basic.html",
+      "platform": "macosx1470-64-shippable",
+      "options": [
+        "e10s",
+        "fission",
+        "stylo",
+        "webrender"
+      ],
+      "unit": "ms",
+      "lower_is_better": true,
+      "is_regression": true,
+      "before": 39.18,
+      "after": 43.1,
+      "change_pct": 10.01,
+      "change_abs": 3.92,
+      "tasks": {
+        "before": {
+          "task_id": "WgBFaayXQVGIFZcirxJTMg",
+          "retry_id": 0,
+          "label": "test-macosx1470-64-shippable/opt-talos-perf-reftest-singletons",
+          "revision": "2f5cb7cba3cec1ebc8d9e3eb23ef6826e96bb31b",
+          "is_alert_push": true
+        },
+        "after": {
+          "task_id": "eosUGh_kSg2T3HM2vCteQg",
+          "retry_id": 0,
+          "label": "test-macosx1470-64-shippable/opt-talos-perf-reftest-singletons",
+          "revision": "dba49edca099917d2a2e8fd87478e4404d999f57",
+          "is_alert_push": true
+        }
+      },
+      "profile_urls": {
+        "before": null,
+        "after": null
+      },
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/talos.html#perf_reftest_singletons",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,300913,1,1&zoom=1787521591000,1788039991000,31.34,50.94",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=300913&framework=1&startday=2026-08-12T21%3A46%3A31&endday=2026-09-09T21%3A46%3A31&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 255948,
+      "signature_id": 300931,
+      "test": "perf_reftest_singletons",
+      "subtest": "many-custom-props.html",
+      "platform": "macosx1470-64-shippable",
+      "options": [
+        "e10s",
+        "fission",
+        "stylo",
+        "webrender"
+      ],
+      "unit": "ms",
+      "lower_is_better": true,
+      "is_regression": true,
+      "before": 221.37,
+      "after": 234.92,
+      "change_pct": 6.12,
+      "change_abs": 13.55,
+      "tasks": {
+        "before": {
+          "task_id": "WgBFaayXQVGIFZcirxJTMg",
+          "retry_id": 0,
+          "label": "test-macosx1470-64-shippable/opt-talos-perf-reftest-singletons",
+          "revision": "2f5cb7cba3cec1ebc8d9e3eb23ef6826e96bb31b",
+          "is_alert_push": true
+        },
+        "after": {
+          "task_id": "eosUGh_kSg2T3HM2vCteQg",
+          "retry_id": 0,
+          "label": "test-macosx1470-64-shippable/opt-talos-perf-reftest-singletons",
+          "revision": "dba49edca099917d2a2e8fd87478e4404d999f57",
+          "is_alert_push": true
+        }
+      },
+      "profile_urls": {
+        "before": null,
+        "after": null
+      },
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/talos.html#perf_reftest_singletons",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,300931,1,1&zoom=1787521591000,1788039991000,186.13,270.16",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=300931&framework=1&startday=2026-08-12T21%3A46%3A31&endday=2026-09-09T21%3A46%3A31&all_data=true&replicates=false"
+    }
+  ]
+}

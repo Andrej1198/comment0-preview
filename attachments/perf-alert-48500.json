@@ -1,0 +1,257 @@
+{
+  "alert_summary": 48500,
+  "alert_summary_url": "https://treeherder.mozilla.org/perfherder/alerts?id=48500",
+  "framework": "mozperftest",
+  "framework_id": 15,
+  "repository": "autoland",
+  "push_time": "2026-02-03T20:04:55.000Z",
+  "revisions": {
+    "before": "b9db2071e1c9dbb305896cc515c66edd9d2865bb",
+    "after": "a0933e3c8d0c86d02ae376cabf0af7534f06e345"
+  },
+  "pushlog_url": "https://hg.mozilla.org/integration/autoland/pushloghtml?changeset=a0933e3c8d0c86d02ae376cabf0af7534f06e345",
+  "perfcompare_url": "https://perf.compare/compare-results?baseRev=b9db2071e1c9dbb305896cc515c66edd9d2865bb&baseRepo=autoland&newRev=a0933e3c8d0c86d02ae376cabf0af7534f06e345&newRepo=autoland&framework=15&sort=delta|desc",
+  "commands": {
+    "try": "./mach try perf --alert 48500",
+    "local": "./mach perftest 48500"
+  },
+  "commits": [
+    {
+      "revision": "a0933e3c8d0c86d02ae376cabf0af7534f06e345",
+      "author": "Taimur Hasan <thasan@mozilla.com>",
+      "title": "Bug 2006901 - Partial revert of D272921 to fix streaming regression r=ai-ondevice-reviewers",
+      "bug": 2006901,
+      "phabricator_url": "https://phabricator.services.mozilla.com/D277622",
+      "diff_url": "https://hg.mozilla.org/integration/autoland/rev/a0933e3c8d0c86d02ae376cabf0af7534f06e345",
+      "raw_diff_url": "https://hg.mozilla.org/integration/autoland/raw-rev/a0933e3c8d0c86d02ae376cabf0af7534f06e345"
+    }
+  ],
+  "regression_count": 6,
+  "improvement_count": 2,
+  "alerts": [
+    {
+      "alert_id": 222725,
+      "signature_id": 5278769,
+      "test": "browser_ml_summarizer_perf.js",
+      "subtest": "SUM-ONNX-COMMUNITY-QWEN2.5-0.5B-INSTRUCT_BIG-1st-token-latency",
+      "platform": "windows11-64-24h2-hw-ref-shippable",
+      "options": [
+        ""
+      ],
+      "unit": "ms",
+      "lower_is_better": true,
+      "is_regression": true,
+      "before": 19.65,
+      "after": 10368.45,
+      "change_pct": 52673.57,
+      "change_abs": 10348.8,
+      "tasks": {
+        "before": null,
+        "after": null
+      },
+      "profile_urls": {
+        "before": null,
+        "after": null
+      },
+      "docs_url": null,
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=31536000&series=autoland,5278769,1,15&zoom=1769889895000,1770408295000,0,31066.05",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5278769&framework=15&startday=2026-01-20T20%3A04%3A55&endday=2026-02-17T20%3A04%3A55&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 222736,
+      "signature_id": 5278819,
+      "test": "browser_ml_summarizer_perf.js",
+      "subtest": "SUM-ONNX-COMMUNITY-QWEN2.5-0.5B-INSTRUCT_BIG-1st-token-latency",
+      "platform": "windows11-64-24h2-shippable",
+      "options": [
+        ""
+      ],
+      "unit": "ms",
+      "lower_is_better": true,
+      "is_regression": true,
+      "before": 17.78,
+      "after": 6459.63,
+      "change_pct": 36237.78,
+      "change_abs": 6441.86,
+      "tasks": {
+        "before": null,
+        "after": null
+      },
+      "profile_urls": {
+        "before": null,
+        "after": null
+      },
+      "docs_url": null,
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=31536000&series=autoland,5278819,1,15&zoom=1769889895000,1770408295000,0,19343.33",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5278819&framework=15&startday=2026-01-20T20%3A04%3A55&endday=2026-02-17T20%3A04%3A55&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 222802,
+      "signature_id": 5278805,
+      "test": "browser_ml_summarizer_perf.js",
+      "subtest": "SUM-ONNX-COMMUNITY-QWEN2.5-0.5B-INSTRUCT_BIG-1st-token-latency",
+      "platform": "linux1804-64-shippable",
+      "options": [
+        ""
+      ],
+      "unit": "ms",
+      "lower_is_better": true,
+      "is_regression": true,
+      "before": 43.08,
+      "after": 11911.13,
+      "change_pct": 27547.47,
+      "change_abs": 11868.05,
+      "tasks": {
+        "before": null,
+        "after": null
+      },
+      "profile_urls": {
+        "before": null,
+        "after": null
+      },
+      "docs_url": null,
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=31536000&series=autoland,5278805,1,15&zoom=1769889895000,1770408295000,0,35647.23",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5278805&framework=15&startday=2026-01-20T20%3A04%3A55&endday=2026-02-17T20%3A04%3A55&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 222737,
+      "signature_id": 5278821,
+      "test": "browser_ml_summarizer_perf.js",
+      "subtest": "SUM-ONNX-COMMUNITY-QWEN2.5-0.5B-INSTRUCT_BIG-decoding-charactersSpeed",
+      "platform": "windows11-64-24h2-shippable",
+      "options": [
+        ""
+      ],
+      "unit": "chars/s",
+      "lower_is_better": false,
+      "is_regression": true,
+      "before": 178.84,
+      "after": 35.47,
+      "change_pct": 80.17,
+      "change_abs": -143.37,
+      "tasks": {
+        "before": null,
+        "after": null
+      },
+      "profile_urls": {
+        "before": null,
+        "after": null
+      },
+      "docs_url": null,
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=31536000&series=autoland,5278821,1,15&zoom=1769889895000,1770408295000,0,465.58",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5278821&framework=15&startday=2026-01-20T20%3A04%3A55&endday=2026-02-17T20%3A04%3A55&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 222727,
+      "signature_id": 5278771,
+      "test": "browser_ml_summarizer_perf.js",
+      "subtest": "SUM-ONNX-COMMUNITY-QWEN2.5-0.5B-INSTRUCT_BIG-decoding-charactersSpeed",
+      "platform": "windows11-64-24h2-hw-ref-shippable",
+      "options": [
+        ""
+      ],
+      "unit": "chars/s",
+      "lower_is_better": false,
+      "is_regression": true,
+      "before": 134.37,
+      "after": 27.16,
+      "change_pct": 79.79,
+      "change_abs": -107.22,
+      "tasks": {
+        "before": null,
+        "after": null
+      },
+      "profile_urls": {
+        "before": null,
+        "after": null
+      },
+      "docs_url": null,
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=31536000&series=autoland,5278771,1,15&zoom=1769889895000,1770408295000,0,348.79",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5278771&framework=15&startday=2026-01-20T20%3A04%3A55&endday=2026-02-17T20%3A04%3A55&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 222804,
+      "signature_id": 5278807,
+      "test": "browser_ml_summarizer_perf.js",
+      "subtest": "SUM-ONNX-COMMUNITY-QWEN2.5-0.5B-INSTRUCT_BIG-decoding-charactersSpeed",
+      "platform": "linux1804-64-shippable",
+      "options": [
+        ""
+      ],
+      "unit": "chars/s",
+      "lower_is_better": false,
+      "is_regression": true,
+      "before": 134.8,
+      "after": 28.43,
+      "change_pct": 78.91,
+      "change_abs": -106.37,
+      "tasks": {
+        "before": null,
+        "after": null
+      },
+      "profile_urls": {
+        "before": null,
+        "after": null
+      },
+      "docs_url": null,
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=31536000&series=autoland,5278807,1,15&zoom=1769889895000,1770408295000,0,347.54",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5278807&framework=15&startday=2026-01-20T20%3A04%3A55&endday=2026-02-17T20%3A04%3A55&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 222803,
+      "signature_id": 5278806,
+      "test": "browser_ml_summarizer_perf.js",
+      "subtest": "SUM-ONNX-COMMUNITY-QWEN2.5-0.5B-INSTRUCT_BIG-decoding-latency",
+      "platform": "linux1804-64-shippable",
+      "options": [
+        ""
+      ],
+      "unit": "ms",
+      "lower_is_better": true,
+      "is_regression": false,
+      "before": 49017.98,
+      "after": 36827.64,
+      "change_pct": 24.87,
+      "change_abs": -12190.34,
+      "tasks": {
+        "before": null,
+        "after": null
+      },
+      "profile_urls": {
+        "before": null,
+        "after": null
+      },
+      "docs_url": null,
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=31536000&series=autoland,5278806,1,15&zoom=1769889895000,1770408295000,12446.96,73398.66",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5278806&framework=15&startday=2026-01-20T20%3A04%3A55&endday=2026-02-17T20%3A04%3A55&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 222726,
+      "signature_id": 5278770,
+      "test": "browser_ml_summarizer_perf.js",
+      "subtest": "SUM-ONNX-COMMUNITY-QWEN2.5-0.5B-INSTRUCT_BIG-decoding-latency",
+      "platform": "windows11-64-24h2-hw-ref-shippable",
+      "options": [
+        ""
+      ],
+      "unit": "ms",
+      "lower_is_better": true,
+      "is_regression": false,
+      "before": 49168.6,
+      "after": 38558.45,
+      "change_pct": 21.58,
+      "change_abs": -10610.15,
+      "tasks": {
+        "before": null,
+        "after": null
+      },
+      "profile_urls": {
+        "before": null,
+        "after": null
+      },
+      "docs_url": null,
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=31536000&series=autoland,5278770,1,15&zoom=1769889895000,1770408295000,17338.15,70388.9",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5278770&framework=15&startday=2026-01-20T20%3A04%3A55&endday=2026-02-17T20%3A04%3A55&all_data=true&replicates=false"
+    }
+  ]
+}

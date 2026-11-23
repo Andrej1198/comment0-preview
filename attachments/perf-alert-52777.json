@@ -1,0 +1,2010 @@
+{
+  "alert_summary": 52777,
+  "alert_summary_url": "https://treeherder.mozilla.org/perfherder/alerts?id=52777",
+  "framework": "browsertime",
+  "framework_id": 13,
+  "repository": "autoland",
+  "push_time": "2026-09-10T13:56:19.000Z",
+  "revisions": {
+    "before": "9e7e3b9f63c9aa422255e5bc725e1a24e5b8b73d",
+    "after": "16e2a9e93cf1aa7d290c13052db1bac9154ba361"
+  },
+  "pushlog_url": "https://hg.mozilla.org/integration/autoland/pushloghtml?changeset=16e2a9e93cf1aa7d290c13052db1bac9154ba361",
+  "perfcompare_url": "https://perf.compare/compare-results?baseRev=9e7e3b9f63c9aa422255e5bc725e1a24e5b8b73d&baseRepo=autoland&newRev=16e2a9e93cf1aa7d290c13052db1bac9154ba361&newRepo=autoland&framework=13&sort=delta|desc",
+  "commands": {
+    "try": "./mach try perf --alert 52777",
+    "local": "./mach perftest 52777"
+  },
+  "commits": [
+    {
+      "revision": "16e2a9e93cf1aa7d290c13052db1bac9154ba361",
+      "author": "Andreas Pehrson <apehrson@mozilla.com>",
+      "title": "Bug 2044636 - Replace duplicate WebRTC codec-support pref-gating closures with shared functions. r=azebrowski,webrtc-reviewers,bwc",
+      "bug": 2044636,
+      "phabricator_url": "https://phabricator.services.mozilla.com/D323393",
+      "diff_url": "https://hg.mozilla.org/integration/autoland/rev/16e2a9e93cf1aa7d290c13052db1bac9154ba361",
+      "raw_diff_url": "https://hg.mozilla.org/integration/autoland/raw-rev/16e2a9e93cf1aa7d290c13052db1bac9154ba361"
+    },
+    {
+      "revision": "cbe92e540bfd0ddcb07bdef0c083345abe062fe4",
+      "author": "Andreas Pehrson <apehrson@mozilla.com>",
+      "title": "Bug 2044636 - Route MediaCapabilities WebRTC and encode paths through async codec support. r=media-playback-reviewers,webrtc-reviewers,bwc,padenot",
+      "bug": 2044636,
+      "phabricator_url": "https://phabricator.services.mozilla.com/D304787",
+      "diff_url": "https://hg.mozilla.org/integration/autoland/rev/cbe92e540bfd0ddcb07bdef0c083345abe062fe4",
+      "raw_diff_url": "https://hg.mozilla.org/integration/autoland/raw-rev/cbe92e540bfd0ddcb07bdef0c083345abe062fe4"
+    }
+  ],
+  "regression_count": 35,
+  "improvement_count": 13,
+  "alerts": [
+    {
+      "alert_id": 258407,
+      "signature_id": 5997196,
+      "test": "media-capabilities",
+      "subtest": "first-query-cold",
+      "platform": "windows11-64-24h2-shippable",
+      "options": [
+        "fission",
+        "webrender"
+      ],
+      "unit": "ms",
+      "lower_is_better": true,
+      "is_regression": true,
+      "before": 1.75,
+      "after": 57.79,
+      "change_pct": 3195.44,
+      "change_abs": 56.03,
+      "tasks": {
+        "before": {
+          "task_id": "YM9_gAM9Q_W55RrcL5kJ0A",
+          "retry_id": 0,
+          "label": "test-windows11-64-24h2-shippable/opt-browsertime-benchmark-firefox-media-capabilities",
+          "revision": "9e7e3b9f63c9aa422255e5bc725e1a24e5b8b73d",
+          "is_alert_push": true
+        },
+        "after": {
+          "task_id": "MTKk8EPDRZiZ9fOfbgWOzw",
+          "retry_id": 0,
+          "label": "test-windows11-64-24h2-shippable/opt-browsertime-benchmark-firefox-media-capabilities",
+          "revision": "314502c4e3fbd70c1c1c74aad379825b9768067d",
+          "is_alert_push": false
+        }
+      },
+      "profile_urls": {
+        "before": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/YM9_gAM9Q_W55RrcL5kJ0A/runs/0/artifacts/public/test_info/profile_media-capabilities.zip",
+        "after": null
+      },
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/raptor.html#media-capabilities-b",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5997196,1,13&zoom=1788789379000,1789307779000,0,169.87",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5997196&framework=13&startday=2026-08-27T13%3A56%3A19&endday=2026-09-24T13%3A56%3A19&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 257319,
+      "signature_id": 5930043,
+      "test": "media-capabilities",
+      "subtest": "decode-webrtc-video-vp9-hot",
+      "platform": "linux2404-64-shippable",
+      "options": [
+        "fission",
+        "webrender"
+      ],
+      "unit": "ms",
+      "lower_is_better": true,
+      "is_regression": true,
+      "before": 0.14,
+      "after": 0.35,
+      "change_pct": 156.9,
+      "change_abs": 0.21,
+      "tasks": {
+        "before": {
+          "task_id": "OpHLbqFAQumyONToIo1XRg",
+          "retry_id": 0,
+          "label": "test-linux2404-64-shippable/opt-browsertime-benchmark-firefox-media-capabilities",
+          "revision": "9e7e3b9f63c9aa422255e5bc725e1a24e5b8b73d",
+          "is_alert_push": true
+        },
+        "after": {
+          "task_id": "MoyHw8snQB-vhGGgEO5qyw",
+          "retry_id": 0,
+          "label": "test-linux2404-64-shippable/opt-browsertime-benchmark-firefox-media-capabilities",
+          "revision": "314502c4e3fbd70c1c1c74aad379825b9768067d",
+          "is_alert_push": false
+        }
+      },
+      "profile_urls": {
+        "before": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/OpHLbqFAQumyONToIo1XRg/runs/0/artifacts/public/test_info/profile_media-capabilities.zip",
+        "after": null
+      },
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/raptor.html#media-capabilities-b",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5930043,1,13&zoom=1788789379000,1789307779000,0,0.77",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5930043&framework=13&startday=2026-08-27T13%3A56%3A19&endday=2026-09-24T13%3A56%3A19&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 258412,
+      "signature_id": 5997123,
+      "test": "media-capabilities",
+      "subtest": "decode-file-audio-aac-hot",
+      "platform": "windows11-64-24h2-shippable",
+      "options": [
+        "fission",
+        "webrender"
+      ],
+      "unit": "ms",
+      "lower_is_better": true,
+      "is_regression": true,
+      "before": 0.01,
+      "after": 0.03,
+      "change_pct": 122.69,
+      "change_abs": 0.02,
+      "tasks": {
+        "before": {
+          "task_id": "YM9_gAM9Q_W55RrcL5kJ0A",
+          "retry_id": 0,
+          "label": "test-windows11-64-24h2-shippable/opt-browsertime-benchmark-firefox-media-capabilities",
+          "revision": "9e7e3b9f63c9aa422255e5bc725e1a24e5b8b73d",
+          "is_alert_push": true
+        },
+        "after": {
+          "task_id": "MTKk8EPDRZiZ9fOfbgWOzw",
+          "retry_id": 0,
+          "label": "test-windows11-64-24h2-shippable/opt-browsertime-benchmark-firefox-media-capabilities",
+          "revision": "314502c4e3fbd70c1c1c74aad379825b9768067d",
+          "is_alert_push": false
+        }
+      },
+      "profile_urls": {
+        "before": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/YM9_gAM9Q_W55RrcL5kJ0A/runs/0/artifacts/public/test_info/profile_media-capabilities.zip",
+        "after": null
+      },
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/raptor.html#media-capabilities-b",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5997123,1,13&zoom=1788789379000,1789307779000,0,0.07",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5997123&framework=13&startday=2026-08-27T13%3A56%3A19&endday=2026-09-24T13%3A56%3A19&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 258401,
+      "signature_id": 5997175,
+      "test": "media-capabilities",
+      "subtest": "decode-webrtc-video-h264-hot",
+      "platform": "windows11-64-24h2-shippable",
+      "options": [
+        "fission",
+        "webrender"
+      ],
+      "unit": "ms",
+      "lower_is_better": true,
+      "is_regression": true,
+      "before": 0.02,
+      "after": 0.04,
+      "change_pct": 121.46,
+      "change_abs": 0.02,
+      "tasks": {
+        "before": {
+          "task_id": "YM9_gAM9Q_W55RrcL5kJ0A",
+          "retry_id": 0,
+          "label": "test-windows11-64-24h2-shippable/opt-browsertime-benchmark-firefox-media-capabilities",
+          "revision": "9e7e3b9f63c9aa422255e5bc725e1a24e5b8b73d",
+          "is_alert_push": true
+        },
+        "after": {
+          "task_id": "MTKk8EPDRZiZ9fOfbgWOzw",
+          "retry_id": 0,
+          "label": "test-windows11-64-24h2-shippable/opt-browsertime-benchmark-firefox-media-capabilities",
+          "revision": "314502c4e3fbd70c1c1c74aad379825b9768067d",
+          "is_alert_push": false
+        }
+      },
+      "profile_urls": {
+        "before": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/YM9_gAM9Q_W55RrcL5kJ0A/runs/0/artifacts/public/test_info/profile_media-capabilities.zip",
+        "after": null
+      },
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/raptor.html#media-capabilities-b",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5997175,1,13&zoom=1788789379000,1789307779000,0,0.08",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5997175&framework=13&startday=2026-08-27T13%3A56%3A19&endday=2026-09-24T13%3A56%3A19&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 257318,
+      "signature_id": 5930042,
+      "test": "media-capabilities",
+      "subtest": "decode-webrtc-video-vp9-cold",
+      "platform": "linux2404-64-shippable",
+      "options": [
+        "fission",
+        "webrender"
+      ],
+      "unit": "ms",
+      "lower_is_better": true,
+      "is_regression": true,
+      "before": 0.17,
+      "after": 0.36,
+      "change_pct": 113.14,
+      "change_abs": 0.19,
+      "tasks": {
+        "before": {
+          "task_id": "OpHLbqFAQumyONToIo1XRg",
+          "retry_id": 0,
+          "label": "test-linux2404-64-shippable/opt-browsertime-benchmark-firefox-media-capabilities",
+          "revision": "9e7e3b9f63c9aa422255e5bc725e1a24e5b8b73d",
+          "is_alert_push": true
+        },
+        "after": {
+          "task_id": "MoyHw8snQB-vhGGgEO5qyw",
+          "retry_id": 0,
+          "label": "test-linux2404-64-shippable/opt-browsertime-benchmark-firefox-media-capabilities",
+          "revision": "314502c4e3fbd70c1c1c74aad379825b9768067d",
+          "is_alert_push": false
+        }
+      },
+      "profile_urls": {
+        "before": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/OpHLbqFAQumyONToIo1XRg/runs/0/artifacts/public/test_info/profile_media-capabilities.zip",
+        "after": null
+      },
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/raptor.html#media-capabilities-b",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5930042,1,13&zoom=1788789379000,1789307779000,0,0.74",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5930042&framework=13&startday=2026-08-27T13%3A56%3A19&endday=2026-09-24T13%3A56%3A19&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 258402,
+      "signature_id": 5997178,
+      "test": "media-capabilities",
+      "subtest": "decode-webrtc-video-vp9-cold",
+      "platform": "windows11-64-24h2-shippable",
+      "options": [
+        "fission",
+        "webrender"
+      ],
+      "unit": "ms",
+      "lower_is_better": true,
+      "is_regression": true,
+      "before": 0.02,
+      "after": 0.03,
+      "change_pct": 101.54,
+      "change_abs": 0.02,
+      "tasks": {
+        "before": {
+          "task_id": "YM9_gAM9Q_W55RrcL5kJ0A",
+          "retry_id": 0,
+          "label": "test-windows11-64-24h2-shippable/opt-browsertime-benchmark-firefox-media-capabilities",
+          "revision": "9e7e3b9f63c9aa422255e5bc725e1a24e5b8b73d",
+          "is_alert_push": true
+        },
+        "after": {
+          "task_id": "MTKk8EPDRZiZ9fOfbgWOzw",
+          "retry_id": 0,
+          "label": "test-windows11-64-24h2-shippable/opt-browsertime-benchmark-firefox-media-capabilities",
+          "revision": "314502c4e3fbd70c1c1c74aad379825b9768067d",
+          "is_alert_push": false
+        }
+      },
+      "profile_urls": {
+        "before": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/YM9_gAM9Q_W55RrcL5kJ0A/runs/0/artifacts/public/test_info/profile_media-capabilities.zip",
+        "after": null
+      },
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/raptor.html#media-capabilities-b",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5997178,1,13&zoom=1788789379000,1789307779000,0,0.05",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5997178&framework=13&startday=2026-08-27T13%3A56%3A19&endday=2026-09-24T13%3A56%3A19&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 258406,
+      "signature_id": 5997191,
+      "test": "media-capabilities",
+      "subtest": "encode-webrtc-video-h264-hot",
+      "platform": "windows11-64-24h2-shippable",
+      "options": [
+        "fission",
+        "webrender"
+      ],
+      "unit": "ms",
+      "lower_is_better": true,
+      "is_regression": true,
+      "before": 0.02,
+      "after": 0.04,
+      "change_pct": 97.92,
+      "change_abs": 0.02,
+      "tasks": {
+        "before": {
+          "task_id": "YM9_gAM9Q_W55RrcL5kJ0A",
+          "retry_id": 0,
+          "label": "test-windows11-64-24h2-shippable/opt-browsertime-benchmark-firefox-media-capabilities",
+          "revision": "9e7e3b9f63c9aa422255e5bc725e1a24e5b8b73d",
+          "is_alert_push": true
+        },
+        "after": {
+          "task_id": "MTKk8EPDRZiZ9fOfbgWOzw",
+          "retry_id": 0,
+          "label": "test-windows11-64-24h2-shippable/opt-browsertime-benchmark-firefox-media-capabilities",
+          "revision": "314502c4e3fbd70c1c1c74aad379825b9768067d",
+          "is_alert_push": false
+        }
+      },
+      "profile_urls": {
+        "before": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/YM9_gAM9Q_W55RrcL5kJ0A/runs/0/artifacts/public/test_info/profile_media-capabilities.zip",
+        "after": null
+      },
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/raptor.html#media-capabilities-b",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5997191,1,13&zoom=1788789379000,1789307779000,0,0.08",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5997191&framework=13&startday=2026-08-27T13%3A56%3A19&endday=2026-09-24T13%3A56%3A19&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 258400,
+      "signature_id": 5997172,
+      "test": "media-capabilities",
+      "subtest": "decode-webrtc-video-av1-cold",
+      "platform": "windows11-64-24h2-shippable",
+      "options": [
+        "fission",
+        "webrender"
+      ],
+      "unit": "ms",
+      "lower_is_better": true,
+      "is_regression": true,
+      "before": 0.02,
+      "after": 0.03,
+      "change_pct": 89.73,
+      "change_abs": 0.01,
+      "tasks": {
+        "before": {
+          "task_id": "YM9_gAM9Q_W55RrcL5kJ0A",
+          "retry_id": 0,
+          "label": "test-windows11-64-24h2-shippable/opt-browsertime-benchmark-firefox-media-capabilities",
+          "revision": "9e7e3b9f63c9aa422255e5bc725e1a24e5b8b73d",
+          "is_alert_push": true
+        },
+        "after": {
+          "task_id": "MTKk8EPDRZiZ9fOfbgWOzw",
+          "retry_id": 0,
+          "label": "test-windows11-64-24h2-shippable/opt-browsertime-benchmark-firefox-media-capabilities",
+          "revision": "314502c4e3fbd70c1c1c74aad379825b9768067d",
+          "is_alert_push": false
+        }
+      },
+      "profile_urls": {
+        "before": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/YM9_gAM9Q_W55RrcL5kJ0A/runs/0/artifacts/public/test_info/profile_media-capabilities.zip",
+        "after": null
+      },
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/raptor.html#media-capabilities-b",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5997172,1,13&zoom=1788789379000,1789307779000,0,0.05",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5997172&framework=13&startday=2026-08-27T13%3A56%3A19&endday=2026-09-24T13%3A56%3A19&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 258419,
+      "signature_id": 5997176,
+      "test": "media-capabilities",
+      "subtest": "decode-webrtc-video-vp8-cold",
+      "platform": "windows11-64-24h2-shippable",
+      "options": [
+        "fission",
+        "webrender"
+      ],
+      "unit": "ms",
+      "lower_is_better": true,
+      "is_regression": true,
+      "before": 0.08,
+      "after": 0.13,
+      "change_pct": 69.27,
+      "change_abs": 0.05,
+      "tasks": {
+        "before": {
+          "task_id": "YM9_gAM9Q_W55RrcL5kJ0A",
+          "retry_id": 0,
+          "label": "test-windows11-64-24h2-shippable/opt-browsertime-benchmark-firefox-media-capabilities",
+          "revision": "9e7e3b9f63c9aa422255e5bc725e1a24e5b8b73d",
+          "is_alert_push": true
+        },
+        "after": {
+          "task_id": "MTKk8EPDRZiZ9fOfbgWOzw",
+          "retry_id": 0,
+          "label": "test-windows11-64-24h2-shippable/opt-browsertime-benchmark-firefox-media-capabilities",
+          "revision": "314502c4e3fbd70c1c1c74aad379825b9768067d",
+          "is_alert_push": false
+        }
+      },
+      "profile_urls": {
+        "before": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/YM9_gAM9Q_W55RrcL5kJ0A/runs/0/artifacts/public/test_info/profile_media-capabilities.zip",
+        "after": null
+      },
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/raptor.html#media-capabilities-b",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5997176,1,13&zoom=1788789379000,1789307779000,0,0.23",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5997176&framework=13&startday=2026-08-27T13%3A56%3A19&endday=2026-09-24T13%3A56%3A19&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 257345,
+      "signature_id": 5929926,
+      "test": "media-capabilities",
+      "subtest": "decode-webrtc-video-av1-cold",
+      "platform": "macosx1470-64-shippable",
+      "options": [
+        "fission",
+        "webrender"
+      ],
+      "unit": "ms",
+      "lower_is_better": true,
+      "is_regression": true,
+      "before": 0.03,
+      "after": 0.06,
+      "change_pct": 68.05,
+      "change_abs": 0.02,
+      "tasks": {
+        "before": {
+          "task_id": "Do0LpC9LSeKvpaJueB4rww",
+          "retry_id": 0,
+          "label": "test-macosx1470-64-shippable/opt-browsertime-benchmark-firefox-media-capabilities",
+          "revision": "9e7e3b9f63c9aa422255e5bc725e1a24e5b8b73d",
+          "is_alert_push": true
+        },
+        "after": {
+          "task_id": "IW0VVD1aQ8-PUS_qUHp-fA",
+          "retry_id": 0,
+          "label": "test-macosx1470-64-shippable/opt-browsertime-benchmark-firefox-media-capabilities",
+          "revision": "314502c4e3fbd70c1c1c74aad379825b9768067d",
+          "is_alert_push": false
+        }
+      },
+      "profile_urls": {
+        "before": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/Do0LpC9LSeKvpaJueB4rww/runs/0/artifacts/public/test_info/profile_media-capabilities.zip",
+        "after": null
+      },
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/raptor.html#media-capabilities-b",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5929926,1,13&zoom=1788789379000,1789307779000,0,0.12",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5929926&framework=13&startday=2026-08-27T13%3A56%3A19&endday=2026-09-24T13%3A56%3A19&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 258409,
+      "signature_id": 5997210,
+      "test": "media-capabilities",
+      "subtest": "worker-decode-webrtc-video-h264-hot",
+      "platform": "windows11-64-24h2-shippable",
+      "options": [
+        "fission",
+        "webrender"
+      ],
+      "unit": "ms",
+      "lower_is_better": true,
+      "is_regression": true,
+      "before": 0.02,
+      "after": 0.04,
+      "change_pct": 65.77,
+      "change_abs": 0.01,
+      "tasks": {
+        "before": {
+          "task_id": "YM9_gAM9Q_W55RrcL5kJ0A",
+          "retry_id": 0,
+          "label": "test-windows11-64-24h2-shippable/opt-browsertime-benchmark-firefox-media-capabilities",
+          "revision": "9e7e3b9f63c9aa422255e5bc725e1a24e5b8b73d",
+          "is_alert_push": true
+        },
+        "after": {
+          "task_id": "MTKk8EPDRZiZ9fOfbgWOzw",
+          "retry_id": 0,
+          "label": "test-windows11-64-24h2-shippable/opt-browsertime-benchmark-firefox-media-capabilities",
+          "revision": "314502c4e3fbd70c1c1c74aad379825b9768067d",
+          "is_alert_push": false
+        }
+      },
+      "profile_urls": {
+        "before": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/YM9_gAM9Q_W55RrcL5kJ0A/runs/0/artifacts/public/test_info/profile_media-capabilities.zip",
+        "after": null
+      },
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/raptor.html#media-capabilities-b",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5997210,1,13&zoom=1788789379000,1789307779000,0,0.08",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5997210&framework=13&startday=2026-08-27T13%3A56%3A19&endday=2026-09-24T13%3A56%3A19&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 257314,
+      "signature_id": 5930038,
+      "test": "media-capabilities",
+      "subtest": "decode-webrtc-video-h264-cold",
+      "platform": "linux2404-64-shippable",
+      "options": [
+        "fission",
+        "webrender"
+      ],
+      "unit": "ms",
+      "lower_is_better": true,
+      "is_regression": true,
+      "before": 0.28,
+      "after": 0.44,
+      "change_pct": 60.49,
+      "change_abs": 0.17,
+      "tasks": {
+        "before": {
+          "task_id": "OpHLbqFAQumyONToIo1XRg",
+          "retry_id": 0,
+          "label": "test-linux2404-64-shippable/opt-browsertime-benchmark-firefox-media-capabilities",
+          "revision": "9e7e3b9f63c9aa422255e5bc725e1a24e5b8b73d",
+          "is_alert_push": true
+        },
+        "after": {
+          "task_id": "MoyHw8snQB-vhGGgEO5qyw",
+          "retry_id": 0,
+          "label": "test-linux2404-64-shippable/opt-browsertime-benchmark-firefox-media-capabilities",
+          "revision": "314502c4e3fbd70c1c1c74aad379825b9768067d",
+          "is_alert_push": false
+        }
+      },
+      "profile_urls": {
+        "before": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/OpHLbqFAQumyONToIo1XRg/runs/0/artifacts/public/test_info/profile_media-capabilities.zip",
+        "after": null
+      },
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/raptor.html#media-capabilities-b",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5930038,1,13&zoom=1788789379000,1789307779000,0,0.76",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5930038&framework=13&startday=2026-08-27T13%3A56%3A19&endday=2026-09-24T13%3A56%3A19&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 257317,
+      "signature_id": 5930041,
+      "test": "media-capabilities",
+      "subtest": "decode-webrtc-video-vp8-hot",
+      "platform": "linux2404-64-shippable",
+      "options": [
+        "fission",
+        "webrender"
+      ],
+      "unit": "ms",
+      "lower_is_better": true,
+      "is_regression": true,
+      "before": 0.23,
+      "after": 0.37,
+      "change_pct": 58.36,
+      "change_abs": 0.13,
+      "tasks": {
+        "before": {
+          "task_id": "OpHLbqFAQumyONToIo1XRg",
+          "retry_id": 0,
+          "label": "test-linux2404-64-shippable/opt-browsertime-benchmark-firefox-media-capabilities",
+          "revision": "9e7e3b9f63c9aa422255e5bc725e1a24e5b8b73d",
+          "is_alert_push": true
+        },
+        "after": {
+          "task_id": "MoyHw8snQB-vhGGgEO5qyw",
+          "retry_id": 0,
+          "label": "test-linux2404-64-shippable/opt-browsertime-benchmark-firefox-media-capabilities",
+          "revision": "314502c4e3fbd70c1c1c74aad379825b9768067d",
+          "is_alert_push": false
+        }
+      },
+      "profile_urls": {
+        "before": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/OpHLbqFAQumyONToIo1XRg/runs/0/artifacts/public/test_info/profile_media-capabilities.zip",
+        "after": null
+      },
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/raptor.html#media-capabilities-b",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5930041,1,13&zoom=1788789379000,1789307779000,0,0.65",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5930041&framework=13&startday=2026-08-27T13%3A56%3A19&endday=2026-09-24T13%3A56%3A19&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 258411,
+      "signature_id": 5997226,
+      "test": "media-capabilities",
+      "subtest": "worker-encode-webrtc-video-h264-hot",
+      "platform": "windows11-64-24h2-shippable",
+      "options": [
+        "fission",
+        "webrender"
+      ],
+      "unit": "ms",
+      "lower_is_better": true,
+      "is_regression": true,
+      "before": 0.02,
+      "after": 0.04,
+      "change_pct": 57.2,
+      "change_abs": 0.01,
+      "tasks": {
+        "before": {
+          "task_id": "YM9_gAM9Q_W55RrcL5kJ0A",
+          "retry_id": 0,
+          "label": "test-windows11-64-24h2-shippable/opt-browsertime-benchmark-firefox-media-capabilities",
+          "revision": "9e7e3b9f63c9aa422255e5bc725e1a24e5b8b73d",
+          "is_alert_push": true
+        },
+        "after": {
+          "task_id": "MTKk8EPDRZiZ9fOfbgWOzw",
+          "retry_id": 0,
+          "label": "test-windows11-64-24h2-shippable/opt-browsertime-benchmark-firefox-media-capabilities",
+          "revision": "314502c4e3fbd70c1c1c74aad379825b9768067d",
+          "is_alert_push": false
+        }
+      },
+      "profile_urls": {
+        "before": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/YM9_gAM9Q_W55RrcL5kJ0A/runs/0/artifacts/public/test_info/profile_media-capabilities.zip",
+        "after": null
+      },
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/raptor.html#media-capabilities-b",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5997226,1,13&zoom=1788789379000,1789307779000,0,0.08",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5997226&framework=13&startday=2026-08-27T13%3A56%3A19&endday=2026-09-24T13%3A56%3A19&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 258414,
+      "signature_id": 5997174,
+      "test": "media-capabilities",
+      "subtest": "decode-webrtc-video-h264-cold",
+      "platform": "windows11-64-24h2-shippable",
+      "options": [
+        "fission",
+        "webrender"
+      ],
+      "unit": "ms",
+      "lower_is_better": true,
+      "is_regression": true,
+      "before": 0.04,
+      "after": 0.07,
+      "change_pct": 54.01,
+      "change_abs": 0.02,
+      "tasks": {
+        "before": {
+          "task_id": "YM9_gAM9Q_W55RrcL5kJ0A",
+          "retry_id": 0,
+          "label": "test-windows11-64-24h2-shippable/opt-browsertime-benchmark-firefox-media-capabilities",
+          "revision": "9e7e3b9f63c9aa422255e5bc725e1a24e5b8b73d",
+          "is_alert_push": true
+        },
+        "after": {
+          "task_id": "MTKk8EPDRZiZ9fOfbgWOzw",
+          "retry_id": 0,
+          "label": "test-windows11-64-24h2-shippable/opt-browsertime-benchmark-firefox-media-capabilities",
+          "revision": "314502c4e3fbd70c1c1c74aad379825b9768067d",
+          "is_alert_push": false
+        }
+      },
+      "profile_urls": {
+        "before": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/YM9_gAM9Q_W55RrcL5kJ0A/runs/0/artifacts/public/test_info/profile_media-capabilities.zip",
+        "after": null
+      },
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/raptor.html#media-capabilities-b",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5997174,1,13&zoom=1788789379000,1789307779000,0,0.13",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5997174&framework=13&startday=2026-08-27T13%3A56%3A19&endday=2026-09-24T13%3A56%3A19&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 258416,
+      "signature_id": 5997166,
+      "test": "media-capabilities",
+      "subtest": "decode-webrtc-audio-opus-cold",
+      "platform": "windows11-64-24h2-shippable",
+      "options": [
+        "fission",
+        "webrender"
+      ],
+      "unit": "ms",
+      "lower_is_better": true,
+      "is_regression": true,
+      "before": 0.02,
+      "after": 0.03,
+      "change_pct": 50.37,
+      "change_abs": 0.01,
+      "tasks": {
+        "before": {
+          "task_id": "YM9_gAM9Q_W55RrcL5kJ0A",
+          "retry_id": 0,
+          "label": "test-windows11-64-24h2-shippable/opt-browsertime-benchmark-firefox-media-capabilities",
+          "revision": "9e7e3b9f63c9aa422255e5bc725e1a24e5b8b73d",
+          "is_alert_push": true
+        },
+        "after": {
+          "task_id": "MTKk8EPDRZiZ9fOfbgWOzw",
+          "retry_id": 0,
+          "label": "test-windows11-64-24h2-shippable/opt-browsertime-benchmark-firefox-media-capabilities",
+          "revision": "314502c4e3fbd70c1c1c74aad379825b9768067d",
+          "is_alert_push": false
+        }
+      },
+      "profile_urls": {
+        "before": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/YM9_gAM9Q_W55RrcL5kJ0A/runs/0/artifacts/public/test_info/profile_media-capabilities.zip",
+        "after": null
+      },
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/raptor.html#media-capabilities-b",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5997166,1,13&zoom=1788789379000,1789307779000,0,0.05",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5997166&framework=13&startday=2026-08-27T13%3A56%3A19&endday=2026-09-24T13%3A56%3A19&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 258417,
+      "signature_id": 5997194,
+      "test": "media-capabilities",
+      "subtest": "encode-webrtc-video-vp9-cold",
+      "platform": "windows11-64-24h2-shippable",
+      "options": [
+        "fission",
+        "webrender"
+      ],
+      "unit": "ms",
+      "lower_is_better": true,
+      "is_regression": true,
+      "before": 0.01,
+      "after": 0.02,
+      "change_pct": 47.85,
+      "change_abs": 0.01,
+      "tasks": {
+        "before": {
+          "task_id": "YM9_gAM9Q_W55RrcL5kJ0A",
+          "retry_id": 0,
+          "label": "test-windows11-64-24h2-shippable/opt-browsertime-benchmark-firefox-media-capabilities",
+          "revision": "9e7e3b9f63c9aa422255e5bc725e1a24e5b8b73d",
+          "is_alert_push": true
+        },
+        "after": {
+          "task_id": "MTKk8EPDRZiZ9fOfbgWOzw",
+          "retry_id": 0,
+          "label": "test-windows11-64-24h2-shippable/opt-browsertime-benchmark-firefox-media-capabilities",
+          "revision": "314502c4e3fbd70c1c1c74aad379825b9768067d",
+          "is_alert_push": false
+        }
+      },
+      "profile_urls": {
+        "before": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/YM9_gAM9Q_W55RrcL5kJ0A/runs/0/artifacts/public/test_info/profile_media-capabilities.zip",
+        "after": null
+      },
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/raptor.html#media-capabilities-b",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5997194,1,13&zoom=1788789379000,1789307779000,0,0.04",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5997194&framework=13&startday=2026-08-27T13%3A56%3A19&endday=2026-09-24T13%3A56%3A19&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 258408,
+      "signature_id": 5997207,
+      "test": "media-capabilities",
+      "subtest": "worker-decode-webrtc-video-av1-cold",
+      "platform": "windows11-64-24h2-shippable",
+      "options": [
+        "fission",
+        "webrender"
+      ],
+      "unit": "ms",
+      "lower_is_better": true,
+      "is_regression": true,
+      "before": 0.02,
+      "after": 0.03,
+      "change_pct": 47.35,
+      "change_abs": 0.01,
+      "tasks": {
+        "before": {
+          "task_id": "YM9_gAM9Q_W55RrcL5kJ0A",
+          "retry_id": 0,
+          "label": "test-windows11-64-24h2-shippable/opt-browsertime-benchmark-firefox-media-capabilities",
+          "revision": "9e7e3b9f63c9aa422255e5bc725e1a24e5b8b73d",
+          "is_alert_push": true
+        },
+        "after": {
+          "task_id": "MTKk8EPDRZiZ9fOfbgWOzw",
+          "retry_id": 0,
+          "label": "test-windows11-64-24h2-shippable/opt-browsertime-benchmark-firefox-media-capabilities",
+          "revision": "314502c4e3fbd70c1c1c74aad379825b9768067d",
+          "is_alert_push": false
+        }
+      },
+      "profile_urls": {
+        "before": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/YM9_gAM9Q_W55RrcL5kJ0A/runs/0/artifacts/public/test_info/profile_media-capabilities.zip",
+        "after": null
+      },
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/raptor.html#media-capabilities-b",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5997207,1,13&zoom=1788789379000,1789307779000,0,0.05",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5997207&framework=13&startday=2026-08-27T13%3A56%3A19&endday=2026-09-24T13%3A56%3A19&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 257349,
+      "signature_id": 5929933,
+      "test": "media-capabilities",
+      "subtest": "decode-webrtc-video-vp9-hot",
+      "platform": "macosx1470-64-shippable",
+      "options": [
+        "fission",
+        "webrender"
+      ],
+      "unit": "ms",
+      "lower_is_better": true,
+      "is_regression": true,
+      "before": 0.04,
+      "after": 0.05,
+      "change_pct": 47.14,
+      "change_abs": 0.02,
+      "tasks": {
+        "before": {
+          "task_id": "Do0LpC9LSeKvpaJueB4rww",
+          "retry_id": 0,
+          "label": "test-macosx1470-64-shippable/opt-browsertime-benchmark-firefox-media-capabilities",
+          "revision": "9e7e3b9f63c9aa422255e5bc725e1a24e5b8b73d",
+          "is_alert_push": true
+        },
+        "after": {
+          "task_id": "IW0VVD1aQ8-PUS_qUHp-fA",
+          "retry_id": 0,
+          "label": "test-macosx1470-64-shippable/opt-browsertime-benchmark-firefox-media-capabilities",
+          "revision": "314502c4e3fbd70c1c1c74aad379825b9768067d",
+          "is_alert_push": false
+        }
+      },
+      "profile_urls": {
+        "before": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/Do0LpC9LSeKvpaJueB4rww/runs/0/artifacts/public/test_info/profile_media-capabilities.zip",
+        "after": null
+      },
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/raptor.html#media-capabilities-b",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5929933,1,13&zoom=1788789379000,1789307779000,0.02,0.07",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5929933&framework=13&startday=2026-08-27T13%3A56%3A19&endday=2026-09-24T13%3A56%3A19&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 257348,
+      "signature_id": 5929931,
+      "test": "media-capabilities",
+      "subtest": "decode-webrtc-video-vp8-hot",
+      "platform": "macosx1470-64-shippable",
+      "options": [
+        "fission",
+        "webrender"
+      ],
+      "unit": "ms",
+      "lower_is_better": true,
+      "is_regression": true,
+      "before": 0.05,
+      "after": 0.07,
+      "change_pct": 46.73,
+      "change_abs": 0.02,
+      "tasks": {
+        "before": {
+          "task_id": "Do0LpC9LSeKvpaJueB4rww",
+          "retry_id": 0,
+          "label": "test-macosx1470-64-shippable/opt-browsertime-benchmark-firefox-media-capabilities",
+          "revision": "9e7e3b9f63c9aa422255e5bc725e1a24e5b8b73d",
+          "is_alert_push": true
+        },
+        "after": {
+          "task_id": "IW0VVD1aQ8-PUS_qUHp-fA",
+          "retry_id": 0,
+          "label": "test-macosx1470-64-shippable/opt-browsertime-benchmark-firefox-media-capabilities",
+          "revision": "314502c4e3fbd70c1c1c74aad379825b9768067d",
+          "is_alert_push": false
+        }
+      },
+      "profile_urls": {
+        "before": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/Do0LpC9LSeKvpaJueB4rww/runs/0/artifacts/public/test_info/profile_media-capabilities.zip",
+        "after": null
+      },
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/raptor.html#media-capabilities-b",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5929931,1,13&zoom=1788789379000,1789307779000,0.01,0.11",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5929931&framework=13&startday=2026-08-27T13%3A56%3A19&endday=2026-09-24T13%3A56%3A19&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 258405,
+      "signature_id": 5997188,
+      "test": "media-capabilities",
+      "subtest": "encode-webrtc-video-av1-cold",
+      "platform": "windows11-64-24h2-shippable",
+      "options": [
+        "fission",
+        "webrender"
+      ],
+      "unit": "ms",
+      "lower_is_better": true,
+      "is_regression": true,
+      "before": 0.02,
+      "after": 0.03,
+      "change_pct": 46.12,
+      "change_abs": 0.01,
+      "tasks": {
+        "before": {
+          "task_id": "YM9_gAM9Q_W55RrcL5kJ0A",
+          "retry_id": 0,
+          "label": "test-windows11-64-24h2-shippable/opt-browsertime-benchmark-firefox-media-capabilities",
+          "revision": "9e7e3b9f63c9aa422255e5bc725e1a24e5b8b73d",
+          "is_alert_push": true
+        },
+        "after": {
+          "task_id": "MTKk8EPDRZiZ9fOfbgWOzw",
+          "retry_id": 0,
+          "label": "test-windows11-64-24h2-shippable/opt-browsertime-benchmark-firefox-media-capabilities",
+          "revision": "314502c4e3fbd70c1c1c74aad379825b9768067d",
+          "is_alert_push": false
+        }
+      },
+      "profile_urls": {
+        "before": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/YM9_gAM9Q_W55RrcL5kJ0A/runs/0/artifacts/public/test_info/profile_media-capabilities.zip",
+        "after": null
+      },
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/raptor.html#media-capabilities-b",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5997188,1,13&zoom=1788789379000,1789307779000,0,0.05",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5997188&framework=13&startday=2026-08-27T13%3A56%3A19&endday=2026-09-24T13%3A56%3A19&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 257315,
+      "signature_id": 5930039,
+      "test": "media-capabilities",
+      "subtest": "decode-webrtc-video-h264-hot",
+      "platform": "linux2404-64-shippable",
+      "options": [
+        "fission",
+        "webrender"
+      ],
+      "unit": "ms",
+      "lower_is_better": true,
+      "is_regression": true,
+      "before": 0.26,
+      "after": 0.37,
+      "change_pct": 42.35,
+      "change_abs": 0.11,
+      "tasks": {
+        "before": {
+          "task_id": "OpHLbqFAQumyONToIo1XRg",
+          "retry_id": 0,
+          "label": "test-linux2404-64-shippable/opt-browsertime-benchmark-firefox-media-capabilities",
+          "revision": "9e7e3b9f63c9aa422255e5bc725e1a24e5b8b73d",
+          "is_alert_push": true
+        },
+        "after": {
+          "task_id": "MoyHw8snQB-vhGGgEO5qyw",
+          "retry_id": 0,
+          "label": "test-linux2404-64-shippable/opt-browsertime-benchmark-firefox-media-capabilities",
+          "revision": "314502c4e3fbd70c1c1c74aad379825b9768067d",
+          "is_alert_push": false
+        }
+      },
+      "profile_urls": {
+        "before": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/OpHLbqFAQumyONToIo1XRg/runs/0/artifacts/public/test_info/profile_media-capabilities.zip",
+        "after": null
+      },
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/raptor.html#media-capabilities-b",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5930039,1,13&zoom=1788789379000,1789307779000,0.04,0.59",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5930039&framework=13&startday=2026-08-27T13%3A56%3A19&endday=2026-09-24T13%3A56%3A19&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 257346,
+      "signature_id": 5929927,
+      "test": "media-capabilities",
+      "subtest": "decode-webrtc-video-av1-hot",
+      "platform": "macosx1470-64-shippable",
+      "options": [
+        "fission",
+        "webrender"
+      ],
+      "unit": "ms",
+      "lower_is_better": true,
+      "is_regression": true,
+      "before": 0.04,
+      "after": 0.05,
+      "change_pct": 40.92,
+      "change_abs": 0.01,
+      "tasks": {
+        "before": {
+          "task_id": "Do0LpC9LSeKvpaJueB4rww",
+          "retry_id": 0,
+          "label": "test-macosx1470-64-shippable/opt-browsertime-benchmark-firefox-media-capabilities",
+          "revision": "9e7e3b9f63c9aa422255e5bc725e1a24e5b8b73d",
+          "is_alert_push": true
+        },
+        "after": {
+          "task_id": "IW0VVD1aQ8-PUS_qUHp-fA",
+          "retry_id": 0,
+          "label": "test-macosx1470-64-shippable/opt-browsertime-benchmark-firefox-media-capabilities",
+          "revision": "314502c4e3fbd70c1c1c74aad379825b9768067d",
+          "is_alert_push": false
+        }
+      },
+      "profile_urls": {
+        "before": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/Do0LpC9LSeKvpaJueB4rww/runs/0/artifacts/public/test_info/profile_media-capabilities.zip",
+        "after": null
+      },
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/raptor.html#media-capabilities-b",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5929927,1,13&zoom=1788789379000,1789307779000,0.02,0.07",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5929927&framework=13&startday=2026-08-27T13%3A56%3A19&endday=2026-09-24T13%3A56%3A19&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 258399,
+      "signature_id": 5997170,
+      "test": "media-capabilities",
+      "subtest": "decode-webrtc-audio-pcmu-cold",
+      "platform": "windows11-64-24h2-shippable",
+      "options": [
+        "fission",
+        "webrender"
+      ],
+      "unit": "ms",
+      "lower_is_better": true,
+      "is_regression": true,
+      "before": 0.01,
+      "after": 0.02,
+      "change_pct": 36.36,
+      "change_abs": 0,
+      "tasks": {
+        "before": {
+          "task_id": "YM9_gAM9Q_W55RrcL5kJ0A",
+          "retry_id": 0,
+          "label": "test-windows11-64-24h2-shippable/opt-browsertime-benchmark-firefox-media-capabilities",
+          "revision": "9e7e3b9f63c9aa422255e5bc725e1a24e5b8b73d",
+          "is_alert_push": true
+        },
+        "after": {
+          "task_id": "MTKk8EPDRZiZ9fOfbgWOzw",
+          "retry_id": 0,
+          "label": "test-windows11-64-24h2-shippable/opt-browsertime-benchmark-firefox-media-capabilities",
+          "revision": "314502c4e3fbd70c1c1c74aad379825b9768067d",
+          "is_alert_push": false
+        }
+      },
+      "profile_urls": {
+        "before": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/YM9_gAM9Q_W55RrcL5kJ0A/runs/0/artifacts/public/test_info/profile_media-capabilities.zip",
+        "after": null
+      },
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/raptor.html#media-capabilities-b",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5997170,1,13&zoom=1788789379000,1789307779000,0,0.04",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5997170&framework=13&startday=2026-08-27T13%3A56%3A19&endday=2026-09-24T13%3A56%3A19&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 258410,
+      "signature_id": 5997212,
+      "test": "media-capabilities",
+      "subtest": "worker-decode-webrtc-video-vp8-hot",
+      "platform": "windows11-64-24h2-shippable",
+      "options": [
+        "fission",
+        "webrender"
+      ],
+      "unit": "ms",
+      "lower_is_better": true,
+      "is_regression": true,
+      "before": 0.02,
+      "after": 0.02,
+      "change_pct": 35.16,
+      "change_abs": 0.01,
+      "tasks": {
+        "before": {
+          "task_id": "YM9_gAM9Q_W55RrcL5kJ0A",
+          "retry_id": 0,
+          "label": "test-windows11-64-24h2-shippable/opt-browsertime-benchmark-firefox-media-capabilities",
+          "revision": "9e7e3b9f63c9aa422255e5bc725e1a24e5b8b73d",
+          "is_alert_push": true
+        },
+        "after": {
+          "task_id": "MTKk8EPDRZiZ9fOfbgWOzw",
+          "retry_id": 0,
+          "label": "test-windows11-64-24h2-shippable/opt-browsertime-benchmark-firefox-media-capabilities",
+          "revision": "314502c4e3fbd70c1c1c74aad379825b9768067d",
+          "is_alert_push": false
+        }
+      },
+      "profile_urls": {
+        "before": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/YM9_gAM9Q_W55RrcL5kJ0A/runs/0/artifacts/public/test_info/profile_media-capabilities.zip",
+        "after": null
+      },
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/raptor.html#media-capabilities-b",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5997212,1,13&zoom=1788789379000,1789307779000,0.02,0.02",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5997212&framework=13&startday=2026-08-27T13%3A56%3A19&endday=2026-09-24T13%3A56%3A19&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 257347,
+      "signature_id": 5929929,
+      "test": "media-capabilities",
+      "subtest": "decode-webrtc-video-h264-hot",
+      "platform": "macosx1470-64-shippable",
+      "options": [
+        "fission",
+        "webrender"
+      ],
+      "unit": "ms",
+      "lower_is_better": true,
+      "is_regression": true,
+      "before": 0.04,
+      "after": 0.06,
+      "change_pct": 34.1,
+      "change_abs": 0.01,
+      "tasks": {
+        "before": {
+          "task_id": "Do0LpC9LSeKvpaJueB4rww",
+          "retry_id": 0,
+          "label": "test-macosx1470-64-shippable/opt-browsertime-benchmark-firefox-media-capabilities",
+          "revision": "9e7e3b9f63c9aa422255e5bc725e1a24e5b8b73d",
+          "is_alert_push": true
+        },
+        "after": {
+          "task_id": "IW0VVD1aQ8-PUS_qUHp-fA",
+          "retry_id": 0,
+          "label": "test-macosx1470-64-shippable/opt-browsertime-benchmark-firefox-media-capabilities",
+          "revision": "314502c4e3fbd70c1c1c74aad379825b9768067d",
+          "is_alert_push": false
+        }
+      },
+      "profile_urls": {
+        "before": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/Do0LpC9LSeKvpaJueB4rww/runs/0/artifacts/public/test_info/profile_media-capabilities.zip",
+        "after": null
+      },
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/raptor.html#media-capabilities-b",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5929929,1,13&zoom=1788789379000,1789307779000,0,0.1",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5929929&framework=13&startday=2026-08-27T13%3A56%3A19&endday=2026-09-24T13%3A56%3A19&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 257316,
+      "signature_id": 5930040,
+      "test": "media-capabilities",
+      "subtest": "decode-webrtc-video-vp8-cold",
+      "platform": "linux2404-64-shippable",
+      "options": [
+        "fission",
+        "webrender"
+      ],
+      "unit": "ms",
+      "lower_is_better": true,
+      "is_regression": true,
+      "before": 0.36,
+      "after": 0.48,
+      "change_pct": 32.3,
+      "change_abs": 0.12,
+      "tasks": {
+        "before": {
+          "task_id": "OpHLbqFAQumyONToIo1XRg",
+          "retry_id": 0,
+          "label": "test-linux2404-64-shippable/opt-browsertime-benchmark-firefox-media-capabilities",
+          "revision": "9e7e3b9f63c9aa422255e5bc725e1a24e5b8b73d",
+          "is_alert_push": true
+        },
+        "after": {
+          "task_id": "MoyHw8snQB-vhGGgEO5qyw",
+          "retry_id": 0,
+          "label": "test-linux2404-64-shippable/opt-browsertime-benchmark-firefox-media-capabilities",
+          "revision": "314502c4e3fbd70c1c1c74aad379825b9768067d",
+          "is_alert_push": false
+        }
+      },
+      "profile_urls": {
+        "before": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/OpHLbqFAQumyONToIo1XRg/runs/0/artifacts/public/test_info/profile_media-capabilities.zip",
+        "after": null
+      },
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/raptor.html#media-capabilities-b",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5930040,1,13&zoom=1788789379000,1789307779000,0.12,0.72",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5930040&framework=13&startday=2026-08-27T13%3A56%3A19&endday=2026-09-24T13%3A56%3A19&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 258398,
+      "signature_id": 5997164,
+      "test": "media-capabilities",
+      "subtest": "decode-webrtc-audio-g722-cold",
+      "platform": "windows11-64-24h2-shippable",
+      "options": [
+        "fission",
+        "webrender"
+      ],
+      "unit": "ms",
+      "lower_is_better": true,
+      "is_regression": true,
+      "before": 0.01,
+      "after": 0.02,
+      "change_pct": 31.45,
+      "change_abs": 0,
+      "tasks": {
+        "before": {
+          "task_id": "YM9_gAM9Q_W55RrcL5kJ0A",
+          "retry_id": 0,
+          "label": "test-windows11-64-24h2-shippable/opt-browsertime-benchmark-firefox-media-capabilities",
+          "revision": "9e7e3b9f63c9aa422255e5bc725e1a24e5b8b73d",
+          "is_alert_push": true
+        },
+        "after": {
+          "task_id": "MTKk8EPDRZiZ9fOfbgWOzw",
+          "retry_id": 0,
+          "label": "test-windows11-64-24h2-shippable/opt-browsertime-benchmark-firefox-media-capabilities",
+          "revision": "314502c4e3fbd70c1c1c74aad379825b9768067d",
+          "is_alert_push": false
+        }
+      },
+      "profile_urls": {
+        "before": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/YM9_gAM9Q_W55RrcL5kJ0A/runs/0/artifacts/public/test_info/profile_media-capabilities.zip",
+        "after": null
+      },
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/raptor.html#media-capabilities-b",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5997164,1,13&zoom=1788789379000,1789307779000,0,0.04",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5997164&framework=13&startday=2026-08-27T13%3A56%3A19&endday=2026-09-24T13%3A56%3A19&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 258395,
+      "signature_id": 5997122,
+      "test": "media-capabilities",
+      "subtest": "decode-file-audio-aac-cold",
+      "platform": "windows11-64-24h2-shippable",
+      "options": [
+        "fission",
+        "webrender"
+      ],
+      "unit": "ms",
+      "lower_is_better": true,
+      "is_regression": true,
+      "before": 0.04,
+      "after": 0.06,
+      "change_pct": 27.51,
+      "change_abs": 0.01,
+      "tasks": {
+        "before": {
+          "task_id": "YM9_gAM9Q_W55RrcL5kJ0A",
+          "retry_id": 0,
+          "label": "test-windows11-64-24h2-shippable/opt-browsertime-benchmark-firefox-media-capabilities",
+          "revision": "9e7e3b9f63c9aa422255e5bc725e1a24e5b8b73d",
+          "is_alert_push": true
+        },
+        "after": {
+          "task_id": "MTKk8EPDRZiZ9fOfbgWOzw",
+          "retry_id": 0,
+          "label": "test-windows11-64-24h2-shippable/opt-browsertime-benchmark-firefox-media-capabilities",
+          "revision": "314502c4e3fbd70c1c1c74aad379825b9768067d",
+          "is_alert_push": false
+        }
+      },
+      "profile_urls": {
+        "before": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/YM9_gAM9Q_W55RrcL5kJ0A/runs/0/artifacts/public/test_info/profile_media-capabilities.zip",
+        "after": null
+      },
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/raptor.html#media-capabilities-b",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5997122,1,13&zoom=1788789379000,1789307779000,0,0.1",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5997122&framework=13&startday=2026-08-27T13%3A56%3A19&endday=2026-09-24T13%3A56%3A19&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 258413,
+      "signature_id": 5997168,
+      "test": "media-capabilities",
+      "subtest": "decode-webrtc-audio-pcma-cold",
+      "platform": "windows11-64-24h2-shippable",
+      "options": [
+        "fission",
+        "webrender"
+      ],
+      "unit": "ms",
+      "lower_is_better": true,
+      "is_regression": true,
+      "before": 0.01,
+      "after": 0.02,
+      "change_pct": 24.69,
+      "change_abs": 0,
+      "tasks": {
+        "before": {
+          "task_id": "YM9_gAM9Q_W55RrcL5kJ0A",
+          "retry_id": 0,
+          "label": "test-windows11-64-24h2-shippable/opt-browsertime-benchmark-firefox-media-capabilities",
+          "revision": "9e7e3b9f63c9aa422255e5bc725e1a24e5b8b73d",
+          "is_alert_push": true
+        },
+        "after": {
+          "task_id": "MTKk8EPDRZiZ9fOfbgWOzw",
+          "retry_id": 0,
+          "label": "test-windows11-64-24h2-shippable/opt-browsertime-benchmark-firefox-media-capabilities",
+          "revision": "314502c4e3fbd70c1c1c74aad379825b9768067d",
+          "is_alert_push": false
+        }
+      },
+      "profile_urls": {
+        "before": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/YM9_gAM9Q_W55RrcL5kJ0A/runs/0/artifacts/public/test_info/profile_media-capabilities.zip",
+        "after": null
+      },
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/raptor.html#media-capabilities-b",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5997168,1,13&zoom=1788789379000,1789307779000,0,0.04",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5997168&framework=13&startday=2026-08-27T13%3A56%3A19&endday=2026-09-24T13%3A56%3A19&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 258404,
+      "signature_id": 5997186,
+      "test": "media-capabilities",
+      "subtest": "encode-webrtc-audio-pcmu-cold",
+      "platform": "windows11-64-24h2-shippable",
+      "options": [
+        "fission",
+        "webrender"
+      ],
+      "unit": "ms",
+      "lower_is_better": true,
+      "is_regression": true,
+      "before": 0.01,
+      "after": 0.02,
+      "change_pct": 21.52,
+      "change_abs": 0,
+      "tasks": {
+        "before": {
+          "task_id": "YM9_gAM9Q_W55RrcL5kJ0A",
+          "retry_id": 0,
+          "label": "test-windows11-64-24h2-shippable/opt-browsertime-benchmark-firefox-media-capabilities",
+          "revision": "9e7e3b9f63c9aa422255e5bc725e1a24e5b8b73d",
+          "is_alert_push": true
+        },
+        "after": {
+          "task_id": "MTKk8EPDRZiZ9fOfbgWOzw",
+          "retry_id": 0,
+          "label": "test-windows11-64-24h2-shippable/opt-browsertime-benchmark-firefox-media-capabilities",
+          "revision": "314502c4e3fbd70c1c1c74aad379825b9768067d",
+          "is_alert_push": false
+        }
+      },
+      "profile_urls": {
+        "before": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/YM9_gAM9Q_W55RrcL5kJ0A/runs/0/artifacts/public/test_info/profile_media-capabilities.zip",
+        "after": null
+      },
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/raptor.html#media-capabilities-b",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5997186,1,13&zoom=1788789379000,1789307779000,0,0.04",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5997186&framework=13&startday=2026-08-27T13%3A56%3A19&endday=2026-09-24T13%3A56%3A19&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 257350,
+      "signature_id": 5929979,
+      "test": "media-capabilities",
+      "subtest": "worker-encode-webrtc-video-h264-cold",
+      "platform": "macosx1470-64-shippable",
+      "options": [
+        "fission",
+        "webrender"
+      ],
+      "unit": "ms",
+      "lower_is_better": true,
+      "is_regression": true,
+      "before": 0.05,
+      "after": 0.06,
+      "change_pct": 18.3,
+      "change_abs": 0.01,
+      "tasks": {
+        "before": {
+          "task_id": "Do0LpC9LSeKvpaJueB4rww",
+          "retry_id": 0,
+          "label": "test-macosx1470-64-shippable/opt-browsertime-benchmark-firefox-media-capabilities",
+          "revision": "9e7e3b9f63c9aa422255e5bc725e1a24e5b8b73d",
+          "is_alert_push": true
+        },
+        "after": {
+          "task_id": "IW0VVD1aQ8-PUS_qUHp-fA",
+          "retry_id": 0,
+          "label": "test-macosx1470-64-shippable/opt-browsertime-benchmark-firefox-media-capabilities",
+          "revision": "314502c4e3fbd70c1c1c74aad379825b9768067d",
+          "is_alert_push": false
+        }
+      },
+      "profile_urls": {
+        "before": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/Do0LpC9LSeKvpaJueB4rww/runs/0/artifacts/public/test_info/profile_media-capabilities.zip",
+        "after": null
+      },
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/raptor.html#media-capabilities-b",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5929979,1,13&zoom=1788789379000,1789307779000,0.03,0.08",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5929979&framework=13&startday=2026-08-27T13%3A56%3A19&endday=2026-09-24T13%3A56%3A19&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 258403,
+      "signature_id": 5997180,
+      "test": "media-capabilities",
+      "subtest": "encode-webrtc-audio-g722-cold",
+      "platform": "windows11-64-24h2-shippable",
+      "options": [
+        "fission",
+        "webrender"
+      ],
+      "unit": "ms",
+      "lower_is_better": true,
+      "is_regression": true,
+      "before": 0.01,
+      "after": 0.02,
+      "change_pct": 17.5,
+      "change_abs": 0,
+      "tasks": {
+        "before": {
+          "task_id": "YM9_gAM9Q_W55RrcL5kJ0A",
+          "retry_id": 0,
+          "label": "test-windows11-64-24h2-shippable/opt-browsertime-benchmark-firefox-media-capabilities",
+          "revision": "9e7e3b9f63c9aa422255e5bc725e1a24e5b8b73d",
+          "is_alert_push": true
+        },
+        "after": {
+          "task_id": "MTKk8EPDRZiZ9fOfbgWOzw",
+          "retry_id": 0,
+          "label": "test-windows11-64-24h2-shippable/opt-browsertime-benchmark-firefox-media-capabilities",
+          "revision": "314502c4e3fbd70c1c1c74aad379825b9768067d",
+          "is_alert_push": false
+        }
+      },
+      "profile_urls": {
+        "before": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/YM9_gAM9Q_W55RrcL5kJ0A/runs/0/artifacts/public/test_info/profile_media-capabilities.zip",
+        "after": null
+      },
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/raptor.html#media-capabilities-b",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5997180,1,13&zoom=1788789379000,1789307779000,0,0.04",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5997180&framework=13&startday=2026-08-27T13%3A56%3A19&endday=2026-09-24T13%3A56%3A19&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 258418,
+      "signature_id": 5997182,
+      "test": "media-capabilities",
+      "subtest": "encode-webrtc-audio-opus-cold",
+      "platform": "windows11-64-24h2-shippable",
+      "options": [
+        "fission",
+        "webrender"
+      ],
+      "unit": "ms",
+      "lower_is_better": true,
+      "is_regression": true,
+      "before": 0.02,
+      "after": 0.02,
+      "change_pct": 15.68,
+      "change_abs": 0,
+      "tasks": {
+        "before": {
+          "task_id": "YM9_gAM9Q_W55RrcL5kJ0A",
+          "retry_id": 0,
+          "label": "test-windows11-64-24h2-shippable/opt-browsertime-benchmark-firefox-media-capabilities",
+          "revision": "9e7e3b9f63c9aa422255e5bc725e1a24e5b8b73d",
+          "is_alert_push": true
+        },
+        "after": {
+          "task_id": "MTKk8EPDRZiZ9fOfbgWOzw",
+          "retry_id": 0,
+          "label": "test-windows11-64-24h2-shippable/opt-browsertime-benchmark-firefox-media-capabilities",
+          "revision": "314502c4e3fbd70c1c1c74aad379825b9768067d",
+          "is_alert_push": false
+        }
+      },
+      "profile_urls": {
+        "before": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/YM9_gAM9Q_W55RrcL5kJ0A/runs/0/artifacts/public/test_info/profile_media-capabilities.zip",
+        "after": null
+      },
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/raptor.html#media-capabilities-b",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5997182,1,13&zoom=1788789379000,1789307779000,0.02,0.02",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5997182&framework=13&startday=2026-08-27T13%3A56%3A19&endday=2026-09-24T13%3A56%3A19&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 257321,
+      "signature_id": 5930060,
+      "test": "media-capabilities",
+      "subtest": "first-query-cold",
+      "platform": "linux2404-64-shippable",
+      "options": [
+        "fission",
+        "webrender"
+      ],
+      "unit": "ms",
+      "lower_is_better": true,
+      "is_regression": true,
+      "before": 8.51,
+      "after": 9.05,
+      "change_pct": 6.28,
+      "change_abs": 0.53,
+      "tasks": {
+        "before": {
+          "task_id": "OpHLbqFAQumyONToIo1XRg",
+          "retry_id": 0,
+          "label": "test-linux2404-64-shippable/opt-browsertime-benchmark-firefox-media-capabilities",
+          "revision": "9e7e3b9f63c9aa422255e5bc725e1a24e5b8b73d",
+          "is_alert_push": true
+        },
+        "after": {
+          "task_id": "MoyHw8snQB-vhGGgEO5qyw",
+          "retry_id": 0,
+          "label": "test-linux2404-64-shippable/opt-browsertime-benchmark-firefox-media-capabilities",
+          "revision": "314502c4e3fbd70c1c1c74aad379825b9768067d",
+          "is_alert_push": false
+        }
+      },
+      "profile_urls": {
+        "before": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/OpHLbqFAQumyONToIo1XRg/runs/0/artifacts/public/test_info/profile_media-capabilities.zip",
+        "after": null
+      },
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/raptor.html#media-capabilities-b",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5930060,1,13&zoom=1788789379000,1789307779000,7.15,10.41",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5930060&framework=13&startday=2026-08-27T13%3A56%3A19&endday=2026-09-24T13%3A56%3A19&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 258396,
+      "signature_id": 5997138,
+      "test": "media-capabilities",
+      "subtest": "decode-file-video-hevc-cold",
+      "platform": "windows11-64-24h2-shippable",
+      "options": [
+        "fission",
+        "webrender"
+      ],
+      "unit": "ms",
+      "lower_is_better": true,
+      "is_regression": false,
+      "before": 2.54,
+      "after": 0.06,
+      "change_pct": 97.76,
+      "change_abs": -2.48,
+      "tasks": {
+        "before": {
+          "task_id": "YM9_gAM9Q_W55RrcL5kJ0A",
+          "retry_id": 0,
+          "label": "test-windows11-64-24h2-shippable/opt-browsertime-benchmark-firefox-media-capabilities",
+          "revision": "9e7e3b9f63c9aa422255e5bc725e1a24e5b8b73d",
+          "is_alert_push": true
+        },
+        "after": {
+          "task_id": "MTKk8EPDRZiZ9fOfbgWOzw",
+          "retry_id": 0,
+          "label": "test-windows11-64-24h2-shippable/opt-browsertime-benchmark-firefox-media-capabilities",
+          "revision": "314502c4e3fbd70c1c1c74aad379825b9768067d",
+          "is_alert_push": false
+        }
+      },
+      "profile_urls": {
+        "before": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/YM9_gAM9Q_W55RrcL5kJ0A/runs/0/artifacts/public/test_info/profile_media-capabilities.zip",
+        "after": null
+      },
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/raptor.html#media-capabilities-b",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5997138,1,13&zoom=1788789379000,1789307779000,0,7.5",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5997138&framework=13&startday=2026-08-27T13%3A56%3A19&endday=2026-09-24T13%3A56%3A19&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 258397,
+      "signature_id": 5997139,
+      "test": "media-capabilities",
+      "subtest": "decode-file-video-hevc-hot",
+      "platform": "windows11-64-24h2-shippable",
+      "options": [
+        "fission",
+        "webrender"
+      ],
+      "unit": "ms",
+      "lower_is_better": true,
+      "is_regression": false,
+      "before": 0.06,
+      "after": 0.01,
+      "change_pct": 90.94,
+      "change_abs": -0.05,
+      "tasks": {
+        "before": {
+          "task_id": "YM9_gAM9Q_W55RrcL5kJ0A",
+          "retry_id": 0,
+          "label": "test-windows11-64-24h2-shippable/opt-browsertime-benchmark-firefox-media-capabilities",
+          "revision": "9e7e3b9f63c9aa422255e5bc725e1a24e5b8b73d",
+          "is_alert_push": true
+        },
+        "after": {
+          "task_id": "MTKk8EPDRZiZ9fOfbgWOzw",
+          "retry_id": 0,
+          "label": "test-windows11-64-24h2-shippable/opt-browsertime-benchmark-firefox-media-capabilities",
+          "revision": "314502c4e3fbd70c1c1c74aad379825b9768067d",
+          "is_alert_push": false
+        }
+      },
+      "profile_urls": {
+        "before": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/YM9_gAM9Q_W55RrcL5kJ0A/runs/0/artifacts/public/test_info/profile_media-capabilities.zip",
+        "after": null
+      },
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/raptor.html#media-capabilities-b",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5997139,1,13&zoom=1788789379000,1789307779000,0,0.16",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5997139&framework=13&startday=2026-08-27T13%3A56%3A19&endday=2026-09-24T13%3A56%3A19&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 257341,
+      "signature_id": 5929903,
+      "test": "media-capabilities",
+      "subtest": "decode-media-source-audio-mp3-hot",
+      "platform": "macosx1470-64-shippable",
+      "options": [
+        "fission",
+        "webrender"
+      ],
+      "unit": "ms",
+      "lower_is_better": true,
+      "is_regression": false,
+      "before": 0.04,
+      "after": 0.03,
+      "change_pct": 25.98,
+      "change_abs": -0.01,
+      "tasks": {
+        "before": {
+          "task_id": "Do0LpC9LSeKvpaJueB4rww",
+          "retry_id": 0,
+          "label": "test-macosx1470-64-shippable/opt-browsertime-benchmark-firefox-media-capabilities",
+          "revision": "9e7e3b9f63c9aa422255e5bc725e1a24e5b8b73d",
+          "is_alert_push": true
+        },
+        "after": {
+          "task_id": "IW0VVD1aQ8-PUS_qUHp-fA",
+          "retry_id": 0,
+          "label": "test-macosx1470-64-shippable/opt-browsertime-benchmark-firefox-media-capabilities",
+          "revision": "314502c4e3fbd70c1c1c74aad379825b9768067d",
+          "is_alert_push": false
+        }
+      },
+      "profile_urls": {
+        "before": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/Do0LpC9LSeKvpaJueB4rww/runs/0/artifacts/public/test_info/profile_media-capabilities.zip",
+        "after": null
+      },
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/raptor.html#media-capabilities-b",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5929903,1,13&zoom=1788789379000,1789307779000,0.01,0.06",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5929903&framework=13&startday=2026-08-27T13%3A56%3A19&endday=2026-09-24T13%3A56%3A19&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 257335,
+      "signature_id": 5929876,
+      "test": "media-capabilities",
+      "subtest": "decode-file-audio-aac-cold",
+      "platform": "macosx1470-64-shippable",
+      "options": [
+        "fission",
+        "webrender"
+      ],
+      "unit": "ms",
+      "lower_is_better": true,
+      "is_regression": false,
+      "before": 0.06,
+      "after": 0.04,
+      "change_pct": 25.65,
+      "change_abs": -0.02,
+      "tasks": {
+        "before": {
+          "task_id": "Do0LpC9LSeKvpaJueB4rww",
+          "retry_id": 0,
+          "label": "test-macosx1470-64-shippable/opt-browsertime-benchmark-firefox-media-capabilities",
+          "revision": "9e7e3b9f63c9aa422255e5bc725e1a24e5b8b73d",
+          "is_alert_push": true
+        },
+        "after": {
+          "task_id": "IW0VVD1aQ8-PUS_qUHp-fA",
+          "retry_id": 0,
+          "label": "test-macosx1470-64-shippable/opt-browsertime-benchmark-firefox-media-capabilities",
+          "revision": "314502c4e3fbd70c1c1c74aad379825b9768067d",
+          "is_alert_push": false
+        }
+      },
+      "profile_urls": {
+        "before": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/Do0LpC9LSeKvpaJueB4rww/runs/0/artifacts/public/test_info/profile_media-capabilities.zip",
+        "after": null
+      },
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/raptor.html#media-capabilities-b",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5929876,1,13&zoom=1788789379000,1789307779000,0,0.1",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5929876&framework=13&startday=2026-08-27T13%3A56%3A19&endday=2026-09-24T13%3A56%3A19&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 257340,
+      "signature_id": 5929902,
+      "test": "media-capabilities",
+      "subtest": "decode-media-source-audio-mp3-cold",
+      "platform": "macosx1470-64-shippable",
+      "options": [
+        "fission",
+        "webrender"
+      ],
+      "unit": "ms",
+      "lower_is_better": true,
+      "is_regression": false,
+      "before": 0.04,
+      "after": 0.03,
+      "change_pct": 25.31,
+      "change_abs": -0.01,
+      "tasks": {
+        "before": {
+          "task_id": "Do0LpC9LSeKvpaJueB4rww",
+          "retry_id": 0,
+          "label": "test-macosx1470-64-shippable/opt-browsertime-benchmark-firefox-media-capabilities",
+          "revision": "9e7e3b9f63c9aa422255e5bc725e1a24e5b8b73d",
+          "is_alert_push": true
+        },
+        "after": {
+          "task_id": "IW0VVD1aQ8-PUS_qUHp-fA",
+          "retry_id": 0,
+          "label": "test-macosx1470-64-shippable/opt-browsertime-benchmark-firefox-media-capabilities",
+          "revision": "314502c4e3fbd70c1c1c74aad379825b9768067d",
+          "is_alert_push": false
+        }
+      },
+      "profile_urls": {
+        "before": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/Do0LpC9LSeKvpaJueB4rww/runs/0/artifacts/public/test_info/profile_media-capabilities.zip",
+        "after": null
+      },
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/raptor.html#media-capabilities-b",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5929902,1,13&zoom=1788789379000,1789307779000,0.01,0.06",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5929902&framework=13&startday=2026-08-27T13%3A56%3A19&endday=2026-09-24T13%3A56%3A19&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 257344,
+      "signature_id": 5929907,
+      "test": "media-capabilities",
+      "subtest": "decode-media-source-audio-vorbis-hot",
+      "platform": "macosx1470-64-shippable",
+      "options": [
+        "fission",
+        "webrender"
+      ],
+      "unit": "ms",
+      "lower_is_better": true,
+      "is_regression": false,
+      "before": 0.04,
+      "after": 0.03,
+      "change_pct": 24.38,
+      "change_abs": -0.01,
+      "tasks": {
+        "before": {
+          "task_id": "Do0LpC9LSeKvpaJueB4rww",
+          "retry_id": 0,
+          "label": "test-macosx1470-64-shippable/opt-browsertime-benchmark-firefox-media-capabilities",
+          "revision": "9e7e3b9f63c9aa422255e5bc725e1a24e5b8b73d",
+          "is_alert_push": true
+        },
+        "after": {
+          "task_id": "IW0VVD1aQ8-PUS_qUHp-fA",
+          "retry_id": 0,
+          "label": "test-macosx1470-64-shippable/opt-browsertime-benchmark-firefox-media-capabilities",
+          "revision": "314502c4e3fbd70c1c1c74aad379825b9768067d",
+          "is_alert_push": false
+        }
+      },
+      "profile_urls": {
+        "before": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/Do0LpC9LSeKvpaJueB4rww/runs/0/artifacts/public/test_info/profile_media-capabilities.zip",
+        "after": null
+      },
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/raptor.html#media-capabilities-b",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5929907,1,13&zoom=1788789379000,1789307779000,0.01,0.06",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5929907&framework=13&startday=2026-08-27T13%3A56%3A19&endday=2026-09-24T13%3A56%3A19&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 257339,
+      "signature_id": 5929898,
+      "test": "media-capabilities",
+      "subtest": "decode-media-source-audio-aac-cold",
+      "platform": "macosx1470-64-shippable",
+      "options": [
+        "fission",
+        "webrender"
+      ],
+      "unit": "ms",
+      "lower_is_better": true,
+      "is_regression": false,
+      "before": 0.05,
+      "after": 0.04,
+      "change_pct": 24.18,
+      "change_abs": -0.01,
+      "tasks": {
+        "before": {
+          "task_id": "Do0LpC9LSeKvpaJueB4rww",
+          "retry_id": 0,
+          "label": "test-macosx1470-64-shippable/opt-browsertime-benchmark-firefox-media-capabilities",
+          "revision": "9e7e3b9f63c9aa422255e5bc725e1a24e5b8b73d",
+          "is_alert_push": true
+        },
+        "after": {
+          "task_id": "IW0VVD1aQ8-PUS_qUHp-fA",
+          "retry_id": 0,
+          "label": "test-macosx1470-64-shippable/opt-browsertime-benchmark-firefox-media-capabilities",
+          "revision": "314502c4e3fbd70c1c1c74aad379825b9768067d",
+          "is_alert_push": false
+        }
+      },
+      "profile_urls": {
+        "before": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/Do0LpC9LSeKvpaJueB4rww/runs/0/artifacts/public/test_info/profile_media-capabilities.zip",
+        "after": null
+      },
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/raptor.html#media-capabilities-b",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5929898,1,13&zoom=1788789379000,1789307779000,0.02,0.07",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5929898&framework=13&startday=2026-08-27T13%3A56%3A19&endday=2026-09-24T13%3A56%3A19&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 257343,
+      "signature_id": 5929905,
+      "test": "media-capabilities",
+      "subtest": "decode-media-source-audio-opus-hot",
+      "platform": "macosx1470-64-shippable",
+      "options": [
+        "fission",
+        "webrender"
+      ],
+      "unit": "ms",
+      "lower_is_better": true,
+      "is_regression": false,
+      "before": 0.04,
+      "after": 0.03,
+      "change_pct": 24.04,
+      "change_abs": -0.01,
+      "tasks": {
+        "before": {
+          "task_id": "Do0LpC9LSeKvpaJueB4rww",
+          "retry_id": 0,
+          "label": "test-macosx1470-64-shippable/opt-browsertime-benchmark-firefox-media-capabilities",
+          "revision": "9e7e3b9f63c9aa422255e5bc725e1a24e5b8b73d",
+          "is_alert_push": true
+        },
+        "after": {
+          "task_id": "IW0VVD1aQ8-PUS_qUHp-fA",
+          "retry_id": 0,
+          "label": "test-macosx1470-64-shippable/opt-browsertime-benchmark-firefox-media-capabilities",
+          "revision": "314502c4e3fbd70c1c1c74aad379825b9768067d",
+          "is_alert_push": false
+        }
+      },
+      "profile_urls": {
+        "before": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/Do0LpC9LSeKvpaJueB4rww/runs/0/artifacts/public/test_info/profile_media-capabilities.zip",
+        "after": null
+      },
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/raptor.html#media-capabilities-b",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5929905,1,13&zoom=1788789379000,1789307779000,0.01,0.06",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5929905&framework=13&startday=2026-08-27T13%3A56%3A19&endday=2026-09-24T13%3A56%3A19&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 257336,
+      "signature_id": 5929889,
+      "test": "media-capabilities",
+      "subtest": "decode-file-video-av1-hot",
+      "platform": "macosx1470-64-shippable",
+      "options": [
+        "fission",
+        "webrender"
+      ],
+      "unit": "ms",
+      "lower_is_better": true,
+      "is_regression": false,
+      "before": 0.97,
+      "after": 0.75,
+      "change_pct": 23.01,
+      "change_abs": -0.22,
+      "tasks": {
+        "before": {
+          "task_id": "Do0LpC9LSeKvpaJueB4rww",
+          "retry_id": 0,
+          "label": "test-macosx1470-64-shippable/opt-browsertime-benchmark-firefox-media-capabilities",
+          "revision": "9e7e3b9f63c9aa422255e5bc725e1a24e5b8b73d",
+          "is_alert_push": true
+        },
+        "after": {
+          "task_id": "IW0VVD1aQ8-PUS_qUHp-fA",
+          "retry_id": 0,
+          "label": "test-macosx1470-64-shippable/opt-browsertime-benchmark-firefox-media-capabilities",
+          "revision": "314502c4e3fbd70c1c1c74aad379825b9768067d",
+          "is_alert_push": false
+        }
+      },
+      "profile_urls": {
+        "before": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/Do0LpC9LSeKvpaJueB4rww/runs/0/artifacts/public/test_info/profile_media-capabilities.zip",
+        "after": null
+      },
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/raptor.html#media-capabilities-b",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5929889,1,13&zoom=1788789379000,1789307779000,0.31,1.41",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5929889&framework=13&startday=2026-08-27T13%3A56%3A19&endday=2026-09-24T13%3A56%3A19&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 257342,
+      "signature_id": 5929904,
+      "test": "media-capabilities",
+      "subtest": "decode-media-source-audio-opus-cold",
+      "platform": "macosx1470-64-shippable",
+      "options": [
+        "fission",
+        "webrender"
+      ],
+      "unit": "ms",
+      "lower_is_better": true,
+      "is_regression": false,
+      "before": 0.04,
+      "after": 0.03,
+      "change_pct": 21.79,
+      "change_abs": -0.01,
+      "tasks": {
+        "before": {
+          "task_id": "Do0LpC9LSeKvpaJueB4rww",
+          "retry_id": 0,
+          "label": "test-macosx1470-64-shippable/opt-browsertime-benchmark-firefox-media-capabilities",
+          "revision": "9e7e3b9f63c9aa422255e5bc725e1a24e5b8b73d",
+          "is_alert_push": true
+        },
+        "after": {
+          "task_id": "IW0VVD1aQ8-PUS_qUHp-fA",
+          "retry_id": 0,
+          "label": "test-macosx1470-64-shippable/opt-browsertime-benchmark-firefox-media-capabilities",
+          "revision": "314502c4e3fbd70c1c1c74aad379825b9768067d",
+          "is_alert_push": false
+        }
+      },
+      "profile_urls": {
+        "before": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/Do0LpC9LSeKvpaJueB4rww/runs/0/artifacts/public/test_info/profile_media-capabilities.zip",
+        "after": null
+      },
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/raptor.html#media-capabilities-b",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5929904,1,13&zoom=1788789379000,1789307779000,0.01,0.06",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5929904&framework=13&startday=2026-08-27T13%3A56%3A19&endday=2026-09-24T13%3A56%3A19&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 257337,
+      "signature_id": 5929892,
+      "test": "media-capabilities",
+      "subtest": "decode-file-video-hevc-cold",
+      "platform": "macosx1470-64-shippable",
+      "options": [
+        "fission",
+        "webrender"
+      ],
+      "unit": "ms",
+      "lower_is_better": true,
+      "is_regression": false,
+      "before": 0.23,
+      "after": 0.18,
+      "change_pct": 19.78,
+      "change_abs": -0.04,
+      "tasks": {
+        "before": {
+          "task_id": "Do0LpC9LSeKvpaJueB4rww",
+          "retry_id": 0,
+          "label": "test-macosx1470-64-shippable/opt-browsertime-benchmark-firefox-media-capabilities",
+          "revision": "9e7e3b9f63c9aa422255e5bc725e1a24e5b8b73d",
+          "is_alert_push": true
+        },
+        "after": {
+          "task_id": "IW0VVD1aQ8-PUS_qUHp-fA",
+          "retry_id": 0,
+          "label": "test-macosx1470-64-shippable/opt-browsertime-benchmark-firefox-media-capabilities",
+          "revision": "314502c4e3fbd70c1c1c74aad379825b9768067d",
+          "is_alert_push": false
+        }
+      },
+      "profile_urls": {
+        "before": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/Do0LpC9LSeKvpaJueB4rww/runs/0/artifacts/public/test_info/profile_media-capabilities.zip",
+        "after": null
+      },
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/raptor.html#media-capabilities-b",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5929892,1,13&zoom=1788789379000,1789307779000,0.08,0.33",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5929892&framework=13&startday=2026-08-27T13%3A56%3A19&endday=2026-09-24T13%3A56%3A19&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 257338,
+      "signature_id": 5929893,
+      "test": "media-capabilities",
+      "subtest": "decode-file-video-hevc-hot",
+      "platform": "macosx1470-64-shippable",
+      "options": [
+        "fission",
+        "webrender"
+      ],
+      "unit": "ms",
+      "lower_is_better": true,
+      "is_regression": false,
+      "before": 0.07,
+      "after": 0.06,
+      "change_pct": 18.86,
+      "change_abs": -0.01,
+      "tasks": {
+        "before": {
+          "task_id": "Do0LpC9LSeKvpaJueB4rww",
+          "retry_id": 0,
+          "label": "test-macosx1470-64-shippable/opt-browsertime-benchmark-firefox-media-capabilities",
+          "revision": "9e7e3b9f63c9aa422255e5bc725e1a24e5b8b73d",
+          "is_alert_push": true
+        },
+        "after": {
+          "task_id": "IW0VVD1aQ8-PUS_qUHp-fA",
+          "retry_id": 0,
+          "label": "test-macosx1470-64-shippable/opt-browsertime-benchmark-firefox-media-capabilities",
+          "revision": "314502c4e3fbd70c1c1c74aad379825b9768067d",
+          "is_alert_push": false
+        }
+      },
+      "profile_urls": {
+        "before": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/Do0LpC9LSeKvpaJueB4rww/runs/0/artifacts/public/test_info/profile_media-capabilities.zip",
+        "after": null
+      },
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/raptor.html#media-capabilities-b",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5929893,1,13&zoom=1788789379000,1789307779000,0.04,0.09",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5929893&framework=13&startday=2026-08-27T13%3A56%3A19&endday=2026-09-24T13%3A56%3A19&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 257320,
+      "signature_id": 5930054,
+      "test": "media-capabilities",
+      "subtest": "encode-webrtc-video-h264-cold",
+      "platform": "linux2404-64-shippable",
+      "options": [
+        "fission",
+        "webrender"
+      ],
+      "unit": "ms",
+      "lower_is_better": true,
+      "is_regression": false,
+      "before": 23.09,
+      "after": 19.86,
+      "change_pct": 14.02,
+      "change_abs": -3.24,
+      "tasks": {
+        "before": {
+          "task_id": "OpHLbqFAQumyONToIo1XRg",
+          "retry_id": 0,
+          "label": "test-linux2404-64-shippable/opt-browsertime-benchmark-firefox-media-capabilities",
+          "revision": "9e7e3b9f63c9aa422255e5bc725e1a24e5b8b73d",
+          "is_alert_push": true
+        },
+        "after": {
+          "task_id": "MoyHw8snQB-vhGGgEO5qyw",
+          "retry_id": 0,
+          "label": "test-linux2404-64-shippable/opt-browsertime-benchmark-firefox-media-capabilities",
+          "revision": "314502c4e3fbd70c1c1c74aad379825b9768067d",
+          "is_alert_push": false
+        }
+      },
+      "profile_urls": {
+        "before": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/OpHLbqFAQumyONToIo1XRg/runs/0/artifacts/public/test_info/profile_media-capabilities.zip",
+        "after": null
+      },
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/raptor.html#media-capabilities-b",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5930054,1,13&zoom=1788789379000,1789307779000,13.4,29.55",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5930054&framework=13&startday=2026-08-27T13%3A56%3A19&endday=2026-09-24T13%3A56%3A19&all_data=true&replicates=false"
+    }
+  ]
+}

@@ -1,0 +1,277 @@
+{
+  "alert_summary": 50272,
+  "alert_summary_url": "https://treeherder.mozilla.org/perfherder/alerts?id=50272",
+  "framework": "awsy",
+  "framework_id": 4,
+  "repository": "autoland",
+  "push_time": "2026-05-12T18:11:18.000Z",
+  "revisions": {
+    "before": "f0ec4e712c00a254c4ddcb8a597e262b2d0e6175",
+    "after": "22d0beae1255e59e0bf588a0ed407d991c29aedd"
+  },
+  "pushlog_url": "https://hg.mozilla.org/integration/autoland/pushloghtml?changeset=22d0beae1255e59e0bf588a0ed407d991c29aedd",
+  "perfcompare_url": "https://perf.compare/compare-results?baseRev=f0ec4e712c00a254c4ddcb8a597e262b2d0e6175&baseRepo=autoland&newRev=22d0beae1255e59e0bf588a0ed407d991c29aedd&newRepo=autoland&framework=4&sort=delta|desc",
+  "commands": {
+    "try": "./mach try perf --alert 50272",
+    "local": "./mach perftest 50272"
+  },
+  "commits": [
+    {
+      "revision": "22d0beae1255e59e0bf588a0ed407d991c29aedd",
+      "author": "Jon Coppeard <jcoppeard@mozilla.com>",
+      "title": "Bug 2004011 - Part 3: Remove zone pointer from arena r=sfink",
+      "bug": 2004011,
+      "phabricator_url": "https://phabricator.services.mozilla.com/D299456",
+      "diff_url": "https://hg.mozilla.org/integration/autoland/rev/22d0beae1255e59e0bf588a0ed407d991c29aedd",
+      "raw_diff_url": "https://hg.mozilla.org/integration/autoland/raw-rev/22d0beae1255e59e0bf588a0ed407d991c29aedd"
+    },
+    {
+      "revision": "7d5d13500a0e48801e9952d9f1f03a4bd761f8a8",
+      "author": "Jon Coppeard <jcoppeard@mozilla.com>",
+      "title": "Bug 2004011 - Part 2: Clear mark bits per chunk instead of iterating arenas r=sfink",
+      "bug": 2004011,
+      "phabricator_url": "https://phabricator.services.mozilla.com/D299455",
+      "diff_url": "https://hg.mozilla.org/integration/autoland/rev/7d5d13500a0e48801e9952d9f1f03a4bd761f8a8",
+      "raw_diff_url": "https://hg.mozilla.org/integration/autoland/raw-rev/7d5d13500a0e48801e9952d9f1f03a4bd761f8a8"
+    },
+    {
+      "revision": "ba5921e18dd5f5feeec4372a8fa5d2f9c0b07443",
+      "author": "Jon Coppeard <jcoppeard@mozilla.com>",
+      "title": "Bug 2004011 - Part 1: Associate each ArenaChunk with a single Zone r=sfink",
+      "bug": 2004011,
+      "phabricator_url": "https://phabricator.services.mozilla.com/D299454",
+      "diff_url": "https://hg.mozilla.org/integration/autoland/rev/ba5921e18dd5f5feeec4372a8fa5d2f9c0b07443",
+      "raw_diff_url": "https://hg.mozilla.org/integration/autoland/raw-rev/ba5921e18dd5f5feeec4372a8fa5d2f9c0b07443"
+    }
+  ],
+  "regression_count": 8,
+  "improvement_count": 0,
+  "alerts": [
+    {
+      "alert_id": 235761,
+      "signature_id": 5141316,
+      "test": "Base Content JS",
+      "subtest": null,
+      "platform": "macosx1470-64-shippable",
+      "options": [
+        "fission"
+      ],
+      "unit": "bytes",
+      "lower_is_better": true,
+      "is_regression": true,
+      "before": 1496749.33,
+      "after": 2388077.33,
+      "change_pct": 59.55,
+      "change_abs": 891328,
+      "tasks": {
+        "before": null,
+        "after": null
+      },
+      "profile_urls": {
+        "before": null,
+        "after": null
+      },
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/awsy.html#base-content-js",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=31536000&series=autoland,5141316,1,4&zoom=1778350278000,1778868678000,0,4170733.33",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5141316&framework=4&startday=2026-04-28T18%3A11%3A18&endday=2026-05-26T18%3A11%3A18&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 235750,
+      "signature_id": 5764238,
+      "test": "Base Content JS",
+      "subtest": null,
+      "platform": "windows11-64-25h2-shippable",
+      "options": [
+        "fission"
+      ],
+      "unit": "bytes",
+      "lower_is_better": true,
+      "is_regression": true,
+      "before": 1497762.67,
+      "after": 2389232,
+      "change_pct": 59.52,
+      "change_abs": 891469.33,
+      "tasks": {
+        "before": null,
+        "after": null
+      },
+      "profile_urls": {
+        "before": null,
+        "after": null
+      },
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/awsy.html#base-content-js",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=31536000&series=autoland,5764238,1,4&zoom=1778350278000,1778868678000,0,4172170.66",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5764238&framework=4&startday=2026-04-28T18%3A11%3A18&endday=2026-05-26T18%3A11%3A18&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 235746,
+      "signature_id": 5650355,
+      "test": "Base Content JS",
+      "subtest": null,
+      "platform": "linux2404-64-shippable",
+      "options": [
+        "fission"
+      ],
+      "unit": "bytes",
+      "lower_is_better": true,
+      "is_regression": true,
+      "before": 1499192,
+      "after": 2387262.67,
+      "change_pct": 59.24,
+      "change_abs": 888070.67,
+      "tasks": {
+        "before": null,
+        "after": null
+      },
+      "profile_urls": {
+        "before": null,
+        "after": null
+      },
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/awsy.html#base-content-js",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=31536000&series=autoland,5650355,1,4&zoom=1778350278000,1778868678000,0,4163404.01",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5650355&framework=4&startday=2026-04-28T18%3A11%3A18&endday=2026-05-26T18%3A11%3A18&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 235762,
+      "signature_id": 5141318,
+      "test": "Base Content Explicit",
+      "subtest": null,
+      "platform": "macosx1470-64-shippable",
+      "options": [
+        "fission"
+      ],
+      "unit": "bytes",
+      "lower_is_better": true,
+      "is_regression": true,
+      "before": 7306100.67,
+      "after": 8242286.67,
+      "change_pct": 12.81,
+      "change_abs": 936186,
+      "tasks": {
+        "before": null,
+        "after": null
+      },
+      "profile_urls": {
+        "before": null,
+        "after": null
+      },
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/awsy.html#base-content-explicit",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=31536000&series=autoland,5141318,1,4&zoom=1778350278000,1778868678000,5433728.67,10114658.67",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5141318&framework=4&startday=2026-04-28T18%3A11%3A18&endday=2026-05-26T18%3A11%3A18&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 235751,
+      "signature_id": 5764240,
+      "test": "Base Content Explicit",
+      "subtest": null,
+      "platform": "windows11-64-25h2-shippable",
+      "options": [
+        "fission"
+      ],
+      "unit": "bytes",
+      "lower_is_better": true,
+      "is_regression": true,
+      "before": 7767504.67,
+      "after": 8710150.67,
+      "change_pct": 12.14,
+      "change_abs": 942646,
+      "tasks": {
+        "before": null,
+        "after": null
+      },
+      "profile_urls": {
+        "before": null,
+        "after": null
+      },
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/awsy.html#base-content-explicit",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=31536000&series=autoland,5764240,1,4&zoom=1778350278000,1778868678000,5882212.67,10595442.67",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5764240&framework=4&startday=2026-04-28T18%3A11%3A18&endday=2026-05-26T18%3A11%3A18&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 235747,
+      "signature_id": 5650357,
+      "test": "Base Content Explicit",
+      "subtest": null,
+      "platform": "linux2404-64-shippable",
+      "options": [
+        "fission"
+      ],
+      "unit": "bytes",
+      "lower_is_better": true,
+      "is_regression": true,
+      "before": 7781209.33,
+      "after": 8700526,
+      "change_pct": 11.81,
+      "change_abs": 919316.67,
+      "tasks": {
+        "before": null,
+        "after": null
+      },
+      "profile_urls": {
+        "before": null,
+        "after": null
+      },
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/awsy.html#base-content-explicit",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=31536000&series=autoland,5650357,1,4&zoom=1778350278000,1778868678000,5942575.99,10539159.34",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5650357&framework=4&startday=2026-04-28T18%3A11%3A18&endday=2026-05-26T18%3A11%3A18&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 235758,
+      "signature_id": 5764272,
+      "test": "JS",
+      "subtest": null,
+      "platform": "windows11-64-25h2-shippable",
+      "options": [
+        "fission",
+        "tp6"
+      ],
+      "unit": "bytes",
+      "lower_is_better": true,
+      "is_regression": true,
+      "before": 172972208.5,
+      "after": 186580324.04,
+      "change_pct": 7.87,
+      "change_abs": 13608115.54,
+      "tasks": {
+        "before": null,
+        "after": null
+      },
+      "profile_urls": {
+        "before": null,
+        "after": null
+      },
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/awsy.html#js",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=31536000&series=autoland,5764272,1,4&zoom=1778350278000,1778868678000,144985159.89,214567372.65",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5764272&framework=4&startday=2026-04-28T18%3A11%3A18&endday=2026-05-26T18%3A11%3A18&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 235748,
+      "signature_id": 5650389,
+      "test": "JS",
+      "subtest": null,
+      "platform": "linux2404-64-shippable",
+      "options": [
+        "fission",
+        "tp6"
+      ],
+      "unit": "bytes",
+      "lower_is_better": true,
+      "is_regression": true,
+      "before": 172806936.44,
+      "after": 185376809.32,
+      "change_pct": 7.27,
+      "change_abs": 12569872.88,
+      "tasks": {
+        "before": null,
+        "after": null
+      },
+      "profile_urls": {
+        "before": null,
+        "after": null
+      },
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/awsy.html#js",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=31536000&series=autoland,5650389,1,4&zoom=1778350278000,1778868678000,145000415.04,213183330.72",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5650389&framework=4&startday=2026-04-28T18%3A11%3A18&endday=2026-05-26T18%3A11%3A18&all_data=true&replicates=false"
+    }
+  ]
+}

@@ -1,0 +1,321 @@
+{
+  "alert_summary": 50071,
+  "alert_summary_url": "https://treeherder.mozilla.org/perfherder/alerts?id=50071",
+  "framework": "mozperftest",
+  "framework_id": 15,
+  "repository": "autoland",
+  "push_time": "2026-05-01T00:08:07.000Z",
+  "revisions": {
+    "before": "4230efb6573f6d8530a626696c6c2b3944af31d5",
+    "after": "204b82e85f25296b0fb14726a5de6fec0466058e"
+  },
+  "pushlog_url": "https://hg.mozilla.org/integration/autoland/pushloghtml?changeset=204b82e85f25296b0fb14726a5de6fec0466058e",
+  "perfcompare_url": "https://perf.compare/compare-results?baseRev=4230efb6573f6d8530a626696c6c2b3944af31d5&baseRepo=autoland&newRev=204b82e85f25296b0fb14726a5de6fec0466058e&newRepo=autoland&framework=15&sort=delta|desc",
+  "commands": {
+    "try": "./mach try perf --alert 50071",
+    "local": "./mach perftest 50071"
+  },
+  "commits": [
+    {
+      "revision": "204b82e85f25296b0fb14726a5de6fec0466058e",
+      "author": "Sam Johnson <sam@scj.me>",
+      "title": "Bug 2021084 - Use new helper instead of prefs for native content select tests. r=mac-reviewers,devtools-reviewers,tgiles,bradwerth,nchevobbe",
+      "bug": 2021084,
+      "phabricator_url": "https://phabricator.services.mozilla.com/D291284",
+      "diff_url": "https://hg.mozilla.org/integration/autoland/rev/204b82e85f25296b0fb14726a5de6fec0466058e",
+      "raw_diff_url": "https://hg.mozilla.org/integration/autoland/raw-rev/204b82e85f25296b0fb14726a5de6fec0466058e"
+    },
+    {
+      "revision": "75dcbaa68d1777afb753346f0c4fd828310f59db",
+      "author": "Sam Johnson <sam@scj.me>",
+      "title": "Bug 2021084 - Add basic test for native anchored menus on macOS. r=mstange",
+      "bug": 2021084,
+      "phabricator_url": "https://phabricator.services.mozilla.com/D289434",
+      "diff_url": "https://hg.mozilla.org/integration/autoland/rev/75dcbaa68d1777afb753346f0c4fd828310f59db",
+      "raw_diff_url": "https://hg.mozilla.org/integration/autoland/raw-rev/75dcbaa68d1777afb753346f0c4fd828310f59db"
+    },
+    {
+      "revision": "0e5f1cf88cf05ee017ee66f9e023d4f0d9c651dd",
+      "author": "Sam Johnson <sam@scj.me>",
+      "title": "Bug 2021084 - Use new helper instead of prefs for native context menu tests. r=mstange",
+      "bug": 2021084,
+      "phabricator_url": "https://phabricator.services.mozilla.com/D289433",
+      "diff_url": "https://hg.mozilla.org/integration/autoland/rev/0e5f1cf88cf05ee017ee66f9e023d4f0d9c651dd",
+      "raw_diff_url": "https://hg.mozilla.org/integration/autoland/raw-rev/0e5f1cf88cf05ee017ee66f9e023d4f0d9c651dd"
+    },
+    {
+      "revision": "2e225fd113e03a6d83f0def96a0be2e62fcf5750",
+      "author": "Sam Johnson <sam@scj.me>",
+      "title": "Bug 2021084 - Restore synthesized events in tests with non-native menupopups. r=tgiles,credential-management-reviewers,search-reviewers,places-reviewers,translations-reviewers,urlbar-reviewers,dao,scunnane,mtigley,sclements",
+      "bug": 2021084,
+      "phabricator_url": "https://phabricator.services.mozilla.com/D288097",
+      "diff_url": "https://hg.mozilla.org/integration/autoland/rev/2e225fd113e03a6d83f0def96a0be2e62fcf5750",
+      "raw_diff_url": "https://hg.mozilla.org/integration/autoland/raw-rev/2e225fd113e03a6d83f0def96a0be2e62fcf5750"
+    },
+    {
+      "revision": "64abe17bf0ee0baa6473094069f037374602a562",
+      "author": "Sam Johnson <sam@scj.me>",
+      "title": "Bug 2021084 - Add helper for tests to determine menu native-ness. r=mstange",
+      "bug": 2021084,
+      "phabricator_url": "https://phabricator.services.mozilla.com/D288096",
+      "diff_url": "https://hg.mozilla.org/integration/autoland/rev/64abe17bf0ee0baa6473094069f037374602a562",
+      "raw_diff_url": "https://hg.mozilla.org/integration/autoland/raw-rev/64abe17bf0ee0baa6473094069f037374602a562"
+    }
+  ],
+  "regression_count": 9,
+  "improvement_count": 0,
+  "alerts": [
+    {
+      "alert_id": 234485,
+      "signature_id": 5542036,
+      "test": "browser_translations_perf_base.js",
+      "subtest": "post-gc-parent-process-memory-usage",
+      "platform": "linux1804-64-shippable",
+      "options": [
+        ""
+      ],
+      "unit": "MiB",
+      "lower_is_better": true,
+      "is_regression": true,
+      "before": 186.23,
+      "after": 192.37,
+      "change_pct": 3.3,
+      "change_abs": 6.14,
+      "tasks": {
+        "before": null,
+        "after": null
+      },
+      "profile_urls": {
+        "before": null,
+        "after": null
+      },
+      "docs_url": null,
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=31536000&series=autoland,5542036,1,15&zoom=1777334887000,1777853287000,157.37,221.23",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5542036&framework=15&startday=2026-04-17T00%3A08%3A07&endday=2026-05-15T00%3A08%3A07&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 234480,
+      "signature_id": 5542046,
+      "test": "browser_translations_perf_tiny.js",
+      "subtest": "post-gc-parent-process-memory-usage",
+      "platform": "linux1804-64-shippable",
+      "options": [
+        ""
+      ],
+      "unit": "MiB",
+      "lower_is_better": true,
+      "is_regression": true,
+      "before": 181.46,
+      "after": 187.3,
+      "change_pct": 3.21,
+      "change_abs": 5.83,
+      "tasks": {
+        "before": null,
+        "after": null
+      },
+      "profile_urls": {
+        "before": null,
+        "after": null
+      },
+      "docs_url": null,
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=31536000&series=autoland,5542046,1,15&zoom=1777334887000,1777853287000,153.37,215.4",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5542046&framework=15&startday=2026-04-17T00%3A08%3A07&endday=2026-05-15T00%3A08%3A07&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 234479,
+      "signature_id": 5542045,
+      "test": "browser_translations_perf_tiny.js",
+      "subtest": "stabilized-parent-process-memory-usage",
+      "platform": "linux1804-64-shippable",
+      "options": [
+        ""
+      ],
+      "unit": "MiB",
+      "lower_is_better": true,
+      "is_regression": true,
+      "before": 183.37,
+      "after": 188.99,
+      "change_pct": 3.06,
+      "change_abs": 5.62,
+      "tasks": {
+        "before": null,
+        "after": null
+      },
+      "profile_urls": {
+        "before": null,
+        "after": null
+      },
+      "docs_url": null,
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=31536000&series=autoland,5542045,1,15&zoom=1777334887000,1777853287000,155.02,217.34",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5542045&framework=15&startday=2026-04-17T00%3A08%3A07&endday=2026-05-15T00%3A08%3A07&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 234484,
+      "signature_id": 5542034,
+      "test": "browser_translations_perf_base.js",
+      "subtest": "peak-parent-process-memory-usage",
+      "platform": "linux1804-64-shippable",
+      "options": [
+        ""
+      ],
+      "unit": "MiB",
+      "lower_is_better": true,
+      "is_regression": true,
+      "before": 192.56,
+      "after": 198.26,
+      "change_pct": 2.96,
+      "change_abs": 5.7,
+      "tasks": {
+        "before": null,
+        "after": null
+      },
+      "profile_urls": {
+        "before": null,
+        "after": null
+      },
+      "docs_url": null,
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=31536000&series=autoland,5542034,1,15&zoom=1777334887000,1777853287000,162.82,228",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5542034&framework=15&startday=2026-04-17T00%3A08%3A07&endday=2026-05-15T00%3A08%3A07&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 234482,
+      "signature_id": 5542055,
+      "test": "browser_translations_perf_basememory.js",
+      "subtest": "stabilized-parent-process-memory-usage",
+      "platform": "linux1804-64-shippable",
+      "options": [
+        ""
+      ],
+      "unit": "MiB",
+      "lower_is_better": true,
+      "is_regression": true,
+      "before": 188.97,
+      "after": 193.98,
+      "change_pct": 2.66,
+      "change_abs": 5.02,
+      "tasks": {
+        "before": null,
+        "after": null
+      },
+      "profile_urls": {
+        "before": null,
+        "after": null
+      },
+      "docs_url": null,
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=31536000&series=autoland,5542055,1,15&zoom=1777334887000,1777853287000,159.87,223.08",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5542055&framework=15&startday=2026-04-17T00%3A08%3A07&endday=2026-05-15T00%3A08%3A07&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 234478,
+      "signature_id": 5542044,
+      "test": "browser_translations_perf_tiny.js",
+      "subtest": "peak-parent-process-memory-usage",
+      "platform": "linux1804-64-shippable",
+      "options": [
+        ""
+      ],
+      "unit": "MiB",
+      "lower_is_better": true,
+      "is_regression": true,
+      "before": 188.35,
+      "after": 193.32,
+      "change_pct": 2.64,
+      "change_abs": 4.97,
+      "tasks": {
+        "before": null,
+        "after": null
+      },
+      "profile_urls": {
+        "before": null,
+        "after": null
+      },
+      "docs_url": null,
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=31536000&series=autoland,5542044,1,15&zoom=1777334887000,1777853287000,159.35,222.32",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5542044&framework=15&startday=2026-04-17T00%3A08%3A07&endday=2026-05-15T00%3A08%3A07&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 234483,
+      "signature_id": 5542056,
+      "test": "browser_translations_perf_basememory.js",
+      "subtest": "post-gc-parent-process-memory-usage",
+      "platform": "linux1804-64-shippable",
+      "options": [
+        ""
+      ],
+      "unit": "MiB",
+      "lower_is_better": true,
+      "is_regression": true,
+      "before": 186.03,
+      "after": 190.81,
+      "change_pct": 2.57,
+      "change_abs": 4.78,
+      "tasks": {
+        "before": null,
+        "after": null
+      },
+      "profile_urls": {
+        "before": null,
+        "after": null
+      },
+      "docs_url": null,
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=31536000&series=autoland,5542056,1,15&zoom=1777334887000,1777853287000,157.41,219.43",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5542056&framework=15&startday=2026-04-17T00%3A08%3A07&endday=2026-05-15T00%3A08%3A07&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 234486,
+      "signature_id": 5542035,
+      "test": "browser_translations_perf_base.js",
+      "subtest": "stabilized-parent-process-memory-usage",
+      "platform": "linux1804-64-shippable",
+      "options": [
+        ""
+      ],
+      "unit": "MiB",
+      "lower_is_better": true,
+      "is_regression": true,
+      "before": 190.18,
+      "after": 194.91,
+      "change_pct": 2.48,
+      "change_abs": 4.73,
+      "tasks": {
+        "before": null,
+        "after": null
+      },
+      "profile_urls": {
+        "before": null,
+        "after": null
+      },
+      "docs_url": null,
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=31536000&series=autoland,5542035,1,15&zoom=1777334887000,1777853287000,160.94,224.15",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5542035&framework=15&startday=2026-04-17T00%3A08%3A07&endday=2026-05-15T00%3A08%3A07&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 234481,
+      "signature_id": 5542054,
+      "test": "browser_translations_perf_basememory.js",
+      "subtest": "peak-parent-process-memory-usage",
+      "platform": "linux1804-64-shippable",
+      "options": [
+        ""
+      ],
+      "unit": "MiB",
+      "lower_is_better": true,
+      "is_regression": true,
+      "before": 191.96,
+      "after": 196.68,
+      "change_pct": 2.46,
+      "change_abs": 4.71,
+      "tasks": {
+        "before": null,
+        "after": null
+      },
+      "profile_urls": {
+        "before": null,
+        "after": null
+      },
+      "docs_url": null,
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=31536000&series=autoland,5542054,1,15&zoom=1777334887000,1777853287000,162.46,226.18",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5542054&framework=15&startday=2026-04-17T00%3A08%3A07&endday=2026-05-15T00%3A08%3A07&all_data=true&replicates=false"
+    }
+  ]
+}

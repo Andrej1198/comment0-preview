@@ -1,0 +1,388 @@
+{
+  "alert_summary": 52724,
+  "alert_summary_url": "https://treeherder.mozilla.org/perfherder/alerts?id=52724",
+  "framework": "talos",
+  "framework_id": 1,
+  "repository": "autoland",
+  "push_time": "2026-09-07T21:53:44.000Z",
+  "revisions": {
+    "before": "c37b47aa3293466ad1055f5e113630f62a610d0c",
+    "after": "64083d73a227379dfdc0cfe5dfd529504530a02b"
+  },
+  "pushlog_url": "https://hg.mozilla.org/integration/autoland/pushloghtml?changeset=64083d73a227379dfdc0cfe5dfd529504530a02b",
+  "perfcompare_url": "https://perf.compare/compare-results?baseRev=c37b47aa3293466ad1055f5e113630f62a610d0c&baseRepo=autoland&newRev=64083d73a227379dfdc0cfe5dfd529504530a02b&newRepo=autoland&framework=1&sort=delta|desc",
+  "commands": {
+    "try": "./mach try perf --alert 52724",
+    "local": "./mach perftest 52724"
+  },
+  "commits": [
+    {
+      "revision": "64083d73a227379dfdc0cfe5dfd529504530a02b",
+      "author": "Dão Gottwald <dao@mozilla.com>",
+      "title": "Bug 2022527 - Drop the open checks that popover-open already implies. r=mbeier",
+      "bug": 2022527,
+      "phabricator_url": "https://phabricator.services.mozilla.com/D323919",
+      "diff_url": "https://hg.mozilla.org/integration/autoland/rev/64083d73a227379dfdc0cfe5dfd529504530a02b",
+      "raw_diff_url": "https://hg.mozilla.org/integration/autoland/raw-rev/64083d73a227379dfdc0cfe5dfd529504530a02b"
+    },
+    {
+      "revision": "8a3e224512ec0cfd620ce2c8a7680e2a53d134f4",
+      "author": "Dão Gottwald <dao@mozilla.com>",
+      "title": "Bug 2022527 - Close the view for a window-modal dialog instead of suppressing the popover. r=mbeier",
+      "bug": 2022527,
+      "phabricator_url": "https://phabricator.services.mozilla.com/D323918",
+      "diff_url": "https://hg.mozilla.org/integration/autoland/rev/8a3e224512ec0cfd620ce2c8a7680e2a53d134f4",
+      "raw_diff_url": "https://hg.mozilla.org/integration/autoland/raw-rev/8a3e224512ec0cfd620ce2c8a7680e2a53d134f4"
+    },
+    {
+      "revision": "0691e17381307873290e723e4ed4236eaffabd30",
+      "author": "Dão Gottwald <dao@mozilla.com>",
+      "title": "Bug 2022527 - Put only the view in the popover, anchored to the input container. r=mbeier",
+      "bug": 2022527,
+      "phabricator_url": "https://phabricator.services.mozilla.com/D323911",
+      "diff_url": "https://hg.mozilla.org/integration/autoland/rev/0691e17381307873290e723e4ed4236eaffabd30",
+      "raw_diff_url": "https://hg.mozilla.org/integration/autoland/raw-rev/0691e17381307873290e723e4ed4236eaffabd30"
+    },
+    {
+      "revision": "bc53cb70910b34a5fe2f926924212e756bcebeff",
+      "author": "Dão Gottwald <dao@mozilla.com>",
+      "title": "Bug 2069413 - Rename the breakout concept to popover (no functional change). r=daisuke,urlbar-reviewers",
+      "bug": 2069413,
+      "phabricator_url": "https://phabricator.services.mozilla.com/D320891",
+      "diff_url": "https://hg.mozilla.org/integration/autoland/rev/bc53cb70910b34a5fe2f926924212e756bcebeff",
+      "raw_diff_url": "https://hg.mozilla.org/integration/autoland/raw-rev/bc53cb70910b34a5fe2f926924212e756bcebeff"
+    },
+    {
+      "revision": "cb12860ca5ffefe985e16221436d33f84a876af6",
+      "author": "Dão Gottwald <dao@mozilla.com>",
+      "title": "Bug 2069413 - Remove the breakout attribute. r=daisuke,urlbar-reviewers",
+      "bug": 2069413,
+      "phabricator_url": "https://phabricator.services.mozilla.com/D320882",
+      "diff_url": "https://hg.mozilla.org/integration/autoland/rev/cb12860ca5ffefe985e16221436d33f84a876af6",
+      "raw_diff_url": "https://hg.mozilla.org/integration/autoland/raw-rev/cb12860ca5ffefe985e16221436d33f84a876af6"
+    },
+    {
+      "revision": "d84aee4eb0fdf57a5b648d88cb709a2ec61c2f2a",
+      "author": "Dão Gottwald <dao@mozilla.com>",
+      "title": "Bug 2069413 - Replace the breakout-extend attribute with :popover-open. r=daisuke,urlbar-reviewers",
+      "bug": 2069413,
+      "phabricator_url": "https://phabricator.services.mozilla.com/D320873",
+      "diff_url": "https://hg.mozilla.org/integration/autoland/rev/d84aee4eb0fdf57a5b648d88cb709a2ec61c2f2a",
+      "raw_diff_url": "https://hg.mozilla.org/integration/autoland/raw-rev/d84aee4eb0fdf57a5b648d88cb709a2ec61c2f2a"
+    },
+    {
+      "revision": "c664f852b486f93b4987145e331850eb98345b4f",
+      "author": "Dão Gottwald <dao@mozilla.com>",
+      "title": "Bug 2069413 - Show the popover for the duration of the breakout extension. r=mbeier",
+      "bug": 2069413,
+      "phabricator_url": "https://phabricator.services.mozilla.com/D320974",
+      "diff_url": "https://hg.mozilla.org/integration/autoland/rev/c664f852b486f93b4987145e331850eb98345b4f",
+      "raw_diff_url": "https://hg.mozilla.org/integration/autoland/raw-rev/c664f852b486f93b4987145e331850eb98345b4f"
+    }
+  ],
+  "regression_count": 7,
+  "improvement_count": 0,
+  "alerts": [
+    {
+      "alert_id": 256871,
+      "signature_id": 300397,
+      "test": "tresize",
+      "subtest": null,
+      "platform": "macosx1470-64-shippable",
+      "options": [
+        "e10s",
+        "fission",
+        "stylo",
+        "webrender-sw"
+      ],
+      "unit": "ms",
+      "lower_is_better": true,
+      "is_regression": true,
+      "before": 6.85,
+      "after": 8.38,
+      "change_pct": 22.35,
+      "change_abs": 1.53,
+      "tasks": {
+        "before": {
+          "task_id": "NjQzagAFTT-28suBJ1yMOg",
+          "retry_id": 0,
+          "label": "test-macosx1470-64-shippable/opt-talos-chrome-swr",
+          "revision": "c37b47aa3293466ad1055f5e113630f62a610d0c",
+          "is_alert_push": true
+        },
+        "after": {
+          "task_id": "d7MGYNERRqy4BpSCMlPBIA",
+          "retry_id": 0,
+          "label": "test-macosx1470-64-shippable/opt-talos-chrome-swr",
+          "revision": "64083d73a227379dfdc0cfe5dfd529504530a02b",
+          "is_alert_push": true
+        }
+      },
+      "profile_urls": {
+        "before": null,
+        "after": null
+      },
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/talos.html#tresize",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,300397,1,1&zoom=1788558824000,1789077224000,3.79,11.44",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=300397&framework=1&startday=2026-08-24T21%3A53%3A44&endday=2026-09-21T21%3A53%3A44&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 256878,
+      "signature_id": 4767341,
+      "test": "tresize",
+      "subtest": null,
+      "platform": "linux1804-64-shippable-qr",
+      "options": [
+        "e10s",
+        "fission",
+        "stylo",
+        "webrender-sw"
+      ],
+      "unit": "ms",
+      "lower_is_better": true,
+      "is_regression": true,
+      "before": 20.79,
+      "after": 23.81,
+      "change_pct": 14.5,
+      "change_abs": 3.02,
+      "tasks": {
+        "before": {
+          "task_id": "e6Ba89mJT9aVY3xUH9bk7w",
+          "retry_id": 0,
+          "label": "test-linux1804-64-shippable-qr/opt-talos-chrome-swr",
+          "revision": "c37b47aa3293466ad1055f5e113630f62a610d0c",
+          "is_alert_push": true
+        },
+        "after": {
+          "task_id": "cOD3uL7nS6KL0AIQvJb41A",
+          "retry_id": 0,
+          "label": "test-linux1804-64-shippable-qr/opt-talos-chrome-swr",
+          "revision": "64083d73a227379dfdc0cfe5dfd529504530a02b",
+          "is_alert_push": true
+        }
+      },
+      "profile_urls": {
+        "before": null,
+        "after": null
+      },
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/talos.html#tresize",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,4767341,1,1&zoom=1788558824000,1789077224000,14.75,29.85",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=4767341&framework=1&startday=2026-08-24T21%3A53%3A44&endday=2026-09-21T21%3A53%3A44&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 256888,
+      "signature_id": 5695786,
+      "test": "tp5o_scroll_paint_skip",
+      "subtest": null,
+      "platform": "linux2404-64-shippable",
+      "options": [
+        "e10s",
+        "fission",
+        "stylo",
+        "webrender-sw"
+      ],
+      "unit": null,
+      "lower_is_better": true,
+      "is_regression": true,
+      "before": 0.82,
+      "after": 0.94,
+      "change_pct": 14.39,
+      "change_abs": 0.12,
+      "tasks": {
+        "before": {
+          "task_id": "ULthTvhAQdKM2cR8eqNI5A",
+          "retry_id": 0,
+          "label": "test-linux2404-64-shippable/opt-talos-g1-swr",
+          "revision": "c37b47aa3293466ad1055f5e113630f62a610d0c",
+          "is_alert_push": true
+        },
+        "after": {
+          "task_id": "dwRGDQzjTW6gGjRWGutEQw",
+          "retry_id": 0,
+          "label": "test-linux2404-64-shippable/opt-talos-g1-swr",
+          "revision": "64083d73a227379dfdc0cfe5dfd529504530a02b",
+          "is_alert_push": true
+        }
+      },
+      "profile_urls": {
+        "before": null,
+        "after": null
+      },
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/talos.html#tp5o_scroll_paint_skip",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5695786,1,1&zoom=1788558824000,1789077224000,0.58,1.18",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5695786&framework=1&startday=2026-08-24T21%3A53%3A44&endday=2026-09-21T21%3A53%3A44&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 256887,
+      "signature_id": 5695683,
+      "test": "tp5o_scroll",
+      "subtest": null,
+      "platform": "linux2404-64-shippable",
+      "options": [
+        "e10s",
+        "fission",
+        "stylo",
+        "webrender-sw"
+      ],
+      "unit": null,
+      "lower_is_better": true,
+      "is_regression": true,
+      "before": 1.94,
+      "after": 2.18,
+      "change_pct": 12.67,
+      "change_abs": 0.25,
+      "tasks": {
+        "before": {
+          "task_id": "ULthTvhAQdKM2cR8eqNI5A",
+          "retry_id": 0,
+          "label": "test-linux2404-64-shippable/opt-talos-g1-swr",
+          "revision": "c37b47aa3293466ad1055f5e113630f62a610d0c",
+          "is_alert_push": true
+        },
+        "after": {
+          "task_id": "dwRGDQzjTW6gGjRWGutEQw",
+          "retry_id": 0,
+          "label": "test-linux2404-64-shippable/opt-talos-g1-swr",
+          "revision": "64083d73a227379dfdc0cfe5dfd529504530a02b",
+          "is_alert_push": true
+        }
+      },
+      "profile_urls": {
+        "before": null,
+        "after": null
+      },
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/talos.html#tp5o_scroll",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5695683,1,1&zoom=1788558824000,1789077224000,1.46,2.66",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5695683&framework=1&startday=2026-08-24T21%3A53%3A44&endday=2026-09-21T21%3A53%3A44&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 256870,
+      "signature_id": 5303985,
+      "test": "tresize",
+      "subtest": null,
+      "platform": "windows11-64-24h2-shippable",
+      "options": [
+        "e10s",
+        "fission",
+        "stylo",
+        "webrender-sw"
+      ],
+      "unit": "ms",
+      "lower_is_better": true,
+      "is_regression": true,
+      "before": 6.87,
+      "after": 7.74,
+      "change_pct": 12.66,
+      "change_abs": 0.87,
+      "tasks": {
+        "before": {
+          "task_id": "DUvNCGDtTrC9PDVs-Yn-RA",
+          "retry_id": 0,
+          "label": "test-windows11-64-24h2-shippable/opt-talos-chrome-swr",
+          "revision": "c37b47aa3293466ad1055f5e113630f62a610d0c",
+          "is_alert_push": true
+        },
+        "after": {
+          "task_id": "PM8ee7EkTNOv0F3At0N9Fw",
+          "retry_id": 0,
+          "label": "test-windows11-64-24h2-shippable/opt-talos-chrome-swr",
+          "revision": "64083d73a227379dfdc0cfe5dfd529504530a02b",
+          "is_alert_push": true
+        }
+      },
+      "profile_urls": {
+        "before": null,
+        "after": null
+      },
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/talos.html#tresize",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5303985,1,1&zoom=1788558824000,1789077224000,5.13,9.48",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5303985&framework=1&startday=2026-08-24T21%3A53%3A44&endday=2026-09-21T21%3A53%3A44&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 256880,
+      "signature_id": 5695048,
+      "test": "tart",
+      "subtest": null,
+      "platform": "linux2404-64-shippable",
+      "options": [
+        "e10s",
+        "fission",
+        "stylo",
+        "webrender-sw"
+      ],
+      "unit": null,
+      "lower_is_better": true,
+      "is_regression": true,
+      "before": 2.45,
+      "after": 2.67,
+      "change_pct": 8.9,
+      "change_abs": 0.22,
+      "tasks": {
+        "before": {
+          "task_id": "D1A-BI1xQKK_XdP-IjwOPg",
+          "retry_id": 0,
+          "label": "test-linux2404-64-shippable/opt-talos-svgr-swr",
+          "revision": "c37b47aa3293466ad1055f5e113630f62a610d0c",
+          "is_alert_push": true
+        },
+        "after": {
+          "task_id": "GjVvR_tJQj66D5lNn1Y3Ww",
+          "retry_id": 0,
+          "label": "test-linux2404-64-shippable/opt-talos-svgr-swr",
+          "revision": "64083d73a227379dfdc0cfe5dfd529504530a02b",
+          "is_alert_push": true
+        }
+      },
+      "profile_urls": {
+        "before": null,
+        "after": null
+      },
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/talos.html#tart",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5695048,1,1&zoom=1788558824000,1789077224000,2.01,3.11",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5695048&framework=1&startday=2026-08-24T21%3A53%3A44&endday=2026-09-21T21%3A53%3A44&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 256882,
+      "signature_id": 5694974,
+      "test": "tart",
+      "subtest": null,
+      "platform": "linux2404-64-shippable",
+      "options": [
+        "e10s",
+        "fission",
+        "stylo",
+        "webrender"
+      ],
+      "unit": null,
+      "lower_is_better": true,
+      "is_regression": true,
+      "before": 2.24,
+      "after": 2.35,
+      "change_pct": 5.05,
+      "change_abs": 0.11,
+      "tasks": {
+        "before": {
+          "task_id": "OBm6c8LwQoCgPsKAnGVXcg",
+          "retry_id": 0,
+          "label": "test-linux2404-64-shippable/opt-talos-svgr",
+          "revision": "c37b47aa3293466ad1055f5e113630f62a610d0c",
+          "is_alert_push": true
+        },
+        "after": {
+          "task_id": "XIqbNlDTR7SjyBEp4fTP5Q",
+          "retry_id": 0,
+          "label": "test-linux2404-64-shippable/opt-talos-svgr",
+          "revision": "64083d73a227379dfdc0cfe5dfd529504530a02b",
+          "is_alert_push": true
+        }
+      },
+      "profile_urls": {
+        "before": null,
+        "after": null
+      },
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/talos.html#tart",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5694974,1,1&zoom=1788558824000,1789077224000,1.89,2.7",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5694974&framework=1&startday=2026-08-24T21%3A53%3A44&endday=2026-09-21T21%3A53%3A44&all_data=true&replicates=false"
+    }
+  ]
+}

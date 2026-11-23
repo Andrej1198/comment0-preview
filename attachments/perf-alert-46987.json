@@ -1,0 +1,203 @@
+{
+  "alert_summary": 46987,
+  "alert_summary_url": "https://treeherder.mozilla.org/perfherder/alerts?id=46987",
+  "framework": "awsy",
+  "framework_id": 4,
+  "repository": "autoland",
+  "push_time": "2025-09-30T11:40:41.000Z",
+  "revisions": {
+    "before": "efd742471cdab2e77eb79fd745c53176c3c4e7cb",
+    "after": "90a55b14824b4a4856737989385a889ec0bb4902"
+  },
+  "pushlog_url": "https://hg.mozilla.org/integration/autoland/pushloghtml?changeset=90a55b14824b4a4856737989385a889ec0bb4902",
+  "perfcompare_url": "https://perf.compare/compare-results?baseRev=efd742471cdab2e77eb79fd745c53176c3c4e7cb&baseRepo=autoland&newRev=90a55b14824b4a4856737989385a889ec0bb4902&newRepo=autoland&framework=4&sort=delta|desc",
+  "commands": {
+    "try": "./mach try perf --alert 46987",
+    "local": "./mach perftest 46987"
+  },
+  "commits": [
+    {
+      "revision": "90a55b14824b4a4856737989385a889ec0bb4902",
+      "author": "Tooru Fujisawa <arai_a@mac.com>",
+      "title": "Bug 1991081 - Part 7: Rewrite EncodeBytecodeAndSave with LoadedScript. r=nbp",
+      "bug": 1991081,
+      "phabricator_url": "https://phabricator.services.mozilla.com/D266617",
+      "diff_url": "https://hg.mozilla.org/integration/autoland/rev/90a55b14824b4a4856737989385a889ec0bb4902",
+      "raw_diff_url": "https://hg.mozilla.org/integration/autoland/raw-rev/90a55b14824b4a4856737989385a889ec0bb4902"
+    },
+    {
+      "revision": "2d590e05d3ae7026200ab4b9e4eb1e73f04e804e",
+      "author": "Tooru Fujisawa <arai_a@mac.com>",
+      "title": "Bug 1991081 - Part 6: Remove testing-only events from EncodeBytecodeAndSave. r=nbp",
+      "bug": 1991081,
+      "phabricator_url": "https://phabricator.services.mozilla.com/D266616",
+      "diff_url": "https://hg.mozilla.org/integration/autoland/rev/2d590e05d3ae7026200ab4b9e4eb1e73f04e804e",
+      "raw_diff_url": "https://hg.mozilla.org/integration/autoland/raw-rev/2d590e05d3ae7026200ab4b9e4eb1e73f04e804e"
+    },
+    {
+      "revision": "facad1d51fd11cd3201edcc77e52917c46525cae",
+      "author": "Tooru Fujisawa <arai_a@mac.com>",
+      "title": "Bug 1991081 - Part 5: Use single field for SRI and optional bytecode, for bytecode case and for cached stencil case. r=nbp",
+      "bug": 1991081,
+      "phabricator_url": "https://phabricator.services.mozilla.com/D266615",
+      "diff_url": "https://hg.mozilla.org/integration/autoland/rev/facad1d51fd11cd3201edcc77e52917c46525cae",
+      "raw_diff_url": "https://hg.mozilla.org/integration/autoland/raw-rev/facad1d51fd11cd3201edcc77e52917c46525cae"
+    },
+    {
+      "revision": "f879e1cee796dd90e09c8256a19aaa5a3a5004ac",
+      "author": "Tooru Fujisawa <arai_a@mac.com>",
+      "title": "Bug 1991081 - Part 4: Use LoadedScript for logging in EncodeBytecodeAndSave. r=nbp",
+      "bug": 1991081,
+      "phabricator_url": "https://phabricator.services.mozilla.com/D266614",
+      "diff_url": "https://hg.mozilla.org/integration/autoland/rev/f879e1cee796dd90e09c8256a19aaa5a3a5004ac",
+      "raw_diff_url": "https://hg.mozilla.org/integration/autoland/raw-rev/f879e1cee796dd90e09c8256a19aaa5a3a5004ac"
+    },
+    {
+      "revision": "af97c3e3f7f99ed4f7e16f24cd63f0335d929607",
+      "author": "Tooru Fujisawa <arai_a@mac.com>",
+      "title": "Bug 1991081 - Part 3: Store nsICacheInfoChannel to LoadedScript also in text and bytecode variants. r=nbp",
+      "bug": 1991081,
+      "phabricator_url": "https://phabricator.services.mozilla.com/D266613",
+      "diff_url": "https://hg.mozilla.org/integration/autoland/rev/af97c3e3f7f99ed4f7e16f24cd63f0335d929607",
+      "raw_diff_url": "https://hg.mozilla.org/integration/autoland/raw-rev/af97c3e3f7f99ed4f7e16f24cd63f0335d929607"
+    },
+    {
+      "revision": "a14057a13f9f69dd844cb2ab4c1d819ed5afa5dd",
+      "author": "Tooru Fujisawa <arai_a@mac.com>",
+      "title": "Bug 1991081 - Part 2: Store stencil to LoadedScript also in text and bytecode variants. r=nbp",
+      "bug": 1991081,
+      "phabricator_url": "https://phabricator.services.mozilla.com/D266612",
+      "diff_url": "https://hg.mozilla.org/integration/autoland/rev/a14057a13f9f69dd844cb2ab4c1d819ed5afa5dd",
+      "raw_diff_url": "https://hg.mozilla.org/integration/autoland/raw-rev/a14057a13f9f69dd844cb2ab4c1d819ed5afa5dd"
+    },
+    {
+      "revision": "487734378df5e90beddb0366171be10abf030df3",
+      "author": "Tooru Fujisawa <arai_a@mac.com>",
+      "title": "Bug 1991081 - Part 1: Rename Stencil variant to CachedStencil in LoadedScript. r=nbp",
+      "bug": 1991081,
+      "phabricator_url": "https://phabricator.services.mozilla.com/D266610",
+      "diff_url": "https://hg.mozilla.org/integration/autoland/rev/487734378df5e90beddb0366171be10abf030df3",
+      "raw_diff_url": "https://hg.mozilla.org/integration/autoland/raw-rev/487734378df5e90beddb0366171be10abf030df3"
+    }
+  ],
+  "regression_count": 4,
+  "improvement_count": 0,
+  "alerts": [
+    {
+      "alert_id": 213833,
+      "signature_id": 5216113,
+      "test": "Heap Unclassified",
+      "subtest": null,
+      "platform": "windows11-64-24h2-shippable",
+      "options": [
+        "fission",
+        "tp6"
+      ],
+      "unit": "bytes",
+      "lower_is_better": true,
+      "is_regression": true,
+      "before": 102707888.16,
+      "after": 135311118.82,
+      "change_pct": 31.74,
+      "change_abs": 32603230.66,
+      "tasks": {
+        "before": null,
+        "after": null
+      },
+      "profile_urls": {
+        "before": null,
+        "after": null
+      },
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/awsy.html#heap-unclassified",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=31536000&series=autoland,5216113,1,4&zoom=1758973241000,1759491641000,37501426.84,200517580.14",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5216113&framework=4&startday=2025-09-16T11%3A40%3A41&endday=2025-10-14T11%3A40%3A41&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 213834,
+      "signature_id": 5141340,
+      "test": "Heap Unclassified",
+      "subtest": null,
+      "platform": "macosx1470-64-shippable",
+      "options": [
+        "fission",
+        "tp6"
+      ],
+      "unit": "bytes",
+      "lower_is_better": true,
+      "is_regression": true,
+      "before": 150955260.17,
+      "after": 187479934.28,
+      "change_pct": 24.2,
+      "change_abs": 36524674.11,
+      "tasks": {
+        "before": null,
+        "after": null
+      },
+      "profile_urls": {
+        "before": null,
+        "after": null
+      },
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/awsy.html#heap-unclassified",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=31536000&series=autoland,5141340,1,4&zoom=1758973241000,1759491641000,77905911.95,260529282.5",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5141340&framework=4&startday=2025-09-16T11%3A40%3A41&endday=2025-10-14T11%3A40%3A41&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 213831,
+      "signature_id": 5216103,
+      "test": "Explicit Memory",
+      "subtest": null,
+      "platform": "windows11-64-24h2-shippable",
+      "options": [
+        "fission",
+        "tp6"
+      ],
+      "unit": "bytes",
+      "lower_is_better": true,
+      "is_regression": true,
+      "before": 514178727.29,
+      "after": 538646198.82,
+      "change_pct": 4.76,
+      "change_abs": 24467471.53,
+      "tasks": {
+        "before": null,
+        "after": null
+      },
+      "profile_urls": {
+        "before": null,
+        "after": null
+      },
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/awsy.html#explicit-memory",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=31536000&series=autoland,5216103,1,4&zoom=1758973241000,1759491641000,433381797.47,619443128.64",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5216103&framework=4&startday=2025-09-16T11%3A40%3A41&endday=2025-10-14T11%3A40%3A41&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 213832,
+      "signature_id": 5216093,
+      "test": "Resident Memory",
+      "subtest": null,
+      "platform": "windows11-64-24h2-shippable",
+      "options": [
+        "fission",
+        "tp6"
+      ],
+      "unit": "bytes",
+      "lower_is_better": true,
+      "is_regression": true,
+      "before": 898649023.76,
+      "after": 924591560.2,
+      "change_pct": 2.89,
+      "change_abs": 25942536.44,
+      "tasks": {
+        "before": null,
+        "after": null
+      },
+      "profile_urls": {
+        "before": null,
+        "after": null
+      },
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/awsy.html#resident-memory",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=31536000&series=autoland,5216093,1,4&zoom=1758973241000,1759491641000,759960289.73,1063280294.23",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5216093&framework=4&startday=2025-09-16T11%3A40%3A41&endday=2025-10-14T11%3A40%3A41&all_data=true&replicates=false"
+    }
+  ]
+}

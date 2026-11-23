@@ -1,0 +1,1742 @@
+{
+  "alert_summary": 52877,
+  "alert_summary_url": "https://treeherder.mozilla.org/perfherder/alerts?id=52877",
+  "framework": "browsertime",
+  "framework_id": 13,
+  "repository": "autoland",
+  "push_time": "2026-09-15T14:25:46.000Z",
+  "revisions": {
+    "before": "29d53b9c161974cd333e922f61517b62678a3075",
+    "after": "99f6d3d31f06398a27316c5978c760bcf7b4655f"
+  },
+  "pushlog_url": "https://hg.mozilla.org/integration/autoland/pushloghtml?changeset=99f6d3d31f06398a27316c5978c760bcf7b4655f",
+  "perfcompare_url": "https://perf.compare/compare-results?baseRev=29d53b9c161974cd333e922f61517b62678a3075&baseRepo=autoland&newRev=99f6d3d31f06398a27316c5978c760bcf7b4655f&newRepo=autoland&framework=13&sort=delta|desc",
+  "commands": {
+    "try": "./mach try perf --alert 52877",
+    "local": "./mach perftest 52877"
+  },
+  "commits": [
+    {
+      "revision": "99f6d3d31f06398a27316c5978c760bcf7b4655f",
+      "author": "Updatebot <updatebot@mozilla.com>",
+      "title": "Bug 2072102 - Update android nightly application-services version bump to 7d1409f97df2c904b19374ce18b58580b62b516d r=release-managers,diannaS",
+      "bug": 2072102,
+      "phabricator_url": "https://phabricator.services.mozilla.com/D326073",
+      "diff_url": "https://hg.mozilla.org/integration/autoland/rev/99f6d3d31f06398a27316c5978c760bcf7b4655f",
+      "raw_diff_url": "https://hg.mozilla.org/integration/autoland/raw-rev/99f6d3d31f06398a27316c5978c760bcf7b4655f"
+    },
+    {
+      "revision": "1339e591bd8bce875380ff1c3e4e3c6d4f3e3818",
+      "author": "Ben Dean-Kawamura <bdk@mozilla.com>",
+      "title": "Bug 2071389 - Fix MozAdsEnvironment names, r=mconley",
+      "bug": 2071389,
+      "phabricator_url": "https://phabricator.services.mozilla.com/D325461",
+      "diff_url": "https://hg.mozilla.org/integration/autoland/rev/1339e591bd8bce875380ff1c3e4e3c6d4f3e3818",
+      "raw_diff_url": "https://hg.mozilla.org/integration/autoland/raw-rev/1339e591bd8bce875380ff1c3e4e3c6d4f3e3818"
+    },
+    {
+      "revision": "c91475ad961875027ea69267d69dc0754905d752",
+      "author": "Ben Dean-Kawamura <bdk@mozilla.com>",
+      "title": "Bug 2068665 - Run mach uniffi generate, r=janerik",
+      "bug": 2068665,
+      "phabricator_url": "https://phabricator.services.mozilla.com/D323087",
+      "diff_url": "https://hg.mozilla.org/integration/autoland/rev/c91475ad961875027ea69267d69dc0754905d752",
+      "raw_diff_url": "https://hg.mozilla.org/integration/autoland/raw-rev/c91475ad961875027ea69267d69dc0754905d752"
+    },
+    {
+      "revision": "ba14d769cfc60b5b2181b240d3c198ca60ff9b5b",
+      "author": "Ben Dean-Kawamura <bdk@mozilla.com>",
+      "title": "Bug 2068659 - Build hack for toml 0.9.x -> 1.1.5, r=janerik,ahochheiden,supply-chain-reviewers",
+      "bug": 2068659,
+      "phabricator_url": "https://phabricator.services.mozilla.com/D322603",
+      "diff_url": "https://hg.mozilla.org/integration/autoland/rev/ba14d769cfc60b5b2181b240d3c198ca60ff9b5b",
+      "raw_diff_url": "https://hg.mozilla.org/integration/autoland/raw-rev/ba14d769cfc60b5b2181b240d3c198ca60ff9b5b"
+    },
+    {
+      "revision": "4407f9d53117e5e7c73b2c659645b171f5ad83ee",
+      "author": "Ben Dean-Kawamura <bdk@mozilla.com>",
+      "title": "Bug 2068654 - Make uniffi-bindgen-gecko-js work with uniffi 0.32, r=janerik",
+      "bug": 2068654,
+      "phabricator_url": "https://phabricator.services.mozilla.com/D322602",
+      "diff_url": "https://hg.mozilla.org/integration/autoland/rev/4407f9d53117e5e7c73b2c659645b171f5ad83ee",
+      "raw_diff_url": "https://hg.mozilla.org/integration/autoland/raw-rev/4407f9d53117e5e7c73b2c659645b171f5ad83ee"
+    },
+    {
+      "revision": "cd446226a36425d6706f9f1c6e1c7e76b5f95729",
+      "author": "Ben Dean-Kawamura <bdk@mozilla.com>",
+      "title": "Bug 2068665 - Update app-services to get UniFFI 0.32, r=places-reviewers,adw",
+      "bug": 2068665,
+      "phabricator_url": "https://phabricator.services.mozilla.com/D322600",
+      "diff_url": "https://hg.mozilla.org/integration/autoland/rev/cd446226a36425d6706f9f1c6e1c7e76b5f95729",
+      "raw_diff_url": "https://hg.mozilla.org/integration/autoland/raw-rev/cd446226a36425d6706f9f1c6e1c7e76b5f95729"
+    },
+    {
+      "revision": "d23a5522922883518082590aca19876124d75176",
+      "author": "Jan-Erik Rediger <jrediger@mozilla.com>",
+      "title": "Bug 2047566 - Link sqlite from mozsqlite3 or nss r=chutten,ahochheiden,crashreporting-reviewers",
+      "bug": 2047566,
+      "phabricator_url": "https://phabricator.services.mozilla.com/D319439",
+      "diff_url": "https://hg.mozilla.org/integration/autoland/rev/d23a5522922883518082590aca19876124d75176",
+      "raw_diff_url": "https://hg.mozilla.org/integration/autoland/raw-rev/d23a5522922883518082590aca19876124d75176"
+    },
+    {
+      "revision": "0aefabcf7c0910db550d78f1acec9278bf39ee3e",
+      "author": "Jan-Erik Rediger <jrediger@mozilla.com>",
+      "title": "Bug 2047566 - Adjust Glean API usage to the updated API r=chutten,mconley",
+      "bug": 2047566,
+      "phabricator_url": "https://phabricator.services.mozilla.com/D319438",
+      "diff_url": "https://hg.mozilla.org/integration/autoland/rev/0aefabcf7c0910db550d78f1acec9278bf39ee3e",
+      "raw_diff_url": "https://hg.mozilla.org/integration/autoland/raw-rev/0aefabcf7c0910db550d78f1acec9278bf39ee3e"
+    },
+    {
+      "revision": "97bfee097710feea88993d78be4b246c3dba12f5",
+      "author": "Jan-Erik Rediger <jrediger@mozilla.com>",
+      "title": "Bug 2047566 - Update to Glean v70.0.0 r=chutten,supply-chain-reviewers,mach-reviewers,ahochheiden",
+      "bug": 2047566,
+      "phabricator_url": "https://phabricator.services.mozilla.com/D319437",
+      "diff_url": "https://hg.mozilla.org/integration/autoland/rev/97bfee097710feea88993d78be4b246c3dba12f5",
+      "raw_diff_url": "https://hg.mozilla.org/integration/autoland/raw-rev/97bfee097710feea88993d78be4b246c3dba12f5"
+    }
+  ],
+  "regression_count": 27,
+  "improvement_count": 12,
+  "alerts": [
+    {
+      "alert_id": 259141,
+      "signature_id": 5691621,
+      "test": "reddit-billgates-ama.billg-ama",
+      "subtest": "ContentfulSpeedIndex",
+      "platform": "linux2404-64-shippable",
+      "options": [
+        "cold",
+        "fission",
+        "webrender"
+      ],
+      "unit": "ms",
+      "lower_is_better": true,
+      "is_regression": true,
+      "before": 696.79,
+      "after": 837.24,
+      "change_pct": 20.16,
+      "change_abs": 140.45,
+      "tasks": {
+        "before": {
+          "task_id": "NEp04pvdQhu_VbGnbt5uZQ",
+          "retry_id": 0,
+          "label": "test-linux2404-64-shippable/opt-browsertime-responsiveness-firefox-reddit-billgates-ama",
+          "revision": "29d53b9c161974cd333e922f61517b62678a3075",
+          "is_alert_push": true
+        },
+        "after": {
+          "task_id": "GfwIC01yTTehmJW1aDS90Q",
+          "retry_id": 0,
+          "label": "test-linux2404-64-shippable/opt-browsertime-responsiveness-firefox-reddit-billgates-ama",
+          "revision": "99f6d3d31f06398a27316c5978c760bcf7b4655f",
+          "is_alert_push": true
+        }
+      },
+      "profile_urls": {
+        "before": null,
+        "after": null
+      },
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/raptor.html#reddit-billgates-ama-i",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5691621,1,13&zoom=1789223146000,1789741546000,415.89,1118.14",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5691621&framework=13&startday=2026-09-01T14%3A25%3A46&endday=2026-09-29T14%3A25%3A46&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 259208,
+      "signature_id": 5691625,
+      "test": "reddit-billgates-ama.billg-ama",
+      "subtest": "SpeedIndex",
+      "platform": "linux2404-64-shippable",
+      "options": [
+        "cold",
+        "fission",
+        "webrender"
+      ],
+      "unit": "ms",
+      "lower_is_better": true,
+      "is_regression": true,
+      "before": 1201.54,
+      "after": 1322.23,
+      "change_pct": 10.04,
+      "change_abs": 120.69,
+      "tasks": {
+        "before": {
+          "task_id": "NEp04pvdQhu_VbGnbt5uZQ",
+          "retry_id": 0,
+          "label": "test-linux2404-64-shippable/opt-browsertime-responsiveness-firefox-reddit-billgates-ama",
+          "revision": "29d53b9c161974cd333e922f61517b62678a3075",
+          "is_alert_push": true
+        },
+        "after": {
+          "task_id": "GfwIC01yTTehmJW1aDS90Q",
+          "retry_id": 0,
+          "label": "test-linux2404-64-shippable/opt-browsertime-responsiveness-firefox-reddit-billgates-ama",
+          "revision": "99f6d3d31f06398a27316c5978c760bcf7b4655f",
+          "is_alert_push": true
+        }
+      },
+      "profile_urls": {
+        "before": null,
+        "after": null
+      },
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/raptor.html#reddit-billgates-ama-i",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5691625,1,13&zoom=1789223146000,1789741546000,960.16,1563.61",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5691625&framework=13&startday=2026-09-01T14%3A25%3A46&endday=2026-09-29T14%3A25%3A46&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 259107,
+      "signature_id": 5257779,
+      "test": "reddit-billgates-ama.billg-ama",
+      "subtest": "ContentfulSpeedIndex",
+      "platform": "windows11-64-24h2-shippable",
+      "options": [
+        "cold",
+        "fission",
+        "webrender"
+      ],
+      "unit": "ms",
+      "lower_is_better": true,
+      "is_regression": true,
+      "before": 749.06,
+      "after": 817.61,
+      "change_pct": 9.15,
+      "change_abs": 68.55,
+      "tasks": {
+        "before": {
+          "task_id": "Atj3fQyQQL2xQDK3-TOXag",
+          "retry_id": 0,
+          "label": "test-windows11-64-24h2-shippable/opt-browsertime-responsiveness-firefox-reddit-billgates-ama",
+          "revision": "29d53b9c161974cd333e922f61517b62678a3075",
+          "is_alert_push": true
+        },
+        "after": {
+          "task_id": "BwnUffXZRpq1DX0bfmf1ug",
+          "retry_id": 0,
+          "label": "test-windows11-64-24h2-shippable/opt-browsertime-responsiveness-firefox-reddit-billgates-ama",
+          "revision": "99f6d3d31f06398a27316c5978c760bcf7b4655f",
+          "is_alert_push": true
+        }
+      },
+      "profile_urls": {
+        "before": null,
+        "after": null
+      },
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/raptor.html#reddit-billgates-ama-i",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5257779,1,13&zoom=1789223146000,1789741546000,611.96,954.71",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5257779&framework=13&startday=2026-09-01T14%3A25%3A46&endday=2026-09-29T14%3A25%3A46&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 259699,
+      "signature_id": 5260799,
+      "test": "instagram",
+      "subtest": "LastVisualChange",
+      "platform": "windows11-64-24h2-shippable",
+      "options": [
+        "bytecode-cached",
+        "cold",
+        "fission",
+        "webrender"
+      ],
+      "unit": "ms",
+      "lower_is_better": true,
+      "is_regression": true,
+      "before": 1003.86,
+      "after": 1070.23,
+      "change_pct": 6.61,
+      "change_abs": 66.36,
+      "tasks": {
+        "before": {
+          "task_id": "WtR8x_-tSpCCkZBQAI4ezQ",
+          "retry_id": 0,
+          "label": "test-windows11-64-24h2-shippable/opt-browsertime-tp6-bytecode-firefox-instagram",
+          "revision": "29d53b9c161974cd333e922f61517b62678a3075",
+          "is_alert_push": true
+        },
+        "after": {
+          "task_id": "VrYvmvFZTcqg20lBAwz6vQ",
+          "retry_id": 0,
+          "label": "test-windows11-64-24h2-shippable/opt-browsertime-tp6-bytecode-firefox-instagram",
+          "revision": "99f6d3d31f06398a27316c5978c760bcf7b4655f",
+          "is_alert_push": true
+        }
+      },
+      "profile_urls": {
+        "before": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/WtR8x_-tSpCCkZBQAI4ezQ/runs/0/artifacts/public/test_info/profile_instagram.zip",
+        "after": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/VrYvmvFZTcqg20lBAwz6vQ/runs/0/artifacts/public/test_info/profile_instagram.zip"
+      },
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/raptor.html#instagram-d",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5260799,1,13&zoom=1789223146000,1789741546000,843.33,1230.76",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5260799&framework=13&startday=2026-09-01T14%3A25%3A46&endday=2026-09-29T14%3A25%3A46&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 259739,
+      "signature_id": 5691177,
+      "test": "outlook",
+      "subtest": "PerceptualSpeedIndex",
+      "platform": "linux2404-64-shippable",
+      "options": [
+        "cold",
+        "fission",
+        "webrender"
+      ],
+      "unit": "ms",
+      "lower_is_better": true,
+      "is_regression": true,
+      "before": 294.91,
+      "after": 312.85,
+      "change_pct": 6.09,
+      "change_abs": 17.95,
+      "tasks": {
+        "before": {
+          "task_id": "ILKJzJg8SoeNVI1mzCcCyw",
+          "retry_id": 0,
+          "label": "test-linux2404-64-shippable/opt-browsertime-tp6-firefox-outlook",
+          "revision": "29d53b9c161974cd333e922f61517b62678a3075",
+          "is_alert_push": true
+        },
+        "after": {
+          "task_id": "D6z_CmHZTHK5AGwCTWJAIQ",
+          "retry_id": 0,
+          "label": "test-linux2404-64-shippable/opt-browsertime-tp6-firefox-outlook",
+          "revision": "99f6d3d31f06398a27316c5978c760bcf7b4655f",
+          "is_alert_push": true
+        }
+      },
+      "profile_urls": {
+        "before": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/ILKJzJg8SoeNVI1mzCcCyw/runs/0/artifacts/public/test_info/profile_outlook.zip",
+        "after": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/D6z_CmHZTHK5AGwCTWJAIQ/runs/0/artifacts/public/test_info/profile_outlook.zip"
+      },
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/raptor.html#outlook-d",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5691177,1,13&zoom=1789223146000,1789741546000,247.98,359.78",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5691177&framework=13&startday=2026-09-01T14%3A25%3A46&endday=2026-09-29T14%3A25%3A46&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 259700,
+      "signature_id": 5260800,
+      "test": "instagram",
+      "subtest": "PerceptualSpeedIndex",
+      "platform": "windows11-64-24h2-shippable",
+      "options": [
+        "bytecode-cached",
+        "cold",
+        "fission",
+        "webrender"
+      ],
+      "unit": "ms",
+      "lower_is_better": true,
+      "is_regression": true,
+      "before": 450.8,
+      "after": 472.28,
+      "change_pct": 4.76,
+      "change_abs": 21.48,
+      "tasks": {
+        "before": {
+          "task_id": "WtR8x_-tSpCCkZBQAI4ezQ",
+          "retry_id": 0,
+          "label": "test-windows11-64-24h2-shippable/opt-browsertime-tp6-bytecode-firefox-instagram",
+          "revision": "29d53b9c161974cd333e922f61517b62678a3075",
+          "is_alert_push": true
+        },
+        "after": {
+          "task_id": "VrYvmvFZTcqg20lBAwz6vQ",
+          "retry_id": 0,
+          "label": "test-windows11-64-24h2-shippable/opt-browsertime-tp6-bytecode-firefox-instagram",
+          "revision": "99f6d3d31f06398a27316c5978c760bcf7b4655f",
+          "is_alert_push": true
+        }
+      },
+      "profile_urls": {
+        "before": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/WtR8x_-tSpCCkZBQAI4ezQ/runs/0/artifacts/public/test_info/profile_instagram.zip",
+        "after": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/VrYvmvFZTcqg20lBAwz6vQ/runs/0/artifacts/public/test_info/profile_instagram.zip"
+      },
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/raptor.html#instagram-d",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5260800,1,13&zoom=1789223146000,1789741546000,379.96,543.12",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5260800&framework=13&startday=2026-09-01T14%3A25%3A46&endday=2026-09-29T14%3A25%3A46&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 259701,
+      "signature_id": 5260801,
+      "test": "instagram",
+      "subtest": "SpeedIndex",
+      "platform": "windows11-64-24h2-shippable",
+      "options": [
+        "bytecode-cached",
+        "cold",
+        "fission",
+        "webrender"
+      ],
+      "unit": "ms",
+      "lower_is_better": true,
+      "is_regression": true,
+      "before": 723.48,
+      "after": 755.52,
+      "change_pct": 4.43,
+      "change_abs": 32.04,
+      "tasks": {
+        "before": {
+          "task_id": "WtR8x_-tSpCCkZBQAI4ezQ",
+          "retry_id": 0,
+          "label": "test-windows11-64-24h2-shippable/opt-browsertime-tp6-bytecode-firefox-instagram",
+          "revision": "29d53b9c161974cd333e922f61517b62678a3075",
+          "is_alert_push": true
+        },
+        "after": {
+          "task_id": "VrYvmvFZTcqg20lBAwz6vQ",
+          "retry_id": 0,
+          "label": "test-windows11-64-24h2-shippable/opt-browsertime-tp6-bytecode-firefox-instagram",
+          "revision": "99f6d3d31f06398a27316c5978c760bcf7b4655f",
+          "is_alert_push": true
+        }
+      },
+      "profile_urls": {
+        "before": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/WtR8x_-tSpCCkZBQAI4ezQ/runs/0/artifacts/public/test_info/profile_instagram.zip",
+        "after": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/VrYvmvFZTcqg20lBAwz6vQ/runs/0/artifacts/public/test_info/profile_instagram.zip"
+      },
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/raptor.html#instagram-d",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5260801,1,13&zoom=1789223146000,1789741546000,610.15,868.85",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5260801&framework=13&startday=2026-09-01T14%3A25%3A46&endday=2026-09-29T14%3A25%3A46&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 259218,
+      "signature_id": 5692071,
+      "test": "nytimes",
+      "subtest": "LastVisualChange",
+      "platform": "linux2404-64-shippable",
+      "options": [
+        "cold",
+        "fission",
+        "webrender"
+      ],
+      "unit": "ms",
+      "lower_is_better": true,
+      "is_regression": true,
+      "before": 1307.41,
+      "after": 1360.31,
+      "change_pct": 4.05,
+      "change_abs": 52.9,
+      "tasks": {
+        "before": {
+          "task_id": "YxltgE7JT8Wwr35HC-7-zA",
+          "retry_id": 0,
+          "label": "test-linux2404-64-shippable/opt-browsertime-tp6-firefox-nytimes",
+          "revision": "29d53b9c161974cd333e922f61517b62678a3075",
+          "is_alert_push": true
+        },
+        "after": {
+          "task_id": "GJwdXtRUS_aa6UKfmJQjgw",
+          "retry_id": 0,
+          "label": "test-linux2404-64-shippable/opt-browsertime-tp6-firefox-nytimes",
+          "revision": "99f6d3d31f06398a27316c5978c760bcf7b4655f",
+          "is_alert_push": true
+        }
+      },
+      "profile_urls": {
+        "before": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/YxltgE7JT8Wwr35HC-7-zA/runs/0/artifacts/public/test_info/profile_nytimes.zip",
+        "after": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/GJwdXtRUS_aa6UKfmJQjgw/runs/0/artifacts/public/test_info/profile_nytimes.zip"
+      },
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/raptor.html#nytimes-d",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5692071,1,13&zoom=1789223146000,1789741546000,1103.36,1564.36",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5692071&framework=13&startday=2026-09-01T14%3A25%3A46&endday=2026-09-29T14%3A25%3A46&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 259210,
+      "signature_id": 5692077,
+      "test": "nytimes",
+      "subtest": "largestContentfulPaint",
+      "platform": "linux2404-64-shippable",
+      "options": [
+        "cold",
+        "fission",
+        "webrender"
+      ],
+      "unit": "ms",
+      "lower_is_better": true,
+      "is_regression": true,
+      "before": 886.82,
+      "after": 919.82,
+      "change_pct": 3.72,
+      "change_abs": 32.99,
+      "tasks": {
+        "before": {
+          "task_id": "YxltgE7JT8Wwr35HC-7-zA",
+          "retry_id": 0,
+          "label": "test-linux2404-64-shippable/opt-browsertime-tp6-firefox-nytimes",
+          "revision": "29d53b9c161974cd333e922f61517b62678a3075",
+          "is_alert_push": true
+        },
+        "after": {
+          "task_id": "GJwdXtRUS_aa6UKfmJQjgw",
+          "retry_id": 0,
+          "label": "test-linux2404-64-shippable/opt-browsertime-tp6-firefox-nytimes",
+          "revision": "99f6d3d31f06398a27316c5978c760bcf7b4655f",
+          "is_alert_push": true
+        }
+      },
+      "profile_urls": {
+        "before": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/YxltgE7JT8Wwr35HC-7-zA/runs/0/artifacts/public/test_info/profile_nytimes.zip",
+        "after": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/GJwdXtRUS_aa6UKfmJQjgw/runs/0/artifacts/public/test_info/profile_nytimes.zip"
+      },
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/raptor.html#nytimes-d",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5692077,1,13&zoom=1789223146000,1789741546000,748.85,1057.79",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5692077&framework=13&startday=2026-09-01T14%3A25%3A46&endday=2026-09-29T14%3A25%3A46&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 259127,
+      "signature_id": 5692738,
+      "test": "instagram",
+      "subtest": "ContentfulSpeedIndex",
+      "platform": "linux2404-64-shippable",
+      "options": [
+        "bytecode-cached",
+        "cold",
+        "fission",
+        "webrender"
+      ],
+      "unit": "ms",
+      "lower_is_better": true,
+      "is_regression": true,
+      "before": 491.29,
+      "after": 507.2,
+      "change_pct": 3.24,
+      "change_abs": 15.91,
+      "tasks": {
+        "before": {
+          "task_id": "fEvIgMh8TfKrgh66PxmJWw",
+          "retry_id": 0,
+          "label": "test-linux2404-64-shippable/opt-browsertime-tp6-bytecode-firefox-instagram",
+          "revision": "29d53b9c161974cd333e922f61517b62678a3075",
+          "is_alert_push": true
+        },
+        "after": {
+          "task_id": "ct01wTTjQOu3ZPnQeSaN9A",
+          "retry_id": 0,
+          "label": "test-linux2404-64-shippable/opt-browsertime-tp6-bytecode-firefox-instagram",
+          "revision": "99f6d3d31f06398a27316c5978c760bcf7b4655f",
+          "is_alert_push": true
+        }
+      },
+      "profile_urls": {
+        "before": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/fEvIgMh8TfKrgh66PxmJWw/runs/0/artifacts/public/test_info/profile_instagram.zip",
+        "after": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/ct01wTTjQOu3ZPnQeSaN9A/runs/0/artifacts/public/test_info/profile_instagram.zip"
+      },
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/raptor.html#instagram-d",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5692738,1,13&zoom=1789223146000,1789741546000,415.21,583.28",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5692738&framework=13&startday=2026-09-01T14%3A25%3A46&endday=2026-09-29T14%3A25%3A46&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 259056,
+      "signature_id": 5692323,
+      "test": "youtube",
+      "subtest": "FirstVisualChange",
+      "platform": "linux2404-64-shippable",
+      "options": [
+        "cold",
+        "fission",
+        "webrender"
+      ],
+      "unit": "ms",
+      "lower_is_better": true,
+      "is_regression": true,
+      "before": 260.58,
+      "after": 268.35,
+      "change_pct": 2.98,
+      "change_abs": 7.77,
+      "tasks": {
+        "before": {
+          "task_id": "Slg4Q4vfRlW_kF3-ETDkMQ",
+          "retry_id": 0,
+          "label": "test-linux2404-64-shippable/opt-browsertime-tp6-firefox-youtube",
+          "revision": "29d53b9c161974cd333e922f61517b62678a3075",
+          "is_alert_push": true
+        },
+        "after": {
+          "task_id": "P9hUnVhSSdCUIC3iwm3yBA",
+          "retry_id": 0,
+          "label": "test-linux2404-64-shippable/opt-browsertime-tp6-firefox-youtube",
+          "revision": "99f6d3d31f06398a27316c5978c760bcf7b4655f",
+          "is_alert_push": true
+        }
+      },
+      "profile_urls": {
+        "before": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/Slg4Q4vfRlW_kF3-ETDkMQ/runs/0/artifacts/public/test_info/profile_youtube.zip",
+        "after": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/P9hUnVhSSdCUIC3iwm3yBA/runs/0/artifacts/public/test_info/profile_youtube.zip"
+      },
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/raptor.html#youtube-d",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5692323,1,13&zoom=1789223146000,1789741546000,220.33,308.6",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5692323&framework=13&startday=2026-09-01T14%3A25%3A46&endday=2026-09-29T14%3A25%3A46&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 259715,
+      "signature_id": 5695351,
+      "test": "twitter",
+      "subtest": "LastVisualChange",
+      "platform": "linux2404-64-shippable",
+      "options": [
+        "bytecode-cached",
+        "cold",
+        "fission",
+        "webrender"
+      ],
+      "unit": "ms",
+      "lower_is_better": true,
+      "is_regression": true,
+      "before": 1065.28,
+      "after": 1096.92,
+      "change_pct": 2.97,
+      "change_abs": 31.64,
+      "tasks": {
+        "before": {
+          "task_id": "XYAGFvjlRFus1Z5QURVnBw",
+          "retry_id": 0,
+          "label": "test-linux2404-64-shippable/opt-browsertime-tp6-bytecode-firefox-twitter",
+          "revision": "29d53b9c161974cd333e922f61517b62678a3075",
+          "is_alert_push": true
+        },
+        "after": {
+          "task_id": "cBsvyMSzQXCmg1F9v4I7Wg",
+          "retry_id": 0,
+          "label": "test-linux2404-64-shippable/opt-browsertime-tp6-bytecode-firefox-twitter",
+          "revision": "99f6d3d31f06398a27316c5978c760bcf7b4655f",
+          "is_alert_push": true
+        }
+      },
+      "profile_urls": {
+        "before": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/NVHpYSisRiWjtXMSn0WJCw/runs/0/artifacts/public/test_info/profile_twitter.zip",
+        "after": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/eX9W6AmATeSZT_i0vsa51A/runs/0/artifacts/public/test_info/profile_twitter.zip"
+      },
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/raptor.html#twitter-d",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5695351,1,13&zoom=1789223146000,1789741546000,900.74,1261.46",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5695351&framework=13&startday=2026-09-01T14%3A25%3A46&endday=2026-09-29T14%3A25%3A46&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 259121,
+      "signature_id": 5692088,
+      "test": "nytimes",
+      "subtest": "loadtime",
+      "platform": "linux2404-64-shippable",
+      "options": [
+        "fission",
+        "warm",
+        "webrender"
+      ],
+      "unit": "ms",
+      "lower_is_better": true,
+      "is_regression": true,
+      "before": 774.74,
+      "after": 792.92,
+      "change_pct": 2.35,
+      "change_abs": 18.19,
+      "tasks": {
+        "before": {
+          "task_id": "YxltgE7JT8Wwr35HC-7-zA",
+          "retry_id": 0,
+          "label": "test-linux2404-64-shippable/opt-browsertime-tp6-firefox-nytimes",
+          "revision": "29d53b9c161974cd333e922f61517b62678a3075",
+          "is_alert_push": true
+        },
+        "after": {
+          "task_id": "GJwdXtRUS_aa6UKfmJQjgw",
+          "retry_id": 0,
+          "label": "test-linux2404-64-shippable/opt-browsertime-tp6-firefox-nytimes",
+          "revision": "99f6d3d31f06398a27316c5978c760bcf7b4655f",
+          "is_alert_push": true
+        }
+      },
+      "profile_urls": {
+        "before": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/YxltgE7JT8Wwr35HC-7-zA/runs/0/artifacts/public/test_info/profile_nytimes.zip",
+        "after": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/GJwdXtRUS_aa6UKfmJQjgw/runs/0/artifacts/public/test_info/profile_nytimes.zip"
+      },
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/raptor.html#nytimes-d",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5692088,1,13&zoom=1789223146000,1789741546000,655.8,911.86",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5692088&framework=13&startday=2026-09-01T14%3A25%3A46&endday=2026-09-29T14%3A25%3A46&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 259740,
+      "signature_id": 5692742,
+      "test": "instagram",
+      "subtest": "SpeedIndex",
+      "platform": "linux2404-64-shippable",
+      "options": [
+        "bytecode-cached",
+        "cold",
+        "fission",
+        "webrender"
+      ],
+      "unit": "ms",
+      "lower_is_better": true,
+      "is_regression": true,
+      "before": 852.21,
+      "after": 870.23,
+      "change_pct": 2.11,
+      "change_abs": 18.01,
+      "tasks": {
+        "before": {
+          "task_id": "fEvIgMh8TfKrgh66PxmJWw",
+          "retry_id": 0,
+          "label": "test-linux2404-64-shippable/opt-browsertime-tp6-bytecode-firefox-instagram",
+          "revision": "29d53b9c161974cd333e922f61517b62678a3075",
+          "is_alert_push": true
+        },
+        "after": {
+          "task_id": "ct01wTTjQOu3ZPnQeSaN9A",
+          "retry_id": 0,
+          "label": "test-linux2404-64-shippable/opt-browsertime-tp6-bytecode-firefox-instagram",
+          "revision": "99f6d3d31f06398a27316c5978c760bcf7b4655f",
+          "is_alert_push": true
+        }
+      },
+      "profile_urls": {
+        "before": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/fEvIgMh8TfKrgh66PxmJWw/runs/0/artifacts/public/test_info/profile_instagram.zip",
+        "after": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/ct01wTTjQOu3ZPnQeSaN9A/runs/0/artifacts/public/test_info/profile_instagram.zip"
+      },
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/raptor.html#instagram-d",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5692742,1,13&zoom=1789223146000,1789741546000,721.68,1000.76",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5692742&framework=13&startday=2026-09-01T14%3A25%3A46&endday=2026-09-29T14%3A25%3A46&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 259125,
+      "signature_id": 5692740,
+      "test": "instagram",
+      "subtest": "LastVisualChange",
+      "platform": "linux2404-64-shippable",
+      "options": [
+        "bytecode-cached",
+        "cold",
+        "fission",
+        "webrender"
+      ],
+      "unit": "ms",
+      "lower_is_better": true,
+      "is_regression": true,
+      "before": 944.57,
+      "after": 963.86,
+      "change_pct": 2.04,
+      "change_abs": 19.29,
+      "tasks": {
+        "before": {
+          "task_id": "fEvIgMh8TfKrgh66PxmJWw",
+          "retry_id": 0,
+          "label": "test-linux2404-64-shippable/opt-browsertime-tp6-bytecode-firefox-instagram",
+          "revision": "29d53b9c161974cd333e922f61517b62678a3075",
+          "is_alert_push": true
+        },
+        "after": {
+          "task_id": "ct01wTTjQOu3ZPnQeSaN9A",
+          "retry_id": 0,
+          "label": "test-linux2404-64-shippable/opt-browsertime-tp6-bytecode-firefox-instagram",
+          "revision": "99f6d3d31f06398a27316c5978c760bcf7b4655f",
+          "is_alert_push": true
+        }
+      },
+      "profile_urls": {
+        "before": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/fEvIgMh8TfKrgh66PxmJWw/runs/0/artifacts/public/test_info/profile_instagram.zip",
+        "after": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/ct01wTTjQOu3ZPnQeSaN9A/runs/0/artifacts/public/test_info/profile_instagram.zip"
+      },
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/raptor.html#instagram-d",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5692740,1,13&zoom=1789223146000,1789741546000,799.99,1108.44",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5692740&framework=13&startday=2026-09-01T14%3A25%3A46&endday=2026-09-29T14%3A25%3A46&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 261824,
+      "signature_id": 5691057,
+      "test": "speedometer3",
+      "subtest": "TodoMVC-JavaScript-ES5/total",
+      "platform": "linux2404-64-shippable",
+      "options": [
+        "fission",
+        "webrender"
+      ],
+      "unit": "ms",
+      "lower_is_better": true,
+      "is_regression": true,
+      "before": 65.41,
+      "after": 66.67,
+      "change_pct": 1.93,
+      "change_abs": 1.26,
+      "tasks": {
+        "before": {
+          "task_id": "KudzMre9SJen5u9ExFoXJw",
+          "retry_id": 0,
+          "label": "test-linux2404-64-shippable/opt-browsertime-benchmark-firefox-speedometer3",
+          "revision": "29d53b9c161974cd333e922f61517b62678a3075",
+          "is_alert_push": true
+        },
+        "after": {
+          "task_id": "J6dQ38skQjOg4OMvyU_f8w",
+          "retry_id": 0,
+          "label": "test-linux2404-64-shippable/opt-browsertime-benchmark-firefox-speedometer3",
+          "revision": "99f6d3d31f06398a27316c5978c760bcf7b4655f",
+          "is_alert_push": true
+        }
+      },
+      "profile_urls": {
+        "before": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/fuNq-nmiRtijkIcFXCkgFw/runs/0/artifacts/public/test_info/profile_speedometer3.zip",
+        "after": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/TrW5GnZKQXKrFlEIZkJWcw/runs/0/artifacts/public/test_info/profile_speedometer3.zip"
+      },
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/raptor.html#speedometer3-b",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5691057,1,13&zoom=1789223146000,1789741546000,55.41,76.67",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5691057&framework=13&startday=2026-09-01T14%3A25%3A46&endday=2026-09-29T14%3A25%3A46&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 259923,
+      "signature_id": 5689937,
+      "test": "speedometer3",
+      "subtest": "TodoMVC-Svelte-Complex-DOM/total",
+      "platform": "linux2404-64-nightlyasrelease",
+      "options": [
+        "fission",
+        "webrender"
+      ],
+      "unit": "ms",
+      "lower_is_better": true,
+      "is_regression": true,
+      "before": 18.75,
+      "after": 19.07,
+      "change_pct": 1.72,
+      "change_abs": 0.32,
+      "tasks": {
+        "before": {
+          "task_id": "EhlhKxNqRam59HA6BWbfeA",
+          "retry_id": 0,
+          "label": "test-linux2404-64-nightlyasrelease/opt-browsertime-benchmark-firefox-speedometer3",
+          "revision": "29d53b9c161974cd333e922f61517b62678a3075",
+          "is_alert_push": true
+        },
+        "after": {
+          "task_id": "bWNyQiF0TjGsUgEvHTh8HA",
+          "retry_id": 0,
+          "label": "test-linux2404-64-nightlyasrelease/opt-browsertime-benchmark-firefox-speedometer3",
+          "revision": "99f6d3d31f06398a27316c5978c760bcf7b4655f",
+          "is_alert_push": true
+        }
+      },
+      "profile_urls": {
+        "before": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/EhlhKxNqRam59HA6BWbfeA/runs/0/artifacts/public/test_info/profile_speedometer3.zip",
+        "after": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/bWNyQiF0TjGsUgEvHTh8HA/runs/0/artifacts/public/test_info/profile_speedometer3.zip"
+      },
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/raptor.html#speedometer3-b",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5689937,1,13&zoom=1789223146000,1789741546000,15.89,21.93",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5689937&framework=13&startday=2026-09-01T14%3A25%3A46&endday=2026-09-29T14%3A25%3A46&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 260028,
+      "signature_id": 5689867,
+      "test": "speedometer3",
+      "subtest": "TodoMVC-Backbone/total",
+      "platform": "linux2404-64-nightlyasrelease",
+      "options": [
+        "fission",
+        "webrender"
+      ],
+      "unit": "ms",
+      "lower_is_better": true,
+      "is_regression": true,
+      "before": 53.19,
+      "after": 54.06,
+      "change_pct": 1.64,
+      "change_abs": 0.87,
+      "tasks": {
+        "before": {
+          "task_id": "EhlhKxNqRam59HA6BWbfeA",
+          "retry_id": 0,
+          "label": "test-linux2404-64-nightlyasrelease/opt-browsertime-benchmark-firefox-speedometer3",
+          "revision": "29d53b9c161974cd333e922f61517b62678a3075",
+          "is_alert_push": true
+        },
+        "after": {
+          "task_id": "bWNyQiF0TjGsUgEvHTh8HA",
+          "retry_id": 0,
+          "label": "test-linux2404-64-nightlyasrelease/opt-browsertime-benchmark-firefox-speedometer3",
+          "revision": "99f6d3d31f06398a27316c5978c760bcf7b4655f",
+          "is_alert_push": true
+        }
+      },
+      "profile_urls": {
+        "before": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/EhlhKxNqRam59HA6BWbfeA/runs/0/artifacts/public/test_info/profile_speedometer3.zip",
+        "after": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/bWNyQiF0TjGsUgEvHTh8HA/runs/0/artifacts/public/test_info/profile_speedometer3.zip"
+      },
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/raptor.html#speedometer3-b",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5689867,1,13&zoom=1789223146000,1789741546000,45.08,62.17",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5689867&framework=13&startday=2026-09-01T14%3A25%3A46&endday=2026-09-29T14%3A25%3A46&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 259933,
+      "signature_id": 5691007,
+      "test": "speedometer3",
+      "subtest": "NewsSite-Nuxt/total",
+      "platform": "linux2404-64-shippable",
+      "options": [
+        "fission",
+        "webrender"
+      ],
+      "unit": "ms",
+      "lower_is_better": true,
+      "is_regression": true,
+      "before": 149.53,
+      "after": 151.87,
+      "change_pct": 1.56,
+      "change_abs": 2.34,
+      "tasks": {
+        "before": {
+          "task_id": "KudzMre9SJen5u9ExFoXJw",
+          "retry_id": 0,
+          "label": "test-linux2404-64-shippable/opt-browsertime-benchmark-firefox-speedometer3",
+          "revision": "29d53b9c161974cd333e922f61517b62678a3075",
+          "is_alert_push": true
+        },
+        "after": {
+          "task_id": "J6dQ38skQjOg4OMvyU_f8w",
+          "retry_id": 0,
+          "label": "test-linux2404-64-shippable/opt-browsertime-benchmark-firefox-speedometer3",
+          "revision": "99f6d3d31f06398a27316c5978c760bcf7b4655f",
+          "is_alert_push": true
+        }
+      },
+      "profile_urls": {
+        "before": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/fuNq-nmiRtijkIcFXCkgFw/runs/0/artifacts/public/test_info/profile_speedometer3.zip",
+        "after": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/TrW5GnZKQXKrFlEIZkJWcw/runs/0/artifacts/public/test_info/profile_speedometer3.zip"
+      },
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/raptor.html#speedometer3-b",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5691007,1,13&zoom=1789223146000,1789741546000,126.75,174.65",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5691007&framework=13&startday=2026-09-01T14%3A25%3A46&endday=2026-09-29T14%3A25%3A46&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 259936,
+      "signature_id": 5691077,
+      "test": "speedometer3",
+      "subtest": "TodoMVC-Lit-Complex-DOM/total",
+      "platform": "linux2404-64-shippable",
+      "options": [
+        "fission",
+        "webrender"
+      ],
+      "unit": "ms",
+      "lower_is_better": true,
+      "is_regression": true,
+      "before": 28.24,
+      "after": 28.62,
+      "change_pct": 1.37,
+      "change_abs": 0.39,
+      "tasks": {
+        "before": {
+          "task_id": "KudzMre9SJen5u9ExFoXJw",
+          "retry_id": 0,
+          "label": "test-linux2404-64-shippable/opt-browsertime-benchmark-firefox-speedometer3",
+          "revision": "29d53b9c161974cd333e922f61517b62678a3075",
+          "is_alert_push": true
+        },
+        "after": {
+          "task_id": "J6dQ38skQjOg4OMvyU_f8w",
+          "retry_id": 0,
+          "label": "test-linux2404-64-shippable/opt-browsertime-benchmark-firefox-speedometer3",
+          "revision": "99f6d3d31f06398a27316c5978c760bcf7b4655f",
+          "is_alert_push": true
+        }
+      },
+      "profile_urls": {
+        "before": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/fuNq-nmiRtijkIcFXCkgFw/runs/0/artifacts/public/test_info/profile_speedometer3.zip",
+        "after": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/TrW5GnZKQXKrFlEIZkJWcw/runs/0/artifacts/public/test_info/profile_speedometer3.zip"
+      },
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/raptor.html#speedometer3-b",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5691077,1,13&zoom=1789223146000,1789741546000,23.95,32.91",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5691077&framework=13&startday=2026-09-01T14%3A25%3A46&endday=2026-09-29T14%3A25%3A46&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 259937,
+      "signature_id": 5691137,
+      "test": "speedometer3",
+      "subtest": "TodoMVC-WebComponents/total",
+      "platform": "linux2404-64-shippable",
+      "options": [
+        "fission",
+        "webrender"
+      ],
+      "unit": "ms",
+      "lower_is_better": true,
+      "is_regression": true,
+      "before": 27.23,
+      "after": 27.57,
+      "change_pct": 1.23,
+      "change_abs": 0.33,
+      "tasks": {
+        "before": {
+          "task_id": "KudzMre9SJen5u9ExFoXJw",
+          "retry_id": 0,
+          "label": "test-linux2404-64-shippable/opt-browsertime-benchmark-firefox-speedometer3",
+          "revision": "29d53b9c161974cd333e922f61517b62678a3075",
+          "is_alert_push": true
+        },
+        "after": {
+          "task_id": "J6dQ38skQjOg4OMvyU_f8w",
+          "retry_id": 0,
+          "label": "test-linux2404-64-shippable/opt-browsertime-benchmark-firefox-speedometer3",
+          "revision": "99f6d3d31f06398a27316c5978c760bcf7b4655f",
+          "is_alert_push": true
+        }
+      },
+      "profile_urls": {
+        "before": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/fuNq-nmiRtijkIcFXCkgFw/runs/0/artifacts/public/test_info/profile_speedometer3.zip",
+        "after": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/TrW5GnZKQXKrFlEIZkJWcw/runs/0/artifacts/public/test_info/profile_speedometer3.zip"
+      },
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/raptor.html#speedometer3-b",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5691137,1,13&zoom=1789223146000,1789741546000,23.09,31.71",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5691137&framework=13&startday=2026-09-01T14%3A25%3A46&endday=2026-09-29T14%3A25%3A46&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 259941,
+      "signature_id": 5691154,
+      "test": "speedometer3",
+      "subtest": "total",
+      "platform": "linux2404-64-shippable",
+      "options": [
+        "fission",
+        "webrender"
+      ],
+      "unit": "ms",
+      "lower_is_better": true,
+      "is_regression": true,
+      "before": 1597.15,
+      "after": 1613.78,
+      "change_pct": 1.04,
+      "change_abs": 16.63,
+      "tasks": {
+        "before": {
+          "task_id": "KudzMre9SJen5u9ExFoXJw",
+          "retry_id": 0,
+          "label": "test-linux2404-64-shippable/opt-browsertime-benchmark-firefox-speedometer3",
+          "revision": "29d53b9c161974cd333e922f61517b62678a3075",
+          "is_alert_push": true
+        },
+        "after": {
+          "task_id": "J6dQ38skQjOg4OMvyU_f8w",
+          "retry_id": 0,
+          "label": "test-linux2404-64-shippable/opt-browsertime-benchmark-firefox-speedometer3",
+          "revision": "99f6d3d31f06398a27316c5978c760bcf7b4655f",
+          "is_alert_push": true
+        }
+      },
+      "profile_urls": {
+        "before": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/fuNq-nmiRtijkIcFXCkgFw/runs/0/artifacts/public/test_info/profile_speedometer3.zip",
+        "after": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/TrW5GnZKQXKrFlEIZkJWcw/runs/0/artifacts/public/test_info/profile_speedometer3.zip"
+      },
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/raptor.html#speedometer3-b",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5691154,1,13&zoom=1789223146000,1789741546000,1355.08,1855.85",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5691154&framework=13&startday=2026-09-01T14%3A25%3A46&endday=2026-09-29T14%3A25%3A46&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 259938,
+      "signature_id": 5691152,
+      "test": "speedometer3",
+      "subtest": "score",
+      "platform": "linux2404-64-shippable",
+      "options": [
+        "fission",
+        "webrender"
+      ],
+      "unit": "score",
+      "lower_is_better": false,
+      "is_regression": true,
+      "before": 15.6,
+      "after": 15.44,
+      "change_pct": 0.99,
+      "change_abs": -0.15,
+      "tasks": {
+        "before": {
+          "task_id": "KudzMre9SJen5u9ExFoXJw",
+          "retry_id": 0,
+          "label": "test-linux2404-64-shippable/opt-browsertime-benchmark-firefox-speedometer3",
+          "revision": "29d53b9c161974cd333e922f61517b62678a3075",
+          "is_alert_push": true
+        },
+        "after": {
+          "task_id": "J6dQ38skQjOg4OMvyU_f8w",
+          "retry_id": 0,
+          "label": "test-linux2404-64-shippable/opt-browsertime-benchmark-firefox-speedometer3",
+          "revision": "99f6d3d31f06398a27316c5978c760bcf7b4655f",
+          "is_alert_push": true
+        }
+      },
+      "profile_urls": {
+        "before": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/fuNq-nmiRtijkIcFXCkgFw/runs/0/artifacts/public/test_info/profile_speedometer3.zip",
+        "after": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/TrW5GnZKQXKrFlEIZkJWcw/runs/0/artifacts/public/test_info/profile_speedometer3.zip"
+      },
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/raptor.html#speedometer3-b",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5691152,1,13&zoom=1789223146000,1789741546000,13.1,17.94",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5691152&framework=13&startday=2026-09-01T14%3A25%3A46&endday=2026-09-29T14%3A25%3A46&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 259929,
+      "signature_id": 5690953,
+      "test": "speedometer3",
+      "subtest": null,
+      "platform": "linux2404-64-shippable",
+      "options": [
+        "fission",
+        "webrender"
+      ],
+      "unit": "score",
+      "lower_is_better": false,
+      "is_regression": true,
+      "before": 15.6,
+      "after": 15.44,
+      "change_pct": 0.99,
+      "change_abs": -0.15,
+      "tasks": {
+        "before": {
+          "task_id": "KudzMre9SJen5u9ExFoXJw",
+          "retry_id": 0,
+          "label": "test-linux2404-64-shippable/opt-browsertime-benchmark-firefox-speedometer3",
+          "revision": "29d53b9c161974cd333e922f61517b62678a3075",
+          "is_alert_push": true
+        },
+        "after": {
+          "task_id": "J6dQ38skQjOg4OMvyU_f8w",
+          "retry_id": 0,
+          "label": "test-linux2404-64-shippable/opt-browsertime-benchmark-firefox-speedometer3",
+          "revision": "99f6d3d31f06398a27316c5978c760bcf7b4655f",
+          "is_alert_push": true
+        }
+      },
+      "profile_urls": {
+        "before": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/fuNq-nmiRtijkIcFXCkgFw/runs/0/artifacts/public/test_info/profile_speedometer3.zip",
+        "after": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/TrW5GnZKQXKrFlEIZkJWcw/runs/0/artifacts/public/test_info/profile_speedometer3.zip"
+      },
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/raptor.html#speedometer3-b",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5690953,1,13&zoom=1789223146000,1789741546000,13.1,17.94",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5690953&framework=13&startday=2026-09-01T14%3A25%3A46&endday=2026-09-29T14%3A25%3A46&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 259924,
+      "signature_id": 5689972,
+      "test": "speedometer3",
+      "subtest": "score",
+      "platform": "linux2404-64-nightlyasrelease",
+      "options": [
+        "fission",
+        "webrender"
+      ],
+      "unit": "score",
+      "lower_is_better": false,
+      "is_regression": true,
+      "before": 16.16,
+      "after": 16.01,
+      "change_pct": 0.92,
+      "change_abs": -0.15,
+      "tasks": {
+        "before": {
+          "task_id": "EhlhKxNqRam59HA6BWbfeA",
+          "retry_id": 0,
+          "label": "test-linux2404-64-nightlyasrelease/opt-browsertime-benchmark-firefox-speedometer3",
+          "revision": "29d53b9c161974cd333e922f61517b62678a3075",
+          "is_alert_push": true
+        },
+        "after": {
+          "task_id": "bWNyQiF0TjGsUgEvHTh8HA",
+          "retry_id": 0,
+          "label": "test-linux2404-64-nightlyasrelease/opt-browsertime-benchmark-firefox-speedometer3",
+          "revision": "99f6d3d31f06398a27316c5978c760bcf7b4655f",
+          "is_alert_push": true
+        }
+      },
+      "profile_urls": {
+        "before": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/EhlhKxNqRam59HA6BWbfeA/runs/0/artifacts/public/test_info/profile_speedometer3.zip",
+        "after": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/bWNyQiF0TjGsUgEvHTh8HA/runs/0/artifacts/public/test_info/profile_speedometer3.zip"
+      },
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/raptor.html#speedometer3-b",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5689972,1,13&zoom=1789223146000,1789741546000,13.59,18.58",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5689972&framework=13&startday=2026-09-01T14%3A25%3A46&endday=2026-09-29T14%3A25%3A46&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 259918,
+      "signature_id": 5689773,
+      "test": "speedometer3",
+      "subtest": null,
+      "platform": "linux2404-64-nightlyasrelease",
+      "options": [
+        "fission",
+        "webrender"
+      ],
+      "unit": "score",
+      "lower_is_better": false,
+      "is_regression": true,
+      "before": 16.16,
+      "after": 16.01,
+      "change_pct": 0.92,
+      "change_abs": -0.15,
+      "tasks": {
+        "before": {
+          "task_id": "EhlhKxNqRam59HA6BWbfeA",
+          "retry_id": 0,
+          "label": "test-linux2404-64-nightlyasrelease/opt-browsertime-benchmark-firefox-speedometer3",
+          "revision": "29d53b9c161974cd333e922f61517b62678a3075",
+          "is_alert_push": true
+        },
+        "after": {
+          "task_id": "bWNyQiF0TjGsUgEvHTh8HA",
+          "retry_id": 0,
+          "label": "test-linux2404-64-nightlyasrelease/opt-browsertime-benchmark-firefox-speedometer3",
+          "revision": "99f6d3d31f06398a27316c5978c760bcf7b4655f",
+          "is_alert_push": true
+        }
+      },
+      "profile_urls": {
+        "before": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/EhlhKxNqRam59HA6BWbfeA/runs/0/artifacts/public/test_info/profile_speedometer3.zip",
+        "after": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/bWNyQiF0TjGsUgEvHTh8HA/runs/0/artifacts/public/test_info/profile_speedometer3.zip"
+      },
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/raptor.html#speedometer3-b",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5689773,1,13&zoom=1789223146000,1789741546000,13.59,18.58",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5689773&framework=13&startday=2026-09-01T14%3A25%3A46&endday=2026-09-29T14%3A25%3A46&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 259926,
+      "signature_id": 5689974,
+      "test": "speedometer3",
+      "subtest": "total",
+      "platform": "linux2404-64-nightlyasrelease",
+      "options": [
+        "fission",
+        "webrender"
+      ],
+      "unit": "ms",
+      "lower_is_better": true,
+      "is_regression": true,
+      "before": 1540.05,
+      "after": 1552.14,
+      "change_pct": 0.78,
+      "change_abs": 12.08,
+      "tasks": {
+        "before": {
+          "task_id": "EhlhKxNqRam59HA6BWbfeA",
+          "retry_id": 0,
+          "label": "test-linux2404-64-nightlyasrelease/opt-browsertime-benchmark-firefox-speedometer3",
+          "revision": "29d53b9c161974cd333e922f61517b62678a3075",
+          "is_alert_push": true
+        },
+        "after": {
+          "task_id": "bWNyQiF0TjGsUgEvHTh8HA",
+          "retry_id": 0,
+          "label": "test-linux2404-64-nightlyasrelease/opt-browsertime-benchmark-firefox-speedometer3",
+          "revision": "99f6d3d31f06398a27316c5978c760bcf7b4655f",
+          "is_alert_push": true
+        }
+      },
+      "profile_urls": {
+        "before": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/EhlhKxNqRam59HA6BWbfeA/runs/0/artifacts/public/test_info/profile_speedometer3.zip",
+        "after": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/bWNyQiF0TjGsUgEvHTh8HA/runs/0/artifacts/public/test_info/profile_speedometer3.zip"
+      },
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/raptor.html#speedometer3-b",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5689974,1,13&zoom=1789223146000,1789741546000,1307.23,1784.96",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5689974&framework=13&startday=2026-09-01T14%3A25%3A46&endday=2026-09-29T14%3A25%3A46&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 259129,
+      "signature_id": 5693923,
+      "test": "twitch",
+      "subtest": "FirstVisualChange",
+      "platform": "linux2404-64-shippable",
+      "options": [
+        "fission",
+        "warm",
+        "webrender"
+      ],
+      "unit": "ms",
+      "lower_is_better": true,
+      "is_regression": false,
+      "before": 275.01,
+      "after": 230.51,
+      "change_pct": 16.18,
+      "change_abs": -44.5,
+      "tasks": {
+        "before": {
+          "task_id": "PdsUMaTUTWWowpo-73B8fA",
+          "retry_id": 0,
+          "label": "test-linux2404-64-shippable/opt-browsertime-tp6-firefox-twitch",
+          "revision": "29d53b9c161974cd333e922f61517b62678a3075",
+          "is_alert_push": true
+        },
+        "after": {
+          "task_id": "Fb6Luoe0QjKICywcIaa6rw",
+          "retry_id": 0,
+          "label": "test-linux2404-64-shippable/opt-browsertime-tp6-firefox-twitch",
+          "revision": "99f6d3d31f06398a27316c5978c760bcf7b4655f",
+          "is_alert_push": true
+        }
+      },
+      "profile_urls": {
+        "before": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/PdsUMaTUTWWowpo-73B8fA/runs/0/artifacts/public/test_info/profile_twitch.zip",
+        "after": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/Fb6Luoe0QjKICywcIaa6rw/runs/0/artifacts/public/test_info/profile_twitch.zip"
+      },
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/raptor.html#twitch-d",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5693923,1,13&zoom=1789223146000,1789741546000,141.51,364.01",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5693923&framework=13&startday=2026-09-01T14%3A25%3A46&endday=2026-09-29T14%3A25%3A46&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 259217,
+      "signature_id": 5693920,
+      "test": "twitch",
+      "subtest": "fcp",
+      "platform": "linux2404-64-shippable",
+      "options": [
+        "cold",
+        "fission",
+        "webrender"
+      ],
+      "unit": "ms",
+      "lower_is_better": true,
+      "is_regression": false,
+      "before": 60.72,
+      "after": 51.36,
+      "change_pct": 15.42,
+      "change_abs": -9.36,
+      "tasks": {
+        "before": {
+          "task_id": "PdsUMaTUTWWowpo-73B8fA",
+          "retry_id": 0,
+          "label": "test-linux2404-64-shippable/opt-browsertime-tp6-firefox-twitch",
+          "revision": "29d53b9c161974cd333e922f61517b62678a3075",
+          "is_alert_push": true
+        },
+        "after": {
+          "task_id": "Fb6Luoe0QjKICywcIaa6rw",
+          "retry_id": 0,
+          "label": "test-linux2404-64-shippable/opt-browsertime-tp6-firefox-twitch",
+          "revision": "99f6d3d31f06398a27316c5978c760bcf7b4655f",
+          "is_alert_push": true
+        }
+      },
+      "profile_urls": {
+        "before": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/PdsUMaTUTWWowpo-73B8fA/runs/0/artifacts/public/test_info/profile_twitch.zip",
+        "after": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/Fb6Luoe0QjKICywcIaa6rw/runs/0/artifacts/public/test_info/profile_twitch.zip"
+      },
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/raptor.html#twitch-d",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5693920,1,13&zoom=1789223146000,1789741546000,32.64,79.44",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5693920&framework=13&startday=2026-09-01T14%3A25%3A46&endday=2026-09-29T14%3A25%3A46&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 259117,
+      "signature_id": 5693672,
+      "test": "bing-search",
+      "subtest": "largestContentfulPaint",
+      "platform": "linux2404-64-shippable",
+      "options": [
+        "fission",
+        "warm",
+        "webrender"
+      ],
+      "unit": "ms",
+      "lower_is_better": true,
+      "is_regression": false,
+      "before": 93.65,
+      "after": 81.09,
+      "change_pct": 13.41,
+      "change_abs": -12.56,
+      "tasks": {
+        "before": {
+          "task_id": "ez6nWdJQSM-3B6Zo6uTQuw",
+          "retry_id": 0,
+          "label": "test-linux2404-64-shippable/opt-browsertime-tp6-essential-firefox-bing-search",
+          "revision": "29d53b9c161974cd333e922f61517b62678a3075",
+          "is_alert_push": true
+        },
+        "after": {
+          "task_id": "c6mVDYRbRYSyr3jKWgf9lQ",
+          "retry_id": 0,
+          "label": "test-linux2404-64-shippable/opt-browsertime-tp6-essential-firefox-bing-search",
+          "revision": "99f6d3d31f06398a27316c5978c760bcf7b4655f",
+          "is_alert_push": true
+        }
+      },
+      "profile_urls": {
+        "before": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/TFGbfskBTHGqGAwSGXA49w/runs/0/artifacts/public/test_info/profile_bing-search.zip",
+        "after": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/S2D4ZQ7pQya0v4SebuHCqw/runs/0/artifacts/public/test_info/profile_bing-search.zip"
+      },
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/raptor.html#bing-search-d",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5693672,1,13&zoom=1789223146000,1789741546000,55.97,118.77",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5693672&framework=13&startday=2026-09-01T14%3A25%3A46&endday=2026-09-29T14%3A25%3A46&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 259116,
+      "signature_id": 5693670,
+      "test": "bing-search",
+      "subtest": "fcp",
+      "platform": "linux2404-64-shippable",
+      "options": [
+        "fission",
+        "warm",
+        "webrender"
+      ],
+      "unit": "ms",
+      "lower_is_better": true,
+      "is_regression": false,
+      "before": 93.65,
+      "after": 81.09,
+      "change_pct": 13.41,
+      "change_abs": -12.56,
+      "tasks": {
+        "before": {
+          "task_id": "ez6nWdJQSM-3B6Zo6uTQuw",
+          "retry_id": 0,
+          "label": "test-linux2404-64-shippable/opt-browsertime-tp6-essential-firefox-bing-search",
+          "revision": "29d53b9c161974cd333e922f61517b62678a3075",
+          "is_alert_push": true
+        },
+        "after": {
+          "task_id": "c6mVDYRbRYSyr3jKWgf9lQ",
+          "retry_id": 0,
+          "label": "test-linux2404-64-shippable/opt-browsertime-tp6-essential-firefox-bing-search",
+          "revision": "99f6d3d31f06398a27316c5978c760bcf7b4655f",
+          "is_alert_push": true
+        }
+      },
+      "profile_urls": {
+        "before": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/TFGbfskBTHGqGAwSGXA49w/runs/0/artifacts/public/test_info/profile_bing-search.zip",
+        "after": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/S2D4ZQ7pQya0v4SebuHCqw/runs/0/artifacts/public/test_info/profile_bing-search.zip"
+      },
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/raptor.html#bing-search-d",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5693670,1,13&zoom=1789223146000,1789741546000,55.97,118.77",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5693670&framework=13&startday=2026-09-01T14%3A25%3A46&endday=2026-09-29T14%3A25%3A46&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 259134,
+      "signature_id": 5692748,
+      "test": "instagram",
+      "subtest": "ContentfulSpeedIndex",
+      "platform": "linux2404-64-shippable",
+      "options": [
+        "bytecode-cached",
+        "fission",
+        "warm",
+        "webrender"
+      ],
+      "unit": "ms",
+      "lower_is_better": true,
+      "is_regression": false,
+      "before": 314.58,
+      "after": 288.21,
+      "change_pct": 8.38,
+      "change_abs": -26.37,
+      "tasks": {
+        "before": {
+          "task_id": "fEvIgMh8TfKrgh66PxmJWw",
+          "retry_id": 0,
+          "label": "test-linux2404-64-shippable/opt-browsertime-tp6-bytecode-firefox-instagram",
+          "revision": "29d53b9c161974cd333e922f61517b62678a3075",
+          "is_alert_push": true
+        },
+        "after": {
+          "task_id": "ct01wTTjQOu3ZPnQeSaN9A",
+          "retry_id": 0,
+          "label": "test-linux2404-64-shippable/opt-browsertime-tp6-bytecode-firefox-instagram",
+          "revision": "99f6d3d31f06398a27316c5978c760bcf7b4655f",
+          "is_alert_push": true
+        }
+      },
+      "profile_urls": {
+        "before": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/fEvIgMh8TfKrgh66PxmJWw/runs/0/artifacts/public/test_info/profile_instagram.zip",
+        "after": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/ct01wTTjQOu3ZPnQeSaN9A/runs/0/artifacts/public/test_info/profile_instagram.zip"
+      },
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/raptor.html#instagram-d",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5692748,1,13&zoom=1789223146000,1789741546000,235.47,367.32",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5692748&framework=13&startday=2026-09-01T14%3A25%3A46&endday=2026-09-29T14%3A25%3A46&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 259887,
+      "signature_id": 5695365,
+      "test": "twitter",
+      "subtest": "fcp",
+      "platform": "linux2404-64-shippable",
+      "options": [
+        "bytecode-cached",
+        "fission",
+        "warm",
+        "webrender"
+      ],
+      "unit": "ms",
+      "lower_is_better": true,
+      "is_regression": false,
+      "before": 115.43,
+      "after": 108.91,
+      "change_pct": 5.65,
+      "change_abs": -6.53,
+      "tasks": {
+        "before": {
+          "task_id": "XYAGFvjlRFus1Z5QURVnBw",
+          "retry_id": 0,
+          "label": "test-linux2404-64-shippable/opt-browsertime-tp6-bytecode-firefox-twitter",
+          "revision": "29d53b9c161974cd333e922f61517b62678a3075",
+          "is_alert_push": true
+        },
+        "after": {
+          "task_id": "cBsvyMSzQXCmg1F9v4I7Wg",
+          "retry_id": 0,
+          "label": "test-linux2404-64-shippable/opt-browsertime-tp6-bytecode-firefox-twitter",
+          "revision": "99f6d3d31f06398a27316c5978c760bcf7b4655f",
+          "is_alert_push": true
+        }
+      },
+      "profile_urls": {
+        "before": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/NVHpYSisRiWjtXMSn0WJCw/runs/0/artifacts/public/test_info/profile_twitter.zip",
+        "after": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/eX9W6AmATeSZT_i0vsa51A/runs/0/artifacts/public/test_info/profile_twitter.zip"
+      },
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/raptor.html#twitter-d",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5695365,1,13&zoom=1789223146000,1789741546000,91.6,132.74",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5695365&framework=13&startday=2026-09-01T14%3A25%3A46&endday=2026-09-29T14%3A25%3A46&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 259126,
+      "signature_id": 5692750,
+      "test": "instagram",
+      "subtest": "LastVisualChange",
+      "platform": "linux2404-64-shippable",
+      "options": [
+        "bytecode-cached",
+        "fission",
+        "warm",
+        "webrender"
+      ],
+      "unit": "ms",
+      "lower_is_better": true,
+      "is_regression": false,
+      "before": 660.07,
+      "after": 629.3,
+      "change_pct": 4.66,
+      "change_abs": -30.77,
+      "tasks": {
+        "before": {
+          "task_id": "fEvIgMh8TfKrgh66PxmJWw",
+          "retry_id": 0,
+          "label": "test-linux2404-64-shippable/opt-browsertime-tp6-bytecode-firefox-instagram",
+          "revision": "29d53b9c161974cd333e922f61517b62678a3075",
+          "is_alert_push": true
+        },
+        "after": {
+          "task_id": "ct01wTTjQOu3ZPnQeSaN9A",
+          "retry_id": 0,
+          "label": "test-linux2404-64-shippable/opt-browsertime-tp6-bytecode-firefox-instagram",
+          "revision": "99f6d3d31f06398a27316c5978c760bcf7b4655f",
+          "is_alert_push": true
+        }
+      },
+      "profile_urls": {
+        "before": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/fEvIgMh8TfKrgh66PxmJWw/runs/0/artifacts/public/test_info/profile_instagram.zip",
+        "after": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/ct01wTTjQOu3ZPnQeSaN9A/runs/0/artifacts/public/test_info/profile_instagram.zip"
+      },
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/raptor.html#instagram-d",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5692750,1,13&zoom=1789223146000,1789741546000,530.29,759.08",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5692750&framework=13&startday=2026-09-01T14%3A25%3A46&endday=2026-09-29T14%3A25%3A46&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 258472,
+      "signature_id": 5925839,
+      "test": "speedometer3",
+      "subtest": "TodoMVC-Backbone/total",
+      "platform": "linux2404-64-shippable",
+      "options": [
+        "fission",
+        "no-nova",
+        "webrender"
+      ],
+      "unit": "ms",
+      "lower_is_better": true,
+      "is_regression": false,
+      "before": 62.73,
+      "after": 60.02,
+      "change_pct": 4.32,
+      "change_abs": -2.71,
+      "tasks": {
+        "before": {
+          "task_id": "fuNq-nmiRtijkIcFXCkgFw",
+          "retry_id": 0,
+          "label": "test-linux2404-64-shippable/opt-browsertime-benchmark-firefox-speedometer3-no-nv",
+          "revision": "29d53b9c161974cd333e922f61517b62678a3075",
+          "is_alert_push": true
+        },
+        "after": {
+          "task_id": "TrW5GnZKQXKrFlEIZkJWcw",
+          "retry_id": 0,
+          "label": "test-linux2404-64-shippable/opt-browsertime-benchmark-firefox-speedometer3-no-nv",
+          "revision": "99f6d3d31f06398a27316c5978c760bcf7b4655f",
+          "is_alert_push": true
+        }
+      },
+      "profile_urls": {
+        "before": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/fuNq-nmiRtijkIcFXCkgFw/runs/0/artifacts/public/test_info/profile_speedometer3.zip",
+        "after": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/TrW5GnZKQXKrFlEIZkJWcw/runs/0/artifacts/public/test_info/profile_speedometer3.zip"
+      },
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/raptor.html#speedometer3-b",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5925839,1,13&zoom=1789223146000,1789741546000,50.61,72.14",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5925839&framework=13&startday=2026-09-01T14%3A25%3A46&endday=2026-09-29T14%3A25%3A46&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 259058,
+      "signature_id": 5692341,
+      "test": "youtube",
+      "subtest": "loadtime",
+      "platform": "linux2404-64-shippable",
+      "options": [
+        "fission",
+        "warm",
+        "webrender"
+      ],
+      "unit": "ms",
+      "lower_is_better": true,
+      "is_regression": false,
+      "before": 489.5,
+      "after": 471.7,
+      "change_pct": 3.64,
+      "change_abs": -17.8,
+      "tasks": {
+        "before": {
+          "task_id": "Slg4Q4vfRlW_kF3-ETDkMQ",
+          "retry_id": 0,
+          "label": "test-linux2404-64-shippable/opt-browsertime-tp6-firefox-youtube",
+          "revision": "29d53b9c161974cd333e922f61517b62678a3075",
+          "is_alert_push": true
+        },
+        "after": {
+          "task_id": "P9hUnVhSSdCUIC3iwm3yBA",
+          "retry_id": 0,
+          "label": "test-linux2404-64-shippable/opt-browsertime-tp6-firefox-youtube",
+          "revision": "99f6d3d31f06398a27316c5978c760bcf7b4655f",
+          "is_alert_push": true
+        }
+      },
+      "profile_urls": {
+        "before": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/Slg4Q4vfRlW_kF3-ETDkMQ/runs/0/artifacts/public/test_info/profile_youtube.zip",
+        "after": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/P9hUnVhSSdCUIC3iwm3yBA/runs/0/artifacts/public/test_info/profile_youtube.zip"
+      },
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/raptor.html#youtube-d",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5692341,1,13&zoom=1789223146000,1789741546000,398.27,562.92",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5692341&framework=13&startday=2026-09-01T14%3A25%3A46&endday=2026-09-29T14%3A25%3A46&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 259069,
+      "signature_id": 5692338,
+      "test": "youtube",
+      "subtest": "fcp",
+      "platform": "linux2404-64-shippable",
+      "options": [
+        "fission",
+        "warm",
+        "webrender"
+      ],
+      "unit": "ms",
+      "lower_is_better": true,
+      "is_regression": false,
+      "before": 448.02,
+      "after": 432.78,
+      "change_pct": 3.4,
+      "change_abs": -15.23,
+      "tasks": {
+        "before": {
+          "task_id": "Slg4Q4vfRlW_kF3-ETDkMQ",
+          "retry_id": 0,
+          "label": "test-linux2404-64-shippable/opt-browsertime-tp6-firefox-youtube",
+          "revision": "29d53b9c161974cd333e922f61517b62678a3075",
+          "is_alert_push": true
+        },
+        "after": {
+          "task_id": "P9hUnVhSSdCUIC3iwm3yBA",
+          "retry_id": 0,
+          "label": "test-linux2404-64-shippable/opt-browsertime-tp6-firefox-youtube",
+          "revision": "99f6d3d31f06398a27316c5978c760bcf7b4655f",
+          "is_alert_push": true
+        }
+      },
+      "profile_urls": {
+        "before": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/Slg4Q4vfRlW_kF3-ETDkMQ/runs/0/artifacts/public/test_info/profile_youtube.zip",
+        "after": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/P9hUnVhSSdCUIC3iwm3yBA/runs/0/artifacts/public/test_info/profile_youtube.zip"
+      },
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/raptor.html#youtube-d",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5692338,1,13&zoom=1789223146000,1789741546000,365.58,515.22",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5692338&framework=13&startday=2026-09-01T14%3A25%3A46&endday=2026-09-29T14%3A25%3A46&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 259867,
+      "signature_id": 5695358,
+      "test": "twitter",
+      "subtest": "loadtime",
+      "platform": "linux2404-64-shippable",
+      "options": [
+        "bytecode-cached",
+        "cold",
+        "fission",
+        "webrender"
+      ],
+      "unit": "ms",
+      "lower_is_better": true,
+      "is_regression": false,
+      "before": 318.92,
+      "after": 312.07,
+      "change_pct": 2.15,
+      "change_abs": -6.85,
+      "tasks": {
+        "before": {
+          "task_id": "XYAGFvjlRFus1Z5QURVnBw",
+          "retry_id": 0,
+          "label": "test-linux2404-64-shippable/opt-browsertime-tp6-bytecode-firefox-twitter",
+          "revision": "29d53b9c161974cd333e922f61517b62678a3075",
+          "is_alert_push": true
+        },
+        "after": {
+          "task_id": "cBsvyMSzQXCmg1F9v4I7Wg",
+          "retry_id": 0,
+          "label": "test-linux2404-64-shippable/opt-browsertime-tp6-bytecode-firefox-twitter",
+          "revision": "99f6d3d31f06398a27316c5978c760bcf7b4655f",
+          "is_alert_push": true
+        }
+      },
+      "profile_urls": {
+        "before": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/NVHpYSisRiWjtXMSn0WJCw/runs/0/artifacts/public/test_info/profile_twitter.zip",
+        "after": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/eX9W6AmATeSZT_i0vsa51A/runs/0/artifacts/public/test_info/profile_twitter.zip"
+      },
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/raptor.html#twitter-d",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5695358,1,13&zoom=1789223146000,1789741546000,264.23,366.76",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5695358&framework=13&startday=2026-09-01T14%3A25%3A46&endday=2026-09-29T14%3A25%3A46&all_data=true&replicates=false"
+    },
+    {
+      "alert_id": 259067,
+      "signature_id": 5692340,
+      "test": "youtube",
+      "subtest": "largestContentfulPaint",
+      "platform": "linux2404-64-shippable",
+      "options": [
+        "fission",
+        "warm",
+        "webrender"
+      ],
+      "unit": "ms",
+      "lower_is_better": true,
+      "is_regression": false,
+      "before": 543.57,
+      "after": 532.58,
+      "change_pct": 2.02,
+      "change_abs": -10.98,
+      "tasks": {
+        "before": {
+          "task_id": "Slg4Q4vfRlW_kF3-ETDkMQ",
+          "retry_id": 0,
+          "label": "test-linux2404-64-shippable/opt-browsertime-tp6-firefox-youtube",
+          "revision": "29d53b9c161974cd333e922f61517b62678a3075",
+          "is_alert_push": true
+        },
+        "after": {
+          "task_id": "P9hUnVhSSdCUIC3iwm3yBA",
+          "retry_id": 0,
+          "label": "test-linux2404-64-shippable/opt-browsertime-tp6-firefox-youtube",
+          "revision": "99f6d3d31f06398a27316c5978c760bcf7b4655f",
+          "is_alert_push": true
+        }
+      },
+      "profile_urls": {
+        "before": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/Slg4Q4vfRlW_kF3-ETDkMQ/runs/0/artifacts/public/test_info/profile_youtube.zip",
+        "after": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/P9hUnVhSSdCUIC3iwm3yBA/runs/0/artifacts/public/test_info/profile_youtube.zip"
+      },
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/raptor.html#youtube-d",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5692340,1,13&zoom=1789223146000,1789741546000,451.04,625.11",
+      "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5692340&framework=13&startday=2026-09-01T14%3A25%3A46&endday=2026-09-29T14%3A25%3A46&all_data=true&replicates=false"
+    }
+  ]
+}
