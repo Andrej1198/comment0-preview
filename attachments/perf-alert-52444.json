@@ -18,7 +18,7 @@
   "commits": [
     {
       "revision": "dba49edca099917d2a2e8fd87478e4404d999f57",
-      "author": "Emilio Cobos Álvarez <emilio@crisal.io>",
+      "author": "Emilio Cobos \u00c1lvarez <emilio@crisal.io>",
       "title": "Bug 2048847 - Track whether the selector always matches during bucketing, and skip matching if so. r=firefox-style-system-reviewers,dshin",
       "bug": 2048847,
       "phabricator_url": "https://phabricator.services.mozilla.com/D321320",
@@ -68,8 +68,8 @@
         "before": null,
         "after": null
       },
-      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/talos.html#perf_reftest_singletons",
-      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5691346,1,1&zoom=1787521591000,1788039991000,14.4,72.7",
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/talos.html#perf-reftest-singletons",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=1209600&series=autoland,5691346,1,1&zoom=1787521591000,1788039991000,14.4,72.7",
       "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5691346&framework=1&startday=2026-08-12T21%3A46%3A31&endday=2026-09-09T21%3A46%3A31&all_data=true&replicates=false"
     },
     {
@@ -111,8 +111,8 @@
         "before": null,
         "after": null
       },
-      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/talos.html#perf_reftest_singletons",
-      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5691347,1,1&zoom=1787521591000,1788039991000,14.61,72.06",
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/talos.html#perf-reftest-singletons",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=1209600&series=autoland,5691347,1,1&zoom=1787521591000,1788039991000,14.61,72.06",
       "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5691347&framework=1&startday=2026-08-12T21%3A46%3A31&endday=2026-09-09T21%3A46%3A31&all_data=true&replicates=false"
     },
     {
@@ -154,8 +154,8 @@
         "before": null,
         "after": null
       },
-      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/talos.html#perf_reftest_singletons",
-      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5306011,1,1&zoom=1787521591000,1788039991000,18.45,90.45",
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/talos.html#perf-reftest-singletons",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=1209600&series=autoland,5306011,1,1&zoom=1787521591000,1788039991000,18.45,90.45",
       "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5306011&framework=1&startday=2026-08-12T21%3A46%3A31&endday=2026-09-09T21%3A46%3A31&all_data=true&replicates=false"
     },
     {
@@ -197,8 +197,8 @@
         "before": null,
         "after": null
       },
-      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/talos.html#perf_reftest_singletons",
-      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5306013,1,1&zoom=1787521591000,1788039991000,12.88,29.58",
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/talos.html#perf-reftest-singletons",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=1209600&series=autoland,5306013,1,1&zoom=1787521591000,1788039991000,12.88,29.58",
       "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5306013&framework=1&startday=2026-08-12T21%3A46%3A31&endday=2026-09-09T21%3A46%3A31&all_data=true&replicates=false"
     },
     {
@@ -240,8 +240,8 @@
         "before": null,
         "after": null
       },
-      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/talos.html#perf_reftest_singletons",
-      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5306014,1,1&zoom=1787521591000,1788039991000,13.11,29.51",
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/talos.html#perf-reftest-singletons",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=1209600&series=autoland,5306014,1,1&zoom=1787521591000,1788039991000,13.11,29.51",
       "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5306014&framework=1&startday=2026-08-12T21%3A46%3A31&endday=2026-09-09T21%3A46%3A31&all_data=true&replicates=false"
     },
     {
@@ -283,8 +283,8 @@
         "before": null,
         "after": null
       },
-      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/talos.html#perf_reftest_singletons",
-      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5306036,1,1&zoom=1787521591000,1788039991000,26,52.3",
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/talos.html#perf-reftest-singletons",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=1209600&series=autoland,5306036,1,1&zoom=1787521591000,1788039991000,26,52.3",
       "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5306036&framework=1&startday=2026-08-12T21%3A46%3A31&endday=2026-09-09T21%3A46%3A31&all_data=true&replicates=false"
     },
     {
@@ -326,8 +326,8 @@
         "before": null,
         "after": null
       },
-      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/talos.html#perf_reftest_singletons",
-      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,300913,1,1&zoom=1787521591000,1788039991000,31.34,50.94",
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/talos.html#perf-reftest-singletons",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=1209600&series=autoland,300913,1,1&zoom=1787521591000,1788039991000,31.34,50.94",
       "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=300913&framework=1&startday=2026-08-12T21%3A46%3A31&endday=2026-09-09T21%3A46%3A31&all_data=true&replicates=false"
     },
     {
@@ -369,8 +369,8 @@
         "before": null,
         "after": null
       },
-      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/talos.html#perf_reftest_singletons",
-      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,300931,1,1&zoom=1787521591000,1788039991000,186.13,270.16",
+      "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/talos.html#perf-reftest-singletons",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=1209600&series=autoland,300931,1,1&zoom=1787521591000,1788039991000,186.13,270.16",
       "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=300931&framework=1&startday=2026-08-12T21%3A46%3A31&endday=2026-09-09T21%3A46%3A31&all_data=true&replicates=false"
     }
   ]

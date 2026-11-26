@@ -72,7 +72,7 @@
         "after": null
       },
       "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/awsy.html#base-content-js",
-      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=31536000&series=autoland,5141316,1,4&zoom=1778350278000,1778868678000,0,4170733.33",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=1209600&series=autoland,5141316,1,4&zoom=1778350278000,1778868678000,0,4170733.33",
       "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5141316&framework=4&startday=2026-04-28T18%3A11%3A18&endday=2026-05-26T18%3A11%3A18&all_data=true&replicates=false"
     },
     {
@@ -100,7 +100,7 @@
         "after": null
       },
       "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/awsy.html#base-content-js",
-      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=31536000&series=autoland,5764238,1,4&zoom=1778350278000,1778868678000,0,4172170.66",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=1209600&series=autoland,5764238,1,4&zoom=1778350278000,1778868678000,0,4172170.66",
       "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5764238&framework=4&startday=2026-04-28T18%3A11%3A18&endday=2026-05-26T18%3A11%3A18&all_data=true&replicates=false"
     },
     {
@@ -128,7 +128,7 @@
         "after": null
       },
       "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/awsy.html#base-content-js",
-      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=31536000&series=autoland,5650355,1,4&zoom=1778350278000,1778868678000,0,4163404.01",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=1209600&series=autoland,5650355,1,4&zoom=1778350278000,1778868678000,0,4163404.01",
       "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5650355&framework=4&startday=2026-04-28T18%3A11%3A18&endday=2026-05-26T18%3A11%3A18&all_data=true&replicates=false"
     },
     {
@@ -156,7 +156,7 @@
         "after": null
       },
       "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/awsy.html#base-content-explicit",
-      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=31536000&series=autoland,5141318,1,4&zoom=1778350278000,1778868678000,5433728.67,10114658.67",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=1209600&series=autoland,5141318,1,4&zoom=1778350278000,1778868678000,5433728.67,10114658.67",
       "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5141318&framework=4&startday=2026-04-28T18%3A11%3A18&endday=2026-05-26T18%3A11%3A18&all_data=true&replicates=false"
     },
     {
@@ -184,7 +184,7 @@
         "after": null
       },
       "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/awsy.html#base-content-explicit",
-      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=31536000&series=autoland,5764240,1,4&zoom=1778350278000,1778868678000,5882212.67,10595442.67",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=1209600&series=autoland,5764240,1,4&zoom=1778350278000,1778868678000,5882212.67,10595442.67",
       "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5764240&framework=4&startday=2026-04-28T18%3A11%3A18&endday=2026-05-26T18%3A11%3A18&all_data=true&replicates=false"
     },
     {
@@ -212,7 +212,7 @@
         "after": null
       },
       "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/awsy.html#base-content-explicit",
-      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=31536000&series=autoland,5650357,1,4&zoom=1778350278000,1778868678000,5942575.99,10539159.34",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=1209600&series=autoland,5650357,1,4&zoom=1778350278000,1778868678000,5942575.99,10539159.34",
       "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5650357&framework=4&startday=2026-04-28T18%3A11%3A18&endday=2026-05-26T18%3A11%3A18&all_data=true&replicates=false"
     },
     {
@@ -241,7 +241,7 @@
         "after": null
       },
       "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/awsy.html#js",
-      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=31536000&series=autoland,5764272,1,4&zoom=1778350278000,1778868678000,144985159.89,214567372.65",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=1209600&series=autoland,5764272,1,4&zoom=1778350278000,1778868678000,144985159.89,214567372.65",
       "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5764272&framework=4&startday=2026-04-28T18%3A11%3A18&endday=2026-05-26T18%3A11%3A18&all_data=true&replicates=false"
     },
     {
@@ -270,7 +270,7 @@
         "after": null
       },
       "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/awsy.html#js",
-      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=31536000&series=autoland,5650389,1,4&zoom=1778350278000,1778868678000,145000415.04,213183330.72",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=1209600&series=autoland,5650389,1,4&zoom=1778350278000,1778868678000,145000415.04,213183330.72",
       "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5650389&framework=4&startday=2026-04-28T18%3A11%3A18&endday=2026-05-26T18%3A11%3A18&all_data=true&replicates=false"
     }
   ]

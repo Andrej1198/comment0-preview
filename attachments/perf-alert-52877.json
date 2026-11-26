@@ -140,7 +140,7 @@
         "after": null
       },
       "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/raptor.html#reddit-billgates-ama-i",
-      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5691621,1,13&zoom=1789223146000,1789741546000,415.89,1118.14",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=1209600&series=autoland,5691621,1,13&zoom=1789223146000,1789741546000,415.89,1118.14",
       "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5691621&framework=13&startday=2026-09-01T14%3A25%3A46&endday=2026-09-29T14%3A25%3A46&all_data=true&replicates=false"
     },
     {
@@ -182,7 +182,7 @@
         "after": null
       },
       "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/raptor.html#reddit-billgates-ama-i",
-      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5691625,1,13&zoom=1789223146000,1789741546000,960.16,1563.61",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=1209600&series=autoland,5691625,1,13&zoom=1789223146000,1789741546000,960.16,1563.61",
       "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5691625&framework=13&startday=2026-09-01T14%3A25%3A46&endday=2026-09-29T14%3A25%3A46&all_data=true&replicates=false"
     },
     {
@@ -224,7 +224,7 @@
         "after": null
       },
       "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/raptor.html#reddit-billgates-ama-i",
-      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5257779,1,13&zoom=1789223146000,1789741546000,611.96,954.71",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=1209600&series=autoland,5257779,1,13&zoom=1789223146000,1789741546000,611.96,954.71",
       "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5257779&framework=13&startday=2026-09-01T14%3A25%3A46&endday=2026-09-29T14%3A25%3A46&all_data=true&replicates=false"
     },
     {
@@ -267,7 +267,7 @@
         "after": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/VrYvmvFZTcqg20lBAwz6vQ/runs/0/artifacts/public/test_info/profile_instagram.zip"
       },
       "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/raptor.html#instagram-d",
-      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5260799,1,13&zoom=1789223146000,1789741546000,843.33,1230.76",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=1209600&series=autoland,5260799,1,13&zoom=1789223146000,1789741546000,843.33,1230.76",
       "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5260799&framework=13&startday=2026-09-01T14%3A25%3A46&endday=2026-09-29T14%3A25%3A46&all_data=true&replicates=false"
     },
     {
@@ -309,7 +309,7 @@
         "after": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/D6z_CmHZTHK5AGwCTWJAIQ/runs/0/artifacts/public/test_info/profile_outlook.zip"
       },
       "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/raptor.html#outlook-d",
-      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5691177,1,13&zoom=1789223146000,1789741546000,247.98,359.78",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=1209600&series=autoland,5691177,1,13&zoom=1789223146000,1789741546000,247.98,359.78",
       "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5691177&framework=13&startday=2026-09-01T14%3A25%3A46&endday=2026-09-29T14%3A25%3A46&all_data=true&replicates=false"
     },
     {
@@ -352,7 +352,7 @@
         "after": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/VrYvmvFZTcqg20lBAwz6vQ/runs/0/artifacts/public/test_info/profile_instagram.zip"
       },
       "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/raptor.html#instagram-d",
-      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5260800,1,13&zoom=1789223146000,1789741546000,379.96,543.12",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=1209600&series=autoland,5260800,1,13&zoom=1789223146000,1789741546000,379.96,543.12",
       "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5260800&framework=13&startday=2026-09-01T14%3A25%3A46&endday=2026-09-29T14%3A25%3A46&all_data=true&replicates=false"
     },
     {
@@ -395,7 +395,7 @@
         "after": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/VrYvmvFZTcqg20lBAwz6vQ/runs/0/artifacts/public/test_info/profile_instagram.zip"
       },
       "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/raptor.html#instagram-d",
-      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5260801,1,13&zoom=1789223146000,1789741546000,610.15,868.85",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=1209600&series=autoland,5260801,1,13&zoom=1789223146000,1789741546000,610.15,868.85",
       "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5260801&framework=13&startday=2026-09-01T14%3A25%3A46&endday=2026-09-29T14%3A25%3A46&all_data=true&replicates=false"
     },
     {
@@ -437,7 +437,7 @@
         "after": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/GJwdXtRUS_aa6UKfmJQjgw/runs/0/artifacts/public/test_info/profile_nytimes.zip"
       },
       "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/raptor.html#nytimes-d",
-      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5692071,1,13&zoom=1789223146000,1789741546000,1103.36,1564.36",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=1209600&series=autoland,5692071,1,13&zoom=1789223146000,1789741546000,1103.36,1564.36",
       "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5692071&framework=13&startday=2026-09-01T14%3A25%3A46&endday=2026-09-29T14%3A25%3A46&all_data=true&replicates=false"
     },
     {
@@ -479,7 +479,7 @@
         "after": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/GJwdXtRUS_aa6UKfmJQjgw/runs/0/artifacts/public/test_info/profile_nytimes.zip"
       },
       "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/raptor.html#nytimes-d",
-      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5692077,1,13&zoom=1789223146000,1789741546000,748.85,1057.79",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=1209600&series=autoland,5692077,1,13&zoom=1789223146000,1789741546000,748.85,1057.79",
       "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5692077&framework=13&startday=2026-09-01T14%3A25%3A46&endday=2026-09-29T14%3A25%3A46&all_data=true&replicates=false"
     },
     {
@@ -522,7 +522,7 @@
         "after": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/ct01wTTjQOu3ZPnQeSaN9A/runs/0/artifacts/public/test_info/profile_instagram.zip"
       },
       "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/raptor.html#instagram-d",
-      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5692738,1,13&zoom=1789223146000,1789741546000,415.21,583.28",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=1209600&series=autoland,5692738,1,13&zoom=1789223146000,1789741546000,415.21,583.28",
       "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5692738&framework=13&startday=2026-09-01T14%3A25%3A46&endday=2026-09-29T14%3A25%3A46&all_data=true&replicates=false"
     },
     {
@@ -564,7 +564,7 @@
         "after": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/P9hUnVhSSdCUIC3iwm3yBA/runs/0/artifacts/public/test_info/profile_youtube.zip"
       },
       "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/raptor.html#youtube-d",
-      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5692323,1,13&zoom=1789223146000,1789741546000,220.33,308.6",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=1209600&series=autoland,5692323,1,13&zoom=1789223146000,1789741546000,220.33,308.6",
       "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5692323&framework=13&startday=2026-09-01T14%3A25%3A46&endday=2026-09-29T14%3A25%3A46&all_data=true&replicates=false"
     },
     {
@@ -607,7 +607,7 @@
         "after": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/eX9W6AmATeSZT_i0vsa51A/runs/0/artifacts/public/test_info/profile_twitter.zip"
       },
       "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/raptor.html#twitter-d",
-      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5695351,1,13&zoom=1789223146000,1789741546000,900.74,1261.46",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=1209600&series=autoland,5695351,1,13&zoom=1789223146000,1789741546000,900.74,1261.46",
       "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5695351&framework=13&startday=2026-09-01T14%3A25%3A46&endday=2026-09-29T14%3A25%3A46&all_data=true&replicates=false"
     },
     {
@@ -649,7 +649,7 @@
         "after": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/GJwdXtRUS_aa6UKfmJQjgw/runs/0/artifacts/public/test_info/profile_nytimes.zip"
       },
       "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/raptor.html#nytimes-d",
-      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5692088,1,13&zoom=1789223146000,1789741546000,655.8,911.86",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=1209600&series=autoland,5692088,1,13&zoom=1789223146000,1789741546000,655.8,911.86",
       "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5692088&framework=13&startday=2026-09-01T14%3A25%3A46&endday=2026-09-29T14%3A25%3A46&all_data=true&replicates=false"
     },
     {
@@ -692,7 +692,7 @@
         "after": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/ct01wTTjQOu3ZPnQeSaN9A/runs/0/artifacts/public/test_info/profile_instagram.zip"
       },
       "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/raptor.html#instagram-d",
-      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5692742,1,13&zoom=1789223146000,1789741546000,721.68,1000.76",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=1209600&series=autoland,5692742,1,13&zoom=1789223146000,1789741546000,721.68,1000.76",
       "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5692742&framework=13&startday=2026-09-01T14%3A25%3A46&endday=2026-09-29T14%3A25%3A46&all_data=true&replicates=false"
     },
     {
@@ -735,7 +735,7 @@
         "after": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/ct01wTTjQOu3ZPnQeSaN9A/runs/0/artifacts/public/test_info/profile_instagram.zip"
       },
       "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/raptor.html#instagram-d",
-      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5692740,1,13&zoom=1789223146000,1789741546000,799.99,1108.44",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=1209600&series=autoland,5692740,1,13&zoom=1789223146000,1789741546000,799.99,1108.44",
       "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5692740&framework=13&startday=2026-09-01T14%3A25%3A46&endday=2026-09-29T14%3A25%3A46&all_data=true&replicates=false"
     },
     {
@@ -776,7 +776,7 @@
         "after": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/TrW5GnZKQXKrFlEIZkJWcw/runs/0/artifacts/public/test_info/profile_speedometer3.zip"
       },
       "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/raptor.html#speedometer3-b",
-      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5691057,1,13&zoom=1789223146000,1789741546000,55.41,76.67",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=1209600&series=autoland,5691057,1,13&zoom=1789223146000,1789741546000,55.41,76.67",
       "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5691057&framework=13&startday=2026-09-01T14%3A25%3A46&endday=2026-09-29T14%3A25%3A46&all_data=true&replicates=false"
     },
     {
@@ -817,7 +817,7 @@
         "after": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/bWNyQiF0TjGsUgEvHTh8HA/runs/0/artifacts/public/test_info/profile_speedometer3.zip"
       },
       "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/raptor.html#speedometer3-b",
-      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5689937,1,13&zoom=1789223146000,1789741546000,15.89,21.93",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=1209600&series=autoland,5689937,1,13&zoom=1789223146000,1789741546000,15.89,21.93",
       "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5689937&framework=13&startday=2026-09-01T14%3A25%3A46&endday=2026-09-29T14%3A25%3A46&all_data=true&replicates=false"
     },
     {
@@ -858,7 +858,7 @@
         "after": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/bWNyQiF0TjGsUgEvHTh8HA/runs/0/artifacts/public/test_info/profile_speedometer3.zip"
       },
       "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/raptor.html#speedometer3-b",
-      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5689867,1,13&zoom=1789223146000,1789741546000,45.08,62.17",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=1209600&series=autoland,5689867,1,13&zoom=1789223146000,1789741546000,45.08,62.17",
       "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5689867&framework=13&startday=2026-09-01T14%3A25%3A46&endday=2026-09-29T14%3A25%3A46&all_data=true&replicates=false"
     },
     {
@@ -899,7 +899,7 @@
         "after": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/TrW5GnZKQXKrFlEIZkJWcw/runs/0/artifacts/public/test_info/profile_speedometer3.zip"
       },
       "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/raptor.html#speedometer3-b",
-      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5691007,1,13&zoom=1789223146000,1789741546000,126.75,174.65",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=1209600&series=autoland,5691007,1,13&zoom=1789223146000,1789741546000,126.75,174.65",
       "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5691007&framework=13&startday=2026-09-01T14%3A25%3A46&endday=2026-09-29T14%3A25%3A46&all_data=true&replicates=false"
     },
     {
@@ -940,7 +940,7 @@
         "after": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/TrW5GnZKQXKrFlEIZkJWcw/runs/0/artifacts/public/test_info/profile_speedometer3.zip"
       },
       "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/raptor.html#speedometer3-b",
-      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5691077,1,13&zoom=1789223146000,1789741546000,23.95,32.91",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=1209600&series=autoland,5691077,1,13&zoom=1789223146000,1789741546000,23.95,32.91",
       "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5691077&framework=13&startday=2026-09-01T14%3A25%3A46&endday=2026-09-29T14%3A25%3A46&all_data=true&replicates=false"
     },
     {
@@ -981,7 +981,7 @@
         "after": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/TrW5GnZKQXKrFlEIZkJWcw/runs/0/artifacts/public/test_info/profile_speedometer3.zip"
       },
       "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/raptor.html#speedometer3-b",
-      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5691137,1,13&zoom=1789223146000,1789741546000,23.09,31.71",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=1209600&series=autoland,5691137,1,13&zoom=1789223146000,1789741546000,23.09,31.71",
       "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5691137&framework=13&startday=2026-09-01T14%3A25%3A46&endday=2026-09-29T14%3A25%3A46&all_data=true&replicates=false"
     },
     {
@@ -1022,7 +1022,7 @@
         "after": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/TrW5GnZKQXKrFlEIZkJWcw/runs/0/artifacts/public/test_info/profile_speedometer3.zip"
       },
       "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/raptor.html#speedometer3-b",
-      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5691154,1,13&zoom=1789223146000,1789741546000,1355.08,1855.85",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=1209600&series=autoland,5691154,1,13&zoom=1789223146000,1789741546000,1355.08,1855.85",
       "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5691154&framework=13&startday=2026-09-01T14%3A25%3A46&endday=2026-09-29T14%3A25%3A46&all_data=true&replicates=false"
     },
     {
@@ -1063,7 +1063,7 @@
         "after": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/TrW5GnZKQXKrFlEIZkJWcw/runs/0/artifacts/public/test_info/profile_speedometer3.zip"
       },
       "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/raptor.html#speedometer3-b",
-      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5691152,1,13&zoom=1789223146000,1789741546000,13.1,17.94",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=1209600&series=autoland,5691152,1,13&zoom=1789223146000,1789741546000,13.1,17.94",
       "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5691152&framework=13&startday=2026-09-01T14%3A25%3A46&endday=2026-09-29T14%3A25%3A46&all_data=true&replicates=false"
     },
     {
@@ -1104,7 +1104,7 @@
         "after": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/TrW5GnZKQXKrFlEIZkJWcw/runs/0/artifacts/public/test_info/profile_speedometer3.zip"
       },
       "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/raptor.html#speedometer3-b",
-      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5690953,1,13&zoom=1789223146000,1789741546000,13.1,17.94",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=1209600&series=autoland,5690953,1,13&zoom=1789223146000,1789741546000,13.1,17.94",
       "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5690953&framework=13&startday=2026-09-01T14%3A25%3A46&endday=2026-09-29T14%3A25%3A46&all_data=true&replicates=false"
     },
     {
@@ -1145,7 +1145,7 @@
         "after": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/bWNyQiF0TjGsUgEvHTh8HA/runs/0/artifacts/public/test_info/profile_speedometer3.zip"
       },
       "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/raptor.html#speedometer3-b",
-      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5689972,1,13&zoom=1789223146000,1789741546000,13.59,18.58",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=1209600&series=autoland,5689972,1,13&zoom=1789223146000,1789741546000,13.59,18.58",
       "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5689972&framework=13&startday=2026-09-01T14%3A25%3A46&endday=2026-09-29T14%3A25%3A46&all_data=true&replicates=false"
     },
     {
@@ -1186,7 +1186,7 @@
         "after": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/bWNyQiF0TjGsUgEvHTh8HA/runs/0/artifacts/public/test_info/profile_speedometer3.zip"
       },
       "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/raptor.html#speedometer3-b",
-      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5689773,1,13&zoom=1789223146000,1789741546000,13.59,18.58",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=1209600&series=autoland,5689773,1,13&zoom=1789223146000,1789741546000,13.59,18.58",
       "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5689773&framework=13&startday=2026-09-01T14%3A25%3A46&endday=2026-09-29T14%3A25%3A46&all_data=true&replicates=false"
     },
     {
@@ -1227,7 +1227,7 @@
         "after": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/bWNyQiF0TjGsUgEvHTh8HA/runs/0/artifacts/public/test_info/profile_speedometer3.zip"
       },
       "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/raptor.html#speedometer3-b",
-      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5689974,1,13&zoom=1789223146000,1789741546000,1307.23,1784.96",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=1209600&series=autoland,5689974,1,13&zoom=1789223146000,1789741546000,1307.23,1784.96",
       "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5689974&framework=13&startday=2026-09-01T14%3A25%3A46&endday=2026-09-29T14%3A25%3A46&all_data=true&replicates=false"
     },
     {
@@ -1269,7 +1269,7 @@
         "after": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/Fb6Luoe0QjKICywcIaa6rw/runs/0/artifacts/public/test_info/profile_twitch.zip"
       },
       "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/raptor.html#twitch-d",
-      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5693923,1,13&zoom=1789223146000,1789741546000,141.51,364.01",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=1209600&series=autoland,5693923,1,13&zoom=1789223146000,1789741546000,141.51,364.01",
       "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5693923&framework=13&startday=2026-09-01T14%3A25%3A46&endday=2026-09-29T14%3A25%3A46&all_data=true&replicates=false"
     },
     {
@@ -1311,7 +1311,7 @@
         "after": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/Fb6Luoe0QjKICywcIaa6rw/runs/0/artifacts/public/test_info/profile_twitch.zip"
       },
       "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/raptor.html#twitch-d",
-      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5693920,1,13&zoom=1789223146000,1789741546000,32.64,79.44",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=1209600&series=autoland,5693920,1,13&zoom=1789223146000,1789741546000,32.64,79.44",
       "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5693920&framework=13&startday=2026-09-01T14%3A25%3A46&endday=2026-09-29T14%3A25%3A46&all_data=true&replicates=false"
     },
     {
@@ -1353,7 +1353,7 @@
         "after": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/S2D4ZQ7pQya0v4SebuHCqw/runs/0/artifacts/public/test_info/profile_bing-search.zip"
       },
       "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/raptor.html#bing-search-d",
-      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5693672,1,13&zoom=1789223146000,1789741546000,55.97,118.77",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=1209600&series=autoland,5693672,1,13&zoom=1789223146000,1789741546000,55.97,118.77",
       "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5693672&framework=13&startday=2026-09-01T14%3A25%3A46&endday=2026-09-29T14%3A25%3A46&all_data=true&replicates=false"
     },
     {
@@ -1395,7 +1395,7 @@
         "after": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/S2D4ZQ7pQya0v4SebuHCqw/runs/0/artifacts/public/test_info/profile_bing-search.zip"
       },
       "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/raptor.html#bing-search-d",
-      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5693670,1,13&zoom=1789223146000,1789741546000,55.97,118.77",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=1209600&series=autoland,5693670,1,13&zoom=1789223146000,1789741546000,55.97,118.77",
       "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5693670&framework=13&startday=2026-09-01T14%3A25%3A46&endday=2026-09-29T14%3A25%3A46&all_data=true&replicates=false"
     },
     {
@@ -1438,7 +1438,7 @@
         "after": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/ct01wTTjQOu3ZPnQeSaN9A/runs/0/artifacts/public/test_info/profile_instagram.zip"
       },
       "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/raptor.html#instagram-d",
-      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5692748,1,13&zoom=1789223146000,1789741546000,235.47,367.32",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=1209600&series=autoland,5692748,1,13&zoom=1789223146000,1789741546000,235.47,367.32",
       "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5692748&framework=13&startday=2026-09-01T14%3A25%3A46&endday=2026-09-29T14%3A25%3A46&all_data=true&replicates=false"
     },
     {
@@ -1481,7 +1481,7 @@
         "after": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/eX9W6AmATeSZT_i0vsa51A/runs/0/artifacts/public/test_info/profile_twitter.zip"
       },
       "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/raptor.html#twitter-d",
-      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5695365,1,13&zoom=1789223146000,1789741546000,91.6,132.74",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=1209600&series=autoland,5695365,1,13&zoom=1789223146000,1789741546000,91.6,132.74",
       "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5695365&framework=13&startday=2026-09-01T14%3A25%3A46&endday=2026-09-29T14%3A25%3A46&all_data=true&replicates=false"
     },
     {
@@ -1524,7 +1524,7 @@
         "after": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/ct01wTTjQOu3ZPnQeSaN9A/runs/0/artifacts/public/test_info/profile_instagram.zip"
       },
       "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/raptor.html#instagram-d",
-      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5692750,1,13&zoom=1789223146000,1789741546000,530.29,759.08",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=1209600&series=autoland,5692750,1,13&zoom=1789223146000,1789741546000,530.29,759.08",
       "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5692750&framework=13&startday=2026-09-01T14%3A25%3A46&endday=2026-09-29T14%3A25%3A46&all_data=true&replicates=false"
     },
     {
@@ -1566,7 +1566,7 @@
         "after": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/TrW5GnZKQXKrFlEIZkJWcw/runs/0/artifacts/public/test_info/profile_speedometer3.zip"
       },
       "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/raptor.html#speedometer3-b",
-      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5925839,1,13&zoom=1789223146000,1789741546000,50.61,72.14",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=1209600&series=autoland,5925839,1,13&zoom=1789223146000,1789741546000,50.61,72.14",
       "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5925839&framework=13&startday=2026-09-01T14%3A25%3A46&endday=2026-09-29T14%3A25%3A46&all_data=true&replicates=false"
     },
     {
@@ -1608,7 +1608,7 @@
         "after": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/P9hUnVhSSdCUIC3iwm3yBA/runs/0/artifacts/public/test_info/profile_youtube.zip"
       },
       "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/raptor.html#youtube-d",
-      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5692341,1,13&zoom=1789223146000,1789741546000,398.27,562.92",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=1209600&series=autoland,5692341,1,13&zoom=1789223146000,1789741546000,398.27,562.92",
       "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5692341&framework=13&startday=2026-09-01T14%3A25%3A46&endday=2026-09-29T14%3A25%3A46&all_data=true&replicates=false"
     },
     {
@@ -1650,7 +1650,7 @@
         "after": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/P9hUnVhSSdCUIC3iwm3yBA/runs/0/artifacts/public/test_info/profile_youtube.zip"
       },
       "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/raptor.html#youtube-d",
-      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5692338,1,13&zoom=1789223146000,1789741546000,365.58,515.22",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=1209600&series=autoland,5692338,1,13&zoom=1789223146000,1789741546000,365.58,515.22",
       "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5692338&framework=13&startday=2026-09-01T14%3A25%3A46&endday=2026-09-29T14%3A25%3A46&all_data=true&replicates=false"
     },
     {
@@ -1693,7 +1693,7 @@
         "after": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/eX9W6AmATeSZT_i0vsa51A/runs/0/artifacts/public/test_info/profile_twitter.zip"
       },
       "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/raptor.html#twitter-d",
-      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5695358,1,13&zoom=1789223146000,1789741546000,264.23,366.76",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=1209600&series=autoland,5695358,1,13&zoom=1789223146000,1789741546000,264.23,366.76",
       "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5695358&framework=13&startday=2026-09-01T14%3A25%3A46&endday=2026-09-29T14%3A25%3A46&all_data=true&replicates=false"
     },
     {
@@ -1735,7 +1735,7 @@
         "after": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/P9hUnVhSSdCUIC3iwm3yBA/runs/0/artifacts/public/test_info/profile_youtube.zip"
       },
       "docs_url": "https://firefox-source-docs.mozilla.org/testing/perfdocs/raptor.html#youtube-d",
-      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=7776000&series=autoland,5692340,1,13&zoom=1789223146000,1789741546000,451.04,625.11",
+      "graph_url": "https://treeherder.mozilla.org/perfherder/graphs?timerange=1209600&series=autoland,5692340,1,13&zoom=1789223146000,1789741546000,451.04,625.11",
       "data_url": "https://treeherder.mozilla.org/api/performance/summary/?repository=autoland&signature=5692340&framework=13&startday=2026-09-01T14%3A25%3A46&endday=2026-09-29T14%3A25%3A46&all_data=true&replicates=false"
     }
   ]
